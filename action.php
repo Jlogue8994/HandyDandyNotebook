@@ -1,5 +1,5 @@
 /* 
- * Copyright (C) 2015 Joe Logue
+ * Copyright (C) 2015 Joe
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,11 +16,10 @@
  */
 
 <?php
+require_once("dbconnect.php");
+    
 
-$database = mysql_connect("localhost", "root", "");
-if(!$database) echo "Sad panda!";
 
-$dbconnect = mysql_select_db("SuperTable", $database);
-if(!$dbconnect) echo "No db";
 
+echo "<p><a href='homepage.php'>Return to Home Page</a></p>";
 ?>

@@ -4,6 +4,7 @@ To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
+
 <html>
     <head>
         <meta charset="UTF-8">
@@ -17,7 +18,7 @@ and open the template in the editor.
     <h2>Handy Dandy Notebook.</h2>
     </head>
     <body>
-        <form action="">
+        <form name="Handy Dandy Notebook" action="action.php" method="POST">
             <table align="center">
                 <th colspan="2">Teacher Evaluation</th>
                 <tr>
@@ -353,5 +354,6 @@ and open the template in the editor.
             </table>
             <p align="center"><input type="submit" value="Submit"></p>
         </form>
+        <a href="homepage.php">Return to Home Page</a>
     </body>
 </html>
