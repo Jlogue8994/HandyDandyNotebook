@@ -22,67 +22,67 @@ and open the template in the editor.
             <table align="center">
                 <th colspan="2">Teacher Evaluation</th>
                 <tr>
-                    <td>Walk-Through Name</td>
-                    <td>Template</td>
+                    <td>Evaluated By:</td>
+                    <td>School:</td>
                 </tr>
                 <tr>
-                    <td><input type="text" name="Walk-Through Name" required></td>
-                    <td><input type="text" name="Template" required></td>
+                    <td><input type="text" name="name" required></td>
+                    <td><input type="text" name="school" required></td>
                 </tr>
                 <tr>
-                    <td>Category</td>
-                    <td>Subject</td>
+                    <td>Category:</td>
+                    <td>Teacher:</td>
                 </tr>
                 <tr>
-                    <td><input type="text" name="Category" required></td>
-                    <td><input type="text" name="Subject" required></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td>Date and Time</td>
+                    <td><input type="text" name="category" required></td>
+                    <td><input type="text" name="teacher" required></td>
                 </tr>
                 <tr>
                     <td></td>
-                    <td><input type="text" name="Date" required></td>
+                    <td>Date and Time:</td>
                 </tr>
                 <tr>
-                    <td>Grade Level</td>
-                    <td>Subject</td>
+                    <td></td>
+                    <td><input type="text" name="date" required></td>
                 </tr>
                 <tr>
-                    <td><select name="Grade Level" required>
-                            <option value ="Pre-K/Early Childhood">Pre-K/Early Childhood</option>
-                            <option value="Kindergarten">Kindergarten</option>
-                            <option value="First">First</option>
-                            <option value="Second">Second</option>
-                            <option value="Third">Third</option>
-                            <option value="Fourth">Fourth</option>
-                            <option value="Fifth">Fifth</option>
-                            <option value="Sixth">Sixth</option>
-                            <option value="Seventh">Seventh</option>
-                            <option value="Eighth">Eighth</option>
-                            <option value="Ninth">Ninth</option>
-                            <option value="Tenth">Tenth</option>
-                            <option value="Eleventh">Eleventh</option>
-                            <option value="Twelfth">Twelfth</option>
-                            <option value="Mixed">Mixed</option>
-                            <option value="Other">Other</option>
+                    <td>Grade Level:</td>
+                    <td>Subject:</td>
+                </tr>
+                <tr>
+                    <td><select name="level" required>
+                            <option value ="1">Pre-K/Early Childhood</option>
+                            <option value="2">Kindergarten</option>
+                            <option value="3">First</option>
+                            <option value="4">Second</option>
+                            <option value="5">Third</option>
+                            <option value="6">Fourth</option>
+                            <option value="7">Fifth</option>
+                            <option value="8">Sixth</option>
+                            <option value="9">Seventh</option>
+                            <option value="10">Eighth</option>
+                            <option value="11">Ninth</option>
+                            <option value="12">Tenth</option>
+                            <option value="13">Eleventh</option>
+                            <option value="14">Twelfth</option>
+                            <option value="15">Mixed</option>
+                            <option value="16">Other</option>
                         </select></td>
-                    <td><select name="Subject" required>
-                            <option value="Religion/Theology">Religion/Theology</option>
-                            <option value="Mathematics">Mathematics</option>
-                            <option value="Science">Science</option>
-                            <option value="Social Studies">Social Studies</option>
-                            <option value="Foreign Language">Foreign Language</option>
-                            <option value="Language Arts/English">Language Arts/English</option>
-                            <option value="Literature">Literature</option>
-                            <option value="Computer/Computer Science">Computer/Computer Science</option>
-                            <option value="PE">PE</option>
-                            <option value="Music">Music</option>
-                            <option value="Art">Art</option>
-                            <option value="Library">Library</option>
-                            <option value="Reading">Reading</option>
-                            <option value="Other">Other</option>
+                    <td><select name="subject" required>
+                            <option value="1">Religion/Theology</option>
+                            <option value="2">Mathematics</option>
+                            <option value="3">Science</option>
+                            <option value="4">Social Studies</option>
+                            <option value="5">Foreign Language</option>
+                            <option value="6">Language Arts/English</option>
+                            <option value="7">Literature</option>
+                            <option value="8">Computer/Computer Science</option>
+                            <option value="9">PE</option>
+                            <option value="10">Music</option>
+                            <option value="11">Art</option>
+                            <option value="12">Library</option>
+                            <option value="13">Reading</option>
+                            <option value="14">Other</option>
                         </select></td>
                 </tr>
             </table>
@@ -93,9 +93,9 @@ and open the template in the editor.
                     <td>
                         <h4>Part of Period Observed</h4>
                         <div align="right">
-                            <input type="radio" name="period" value="Beginning">Beginning<br>
-                            <input type="radio" name="period" value="Middle">Middle<br>
-                            <input type="radio" name="period" value="End">End<br>
+                            <input type="radio" name="period" value="1">Beginning<br>
+                            <input type="radio" name="period" value="2">Middle<br>
+                            <input type="radio" name="period" value="3">End<br>
                         </div>
                     </td>
                 </tr>

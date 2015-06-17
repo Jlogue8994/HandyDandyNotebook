@@ -18,8 +18,42 @@
 <?php
 require_once("dbconnect.php");
     
+$name = $_POST['name'];
+$school = $_POST['school'];
+$category = $_POST['category'];
+$teacher = $_POST['teacher'];
+$date = $_POST['date'];
+$level = $_POST['level'];
+$subject = $_POST['subject'];
+$formid = $_POST['formid'];
 
-
+if($formid){
+    $sql  = "UPDATE formmain SET ";
+    $sql .= "Name = '$name', ";
+    $sql .= "School = '$school', ";
+    $sql .= "Category = '$category', ";
+    $sql .= "Teacher = '$teacher', ";
+    $sql .= "Date = '$date', ";
+    $sql .= "Grade Level = $level, ";
+    $sql .= "Subject = $subject, ";
+    $sql .= "WHERE 'FormID' = $formid";
+    $results = mysql_query($sql);
+    
+    if($results) echo "Form Updated!";
+    else echo "Update Failed.";
+    
+}
+else{
+    $sql  = "INSERT INTO formmain ";
+    $sql .= "(Name, School, Category, Teacher, Date, GradeLevel, Subject)";
+    $sql .= " VALUES ";
+    $sql .= "('$name', '$school', '$category', '$teacher', '$date', $level, $subject)";
+    echo $sql;
+    $results = mysql_query($sql);
+    
+    if($results) echo "Form Created!";
+    else echo "Form Creation Failed.";
+}
 
 echo "<p><a href='homepage.php'>Return to Home Page</a></p>";
 ?>
