@@ -1,5 +1,3 @@
-<?php
-
 /* 
  * Copyright (C) 2015 Joe
  *
@@ -17,3 +15,13 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
+<?php
+Class crud
+{ 
+    public $name, $school, $category, $teacher, $date, $level, $subject;
+    
+}
+
+
+
+?>

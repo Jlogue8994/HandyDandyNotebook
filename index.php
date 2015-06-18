@@ -105,21 +105,21 @@ and open the template in the editor.
                         <div>
                             <ul>
                             <li>Arrangement of classroom conducive to learning
-                                <input type="checkbox" name="environment" value="B1">
+                                <input type="checkbox" name="B1" value="1">
                                 </li>
                             <li>Daily objectives/Essential questions evident
-                                <input type="checkbox" name="environment" value="B2">
+                                <input type="checkbox" name="B2" value="2">
                                 </li>
                             <li>Homework/Assignments posted
-                                <input type="checkbox" name="environment" value="B3">
+                                <input type="checkbox" name="B3" value="3">
                                 </li>
                             <li>Positive teacher/Student interaction evident
-                                <input type="checkbox" name="environment" value="B4">
+                                <input type="checkbox" name="B4" value="4">
                                 </li>
                             </ul>
                         </div>
                         Comments:<br>
-                        <textarea rows="5" cols="100"></textarea>
+                        <textarea name="bcomments" rows="5" cols="100"></textarea>
                     </td>
                 </tr>
                 <tr>
@@ -148,7 +148,7 @@ and open the template in the editor.
                             </ul>
                         </div>
                         Comments:<br>
-                        <textarea rows="5" cols="100"></textarea>
+                        <textarea name="ccomments" rows="5" cols="100"></textarea>
                     </td>
                 </tr>
                 <tr>
@@ -196,7 +196,7 @@ and open the template in the editor.
                             </ul>
                         </div>
                         Comments:<br>
-                        <textarea rows="5" cols="100"></textarea>
+                        <textarea name="ecomments" rows="5" cols="100"></textarea>
                     </td>
                 </tr>
                 <tr>
@@ -229,7 +229,7 @@ and open the template in the editor.
                             </ul>
                         </div>
                         Comments:<br>
-                        <textarea rows="5" cols="100"></textarea>
+                        <textarea name="fcomments" rows="5" cols="100"></textarea>
                     </td>
                 </tr>
                 <tr>
@@ -250,7 +250,7 @@ and open the template in the editor.
                             </ul>
                         </div>
                         Comments:<br>
-                        <textarea rows="5" cols="100"></textarea>
+                        <textarea name="gcomments" rows="5" cols="100"></textarea>
                     </td>
                 </tr>
                 <tr>
@@ -281,7 +281,7 @@ and open the template in the editor.
                             </ul>
                         </div>
                         Comments:<br>
-                        <textarea rows="5" cols="100"></textarea>
+                        <textarea name="icomments" rows="5" cols="100"></textarea>
                     </td>
                 </tr>
                 <tr>
@@ -302,7 +302,7 @@ and open the template in the editor.
                             </ul>
                         </div>
                         Comments:<br>
-                        <textarea rows="5" cols="100"></textarea>
+                        <textarea name="jcomments" rows="5" cols="100"></textarea>
                     </td>
                 </tr>
                 <tr>
@@ -325,7 +325,7 @@ and open the template in the editor.
                             </ul> 
                         </div>
                         Comments:<br>
-                        <textarea rows="5" cols="100"></textarea>
+                        <textarea name="kcomments" rows="5" cols="100"></textarea>
                     </td>
                 </tr>
                 <tr>
@@ -348,7 +348,7 @@ and open the template in the editor.
                             </ul>
                         </div>
                         Comments:<br>
-                        <textarea rows="5" cols="100"></textarea>
+                        <textarea name="lcomments" rows="5" cols="100"></textarea>
                     </td>
                 </tr>
             </table>
