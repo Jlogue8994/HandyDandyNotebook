@@ -41,7 +41,6 @@ if($formid){
     
     if($results) echo "Form Updated!";
     else echo "Update Failed.";
-    
 }
 else{
     $sql  = "INSERT INTO formmain ";
