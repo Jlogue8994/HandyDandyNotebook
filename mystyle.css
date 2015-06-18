@@ -1,0 +1,66 @@
+/*
+Copyright (C) 2015 Joe
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+/* 
+    Created on : Jun 18, 2015, 10:12:11 AM
+    Author     : Joe
+*/
+
+body {
+    background-image: url('http://www.psdgraphics.com/wp-content/uploads/2011/12/watercolor-paper.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+h2 {
+    color: violet;
+    text-align: center;
+    font-family: Helvetica;
+}
+table {
+    min-height: 60%;
+    width: 60%;
+    border-collapse: collapse;
+    bottom: 0px;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th {
+    background-color: darkgreen;
+    color: white;
+    font-size: 18px;
+    font-family: Comic Sans MS;
+}
+
+.head {
+    font-weight: bold;
+}
+
+.headdata {
+    width: 462px;
+    height: 16px;
+}
+
+td {
+    font-family: Trebuchet MS;
+}
+
+#submitbutton {
+
+}

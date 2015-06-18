@@ -11,7 +11,7 @@ and open the template in the editor.
         <meta name="description" content="Handy Dandy Notebook">
         <meta name="keywords" content="Sycamore, Education, Evaluation, Teacher">
         <meta name="author" content="Joe Logue">
-        <link type="text/css" rel="stylesheet" href="stylesheet.css">
+        <link type="text/css" rel="stylesheet" href="mystyle.css">
         <title>
             The Handy Dandy Notebook
         </title>
@@ -20,18 +20,18 @@ and open the template in the editor.
     <body>
         <form name="Handy Dandy Notebook" action="action.php" method="POST">
             <table align="center">
-                <th colspan="2" font-size="20px">Teacher Evaluation</th>
+                <th colspan="2">Teacher Evaluation</th>
                 <tr>
-                    <td>Evaluated By:</td>
-                    <td>School:</td>
+                    <td class="head">Evaluated By:</td>
+                    <td class="head">School:</td>
                 </tr>
                 <tr>
                     <td><input class="headdata" type="text" name="name" required></td>
                     <td><input class="headdata" type="text" name="school" required></td>
                 </tr>
                 <tr>
-                    <td>Category:</td>
-                    <td>Teacher:</td>
+                    <td class="head">Category:</td>
+                    <td class="head">Teacher:</td>
                 </tr>
                 <tr>
                     <td><input class="headdata" type="text" name="category" required></td>
@@ -39,15 +39,15 @@ and open the template in the editor.
                 </tr>
                 <tr>
                     <td></td>
-                    <td>Date and Time:</td>
+                    <td class="head">Date and Time:</td>
                 </tr>
                 <tr>
                     <td></td>
                     <td><input class="headdata" type="text" name="date" required></td>
                 </tr>
                 <tr>
-                    <td>Grade Level:</td>
-                    <td>Subject:</td>
+                    <td class="head">Grade Level:</td>
+                    <td class="head">Subject:</td>
                 </tr>
                 <tr>
                     <td><select name="level" required>
