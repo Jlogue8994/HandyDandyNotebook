@@ -16,10 +16,71 @@
  */
 
 <?php
+
+require_once("dbconnect.php");
+
 Class crud
-{ 
-    public $name, $school, $category, $teacher, $date, $level, $subject;
+{   
+    public $name, $school, $category, $teacher, $date, $level, $subject, $period, $grouping, $differentiation;
     
+    
+    public function createForm() {
+        
+        $sql  = "INSERT INTO formmain ";
+        $sql .= "(Name, School, Category, Teacher, Date, GradeLevel, Subject)";
+        $sql .= " VALUES ";
+        $sql .= "('$this->name', '$this->school', '$this->category', '$this->teacher', '$this->date', $this->level, $this->subject)";
+        echo $sql;
+        $results = mysql_query($sql);
+    
+        if($results) echo "Form Created!";
+        else echo "Form Creation Failed.";
+        
+        $sql  = "INSERT INTO formradio ";
+        $sql .= "(Period, Grouping, Differentiation)";
+        $sql .= " VALUES ";
+        $sql .= "($this->period, $this->grouping, $this->differentiation)";
+        echo $sql;
+        $results = mysql_query($sql);
+        
+        if($results) echo "Form Created!";
+        else echo "Form Creation Failed.";
+    }
+    
+    public function readForm() {
+        
+    }
+    
+    public function updateForm() {
+        
+        $sql  = "UPDATE formmain SET ";
+        $sql .= "Name = '$name', ";
+        $sql .= "School = '$school', ";
+        $sql .= "Category = '$category', ";
+        $sql .= "Teacher = '$teacher', ";
+        $sql .= "Date = '$date', ";
+        $sql .= "Grade Level = $level, ";
+        $sql .= "Subject = $subject, ";
+        $sql .= "WHERE 'FormID' = $formid";
+        $results = mysql_query($sql);
+    
+        if($results) echo "Form Updated!";
+        else echo "Update Failed.";
+    }
+    
+    public function deleteForm() {
+        
+        $formid = $_GET['formid'];
+        
+        $sql  = "DELETE FROM formmain ";
+        $sql .= "WHERE FormID = $formid";
+        $results = mysql_query($sql);
+        
+        if($results) echo "User deleted!";
+        else echo "User delete failed";
+        
+        echo "<a href='homepage.php'>Return to home page</a>";
+    }
 }
 
 

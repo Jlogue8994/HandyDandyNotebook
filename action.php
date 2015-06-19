@@ -17,42 +17,34 @@
 
 <?php
 require_once("dbconnect.php");
+require_once("CRUD.php");
+
+$crud = new crud();
     
-$name = $_POST['name'];
-$school = $_POST['school'];
-$category = $_POST['category'];
-$teacher = $_POST['teacher'];
-$date = $_POST['date'];
-$level = $_POST['level'];
-$subject = $_POST['subject'];
+$crud->name = $_POST['name'];
+$crud->school = $_POST['school'];
+$crud->category = $_POST['category'];
+$crud->teacher = $_POST['teacher'];
+$crud->date = $_POST['date'];
+$crud->level = $_POST['level'];
+$crud->subject = $_POST['subject'];
+$crud->period = $_POST['period'];
+$crud->grouping = $_POST['grouping'];
+$crud->differentiation = $_POST['differentiation'];
 $formid = $_POST['formid'];
 
 if($formid){
-    $sql  = "UPDATE formmain SET ";
-    $sql .= "Name = '$name', ";
-    $sql .= "School = '$school', ";
-    $sql .= "Category = '$category', ";
-    $sql .= "Teacher = '$teacher', ";
-    $sql .= "Date = '$date', ";
-    $sql .= "Grade Level = $level, ";
-    $sql .= "Subject = $subject, ";
-    $sql .= "WHERE 'FormID' = $formid";
-    $results = mysql_query($sql);
     
-    if($results) echo "Form Updated!";
-    else echo "Update Failed.";
+    $crud->updateForm();
 }
 else{
-    $sql  = "INSERT INTO formmain ";
-    $sql .= "(Name, School, Category, Teacher, Date, GradeLevel, Subject)";
-    $sql .= " VALUES ";
-    $sql .= "('$name', '$school', '$category', '$teacher', '$date', $level, $subject)";
-    echo $sql;
-    $results = mysql_query($sql);
     
-    if($results) echo "Form Created!";
-    else echo "Form Creation Failed.";
+    $crud->createForm();
 }
 
 echo "<p><a href='homepage.php'>Return to Home Page</a></p>";
+//$name, $school, $category, $teacher, $date, $level, $subject,
+            //$period, $grouping, $differentiation
 ?>
+
+ 
