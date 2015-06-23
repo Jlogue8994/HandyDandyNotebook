@@ -21,7 +21,8 @@ require_once("dbconnect.php");
 
 Class crud
 {   
-    public $name, $school, $category, $teacher, $date, $level, $subject, $period, $grouping, $differentiation;
+    public $name, $school, $category, $teacher, $date, $level, $subject, $period, $grouping, $differentiation,
+           $bcomments, $ccoments, $ecomments, $fcomments, $gcomments, $icomments, $jcomments, $kcomments, $lcomments;
     
     
     public function createForm() {
@@ -45,6 +46,16 @@ Class crud
         
         if($results) echo "Form Created!";
         else echo "Form Creation Failed.";
+        
+        $sql  = "INSERT INTO formcomment ";
+        $sql .= "(Bcomments, Ccomments, Ecomments, Fcomments, Gcomments, Icomments, Jcomments, Kcomments, Lcomments)";
+        $sql .= " VALUES ";
+        $sql .= "($this->bcomments, $this->ccomments, $this->ecomments, $this->fcomments, $this->gcomments, $this->icomments, $this->jcomments, $this->kcomments, $this->lcomments)";
+        echo $sql;
+        $results = mysql_query($sql);
+        
+        if($results) echo "Form Created!";
+        else echo "Form Creation Failed.";
     }
     
     public function readForm() {
@@ -62,6 +73,13 @@ Class crud
         $sql .= "Grade Level = $level, ";
         $sql .= "Subject = $subject, ";
         $sql .= "WHERE 'FormID' = $formid";
+        $results = mysql_query($sql);
+        
+        $sql  = "UPDATE formradio SET ";
+        $sql .= "Period = $this->period, ";
+        $sql .= "Grouping = $this->grouping, ";
+        $sql .= "Differentiation = $this->differentiation, ";
+        $sql .= "WHERE 'FormradioID' = $formradioid";
         $results = mysql_query($sql);
     
         if($results) echo "Form Updated!";

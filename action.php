@@ -16,7 +16,6 @@
  */
 
 <?php
-require_once("dbconnect.php");
 require_once("CRUD.php");
 
 $crud = new crud();
@@ -31,6 +30,15 @@ $crud->subject = $_POST['subject'];
 $crud->period = $_POST['period'];
 $crud->grouping = $_POST['grouping'];
 $crud->differentiation = $_POST['differentiation'];
+$crud->bcomments = $_POST['bcomments'];
+$crud->ccomments = $_POST['ccomments'];
+$crud->ecomments = $_POST['ecomments'];
+$crud->fcomments = $_POST['fcomments'];
+$crud->gcomments = $_POST['gcomments'];
+$crud->icomments = $_POST['icomments'];
+$crud->jcomments = $_POST['jcomments'];
+$crud->kcomments = $_POST['kcomments'];
+$crud->lcomments = $_POST['lcomments'];
 $formid = $_POST['formid'];
 
 if($formid){
