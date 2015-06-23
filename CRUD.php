@@ -50,12 +50,35 @@ Class crud
         $sql  = "INSERT INTO formcomment ";
         $sql .= "(Bcomments, Ccomments, Ecomments, Fcomments, Gcomments, Icomments, Jcomments, Kcomments, Lcomments)";
         $sql .= " VALUES ";
-        $sql .= "($this->bcomments, $this->ccomments, $this->ecomments, $this->fcomments, $this->gcomments, $this->icomments, $this->jcomments, $this->kcomments, $this->lcomments)";
+        $sql .= "('$this->bcomments', '$this->ccomments', '$this->ecomments', '$this->fcomments', '$this->gcomments', '$this->icomments', '$this->jcomments', '$this->kcomments', '$this->lcomments')";
         echo $sql;
         $results = mysql_query($sql);
         
         if($results) echo "Form Created!";
         else echo "Form Creation Failed.";
+        
+        $sql  = "INSERT INTO formcheckbox (";
+        foreach($checkboxes as $group => $numbers) {
+            foreach($numbers as $number) {
+                $temp = $group . $number;
+                $sql .= "$temp,";
+            }
+        }
+        
+        $sql  = substr($sql, -1, 1);
+        $sql .= ")VALUES(";
+        foreach($checkboxes as $group => $numbers) {
+            foreach($numbers as $number) {
+                $temp = $group . $number;
+                $checkbox = $$temp;
+                $sql .= "$checkbox,";
+            }
+        }
+        $sql = substr($sql, -1, 1);
+        $sql .= ")";
+        echo $sql;
+        $results = mysql_query($sql);
+        
     }
     
     public function readForm() {
