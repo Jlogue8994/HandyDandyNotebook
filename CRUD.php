@@ -22,9 +22,17 @@ require_once("checkboxes.php");
 
 Class crud
 {   
-    public $name, $school, $category, $teacher, $date, $level, $subject, $period, $grouping, $differentiation,
+    public $name, $school, $category, $teacher, $date, $level, $subject, $period = 0, $grouping = 0, $differentiation = 0,
            $bcomments, $ccoments, $ecomments, $fcomments, $gcomments, $icomments, $jcomments, $kcomments, $lcomments;
     
+    public function _construct($checkboxes){
+        foreach($checkboxes as $group => $numbers) {
+            foreach($numbers as $number) {
+            $temp = $group . $number;
+            $this->{$temp} = 0;
+            }
+        }
+    }
     
     public function createForm() {
         global $checkboxes;
@@ -63,20 +71,20 @@ Class crud
         foreach($checkboxes as $group => $numbers) {
             foreach($numbers as $number) {
                 $temp = $group . $number;
-                $sql .= "$temp,";
+        $sql .= "$temp,";
             }
         }
         
-        $sql  = substr($sql, -1, 1);
+        $sql  = substr($sql, 0, -1);
         $sql .= ")VALUES(";
         foreach($checkboxes as $group => $numbers) {
             foreach($numbers as $number) {
                 $temp = $group . $number;
-                $checkbox = $$temp;
-                $sql .= "$checkbox,";
+                $checkbox = $temp;
+        $sql .= "$checkbox,";
             }
         }
-        $sql = substr($sql, -1, 1);
+        $sql = substr($sql, 0, -1);
         $sql .= ")";
         echo $sql;
         $results = mysql_query($sql);
