@@ -17,27 +17,18 @@
 
 <?php
 require_once("CRUD.php");
+require_once("checkboxes.php");
 
 $crud = new crud();
-
-$checkboxes = array(
-    "b" => array(1,2,3,4),
-    "c" => array(1,2,3,4,5,6,7,8,9),
-    "e" => array(1,2,3,4,5,6,7,8,9,10,11,12,13),
-    "f" => array(1,2,3,4,5,6,7,8,9,10,11),
-    "g" => array(1,2,3,4,5),
-    "i" => array(1,2,3,4),
-    "j" => array(1,2,3,4,5),
-    "k" => array(1,2,3,4,5,6),
-    "l" => array(1,2,3,4,5,6)
-);
 
 foreach($checkboxes as $group => $numbers) {
     foreach($numbers as $number) {
         $temp = $group . $number;
-        $is_there = $$temp;
-        echo $is_there;
-        if($_POST[$is_there]) $crud->$is_there = 1;
+        echo $temp;
+        if($_POST[$temp]) {
+            echo $_POST[$temp];
+            $crud->$temp = 1;
+        }
     }
 }
     

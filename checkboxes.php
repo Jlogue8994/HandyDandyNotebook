@@ -1,3 +1,4 @@
+<?php
 /* 
  * Copyright (C) 2015 Joe
  *
@@ -14,21 +15,17 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-<!DOCTYPE HTML>
-     
-<html>
-    <head>
-        
-    </head>
-    <body>
-        <?php
-        require_once("CRUD.php");
-        
-        $crud = new crud();
-        ?>
-        
-        <div>
-            <a href ="index.php">Create New Form</a>
-        </div>
-    </body>
-</html>
+
+$checkboxes = array(
+    "B" => array(1,2,3,4),
+    "C" => array(1,2,3,4,5,6,7,8,9),
+    "E" => array(1,2,3,4,5,6,7,8,9,10,11,12,13),
+    "F" => array(1,2,3,4,5,6,7,8,9,10,11),
+    "G" => array(1,2,3,4,5),
+    "I" => array(1,2,3,4),
+    "J" => array(1,2,3,4,5),
+    "K" => array(1,2,3,4,5,6),
+    "L" => array(1,2,3,4,5,6)
+);
+
+?>

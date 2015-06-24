@@ -18,6 +18,7 @@
 <?php
 
 require_once("dbconnect.php");
+require_once("checkboxes.php");
 
 Class crud
 {   
@@ -26,6 +27,7 @@ Class crud
     
     
     public function createForm() {
+        global $checkboxes;
         
         $sql  = "INSERT INTO formmain ";
         $sql .= "(Name, School, Category, Teacher, Date, GradeLevel, Subject)";
@@ -79,13 +81,18 @@ Class crud
         echo $sql;
         $results = mysql_query($sql);
         
+        if($results) echo "Form Created!";
+        else echo "Form Creation Failed.";
+        
     }
     
     public function readForm() {
+        global $checkboxes;
         
     }
     
     public function updateForm() {
+        global $checkboxes;
         
         $sql  = "UPDATE formmain SET ";
         $sql .= "Name = '$name', ";
@@ -110,6 +117,7 @@ Class crud
     }
     
     public function deleteForm() {
+        global $checkboxes;
         
         $formid = $_GET['formid'];
         
