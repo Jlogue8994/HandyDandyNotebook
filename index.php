@@ -105,16 +105,16 @@ and open the template in the editor.
                         <div>
                             <ul>
                             <li>Arrangement of classroom conducive to learning
-                                <input type="checkbox" name="B1" value="1">
+                                <input type="checkbox" name="b1" value="1">
                                 </li>
                             <li>Daily objectives/Essential questions evident
-                                <input type="checkbox" name="B2" value="2">
+                                <input type="checkbox" name="b2" value="1">
                                 </li>
                             <li>Homework/Assignments posted
-                                <input type="checkbox" name="B3" value="3">
+                                <input type="checkbox" name="b3" value="1">
                                 </li>
                             <li>Positive teacher/Student interaction evident
-                                <input type="checkbox" name="B4" value="4">
+                                <input type="checkbox" name="b4" value="1">
                                 </li>
                             </ul>
                         </div>
@@ -128,23 +128,23 @@ and open the template in the editor.
                         <div>
                             <ul>
                                 <li>Direct Instruction
-                                    <input type="checkbox" name="C1" value="1"></li>
+                                    <input type="checkbox" name="c1" value="1"></li>
                                 <li>Circulating/Monitoring
-                                    <input type="checkbox" name="C2" value="2"></li>
+                                    <input type="checkbox" name="c2" value="1"></li>
                                 <li>Facilitating Learning
-                                    <input type="checkbox" name="C3" value="3"></li>
+                                    <input type="checkbox" name="c3" value="1"></li>
                                 <li>Working with Students
-                                    <input type="checkbox" name="C4" value="4"</li>
+                                    <input type="checkbox" name="c4" value="1"</li>
                                 <li>Reading to Students
-                                    <input type="checkbox" name="C5" value="5"></li>
+                                    <input type="checkbox" name="c5" value="1"></li>
                                 <li>Assessing
-                                    <input type="checkbox" name="C6" value="6"></li>
+                                    <input type="checkbox" name="c6" value="1"></li>
                                 <li>Not Interacting with Students
-                                    <input type="checkbox" name="C7" value="7"></li>
+                                    <input type="checkbox" name="c7" value="1"></li>
                                 <li>Sitting at Desk
-                                    <input type="checkbox" name="C8" value="8"></li>
+                                    <input type="checkbox" name="c8" value="1"></li>
                                 <li>Not Present
-                                    <input type="checkbox" name="C9" value="9"></li>
+                                    <input type="checkbox" name="c9" value="1"></li>
                             </ul>
                         </div>
                         Comments:<br>
@@ -168,31 +168,31 @@ and open the template in the editor.
                         <div>
                             <ul>
                                 <li>Assessment
-                                    <input type="checkbox" name="E1" value="1"></li>
+                                    <input type="checkbox" name="e1" value="1"></li>
                                 <li>Discussion
-                                    <input type="checkbox" name="E2" value="2"></li>
+                                    <input type="checkbox" name="e2" value="1"></li>
                                 <li>Guided Practice
-                                    <input type="checkbox" name="E3" value="3"></li>
+                                    <input type="checkbox" name="e3" value="1"></li>
                                 <li>Hands on/Inquiry
-                                    <input type="checkbox" name="E4" value="4"></li>
+                                    <input type="checkbox" name="e4" value="1"></li>
                                 <li>Listening
-                                    <input type="checkbox" name="E5" value="5"></li>
+                                    <input type="checkbox" name="e5" value="1"></li>
                                 <li>Note Taking
-                                    <input type="checkbox" nmae="E6" value="6"></li>
+                                    <input type="checkbox" nmae="e6" value="1"></li>
                                 <li>Reading
-                                    <input type="checkbox" name="E7" value="7"></li>
+                                    <input type="checkbox" name="e7" value="1"></li>
                                 <li>Seatwork/Worksheet
-                                    <input type="checkbox" name="E8" value="8"></li>
+                                    <input type="checkbox" name="e8" value="1"></li>
                                 <li>Student Presentation
-                                    <input type="checkbox" name="E9" value="9"></li>
+                                    <input type="checkbox" name="e9" value="1"></li>
                                 <li>Viewing Teacher Presentation
-                                    <input type="checkbox" name="E10" value="10"></li>
+                                    <input type="checkbox" name="e10" value="1"></li>
                                 <li>Viewing Video/Movie/Multimedia Presentation
-                                       <input type="checkbox" name="E11" value="11"></li>
+                                    <input type="checkbox" name="e11" value="1"></li>
                                 <li>Writing
-                                    <input type="checkbox" name="E12" value="12"></li>
+                                    <input type="checkbox" name="e12" value="1"></li>
                                 <li>Other
-                                    <input type="checkbox" name="E13" value="13"</li>
+                                    <input type="checkbox" name="e13" value="1"</li>
                             </ul>
                         </div>
                         Comments:<br>
@@ -205,27 +205,27 @@ and open the template in the editor.
                         <div>
                             <ul>
                                 <li>Actively Engaging Students
-                                    <input type="checkbox" name="F1" value="1"></li>
+                                    <input type="checkbox" name="f1" value="1"></li>
                                 <li>Brainstorming
-                                    <input type="checkbox" name="F2" value="2"></li>
+                                    <input type="checkbox" name="f2" value="1"></li>
                                 <li>Comparing/Contrasting, Classifying, Analogies, Metaphors
-                                    <input type="checkbox" name="F3" value="3"></li>
+                                    <input type="checkbox" name="f3" value="1"></li>
                                 <li>Generating/Testing Hypotheses
-                                    <input type="checkbox" name="F4" value="4"></li>
+                                    <input type="checkbox" name="f4" value="1"></li>
                                 <li>Guided Practice/Homework Review
-                                    <input type="checkbox" name="F5" value="5"></li>
+                                    <input type="checkbox" name="f5" value="1"></li>
                                 <li>Lecture
-                                    <input type="checkbox" name="F6" value="6"></li>
+                                    <input type="checkbox" name="f6" value="1"></li>
                                 <li>Non-linguistic representations/graphic organizers
-                                    <input type="checkbox" name="F7" value="7"></li>
+                                    <input type="checkbox" name="f7" value="1"></li>
                                 <li>Reinforcing Effort/Giving Praise
-                                    <input type="checkbox" name="F8" value="8"></li>
+                                    <input type="checkbox" name="f8" value="1"></li>
                                 <li>Setting Objectives/Providing Feedback
-                                    <input type="checkbox" name="F9" value="9"></li>
+                                    <input type="checkbox" name="f9" value="1"></li>
                                 <li>Summarizing, Note Taking
-                                    <input type="checkbox" name="F10" value="10"></li>
+                                    <input type="checkbox" name="f10" value="1"></li>
                                 <li>Using Purposeful Questioning Techniques
-                                    <input type="checkbox" name="F11" value="11"></li>
+                                    <input type="checkbox" name="f11" value="1"></li>
                             </ul>
                         </div>
                         Comments:<br>
@@ -238,15 +238,15 @@ and open the template in the editor.
                         <div>
                             <ul>
                                 <li>No Technology Used
-                                    <input type="checkbox" name="G1" value="1"></li>
+                                    <input type="checkbox" name="g1" value="1"></li>
                                 <li>Teacher is Presenting Using Technology
-                                    <input type="checkbox" name="G2" value="2"></li>
+                                    <input type="checkbox" name="g2" value="1"></li>
                                 <li>Teacher is Using Technology to Support Learning
-                                    <input type="checkbox" name="G3" value="3"></li>
+                                    <input type="checkbox" name="g3" value="1"></li>
                                 <li>Students are Presenting Using Technology
-                                    <input type="checkbox" name="G4" value="4"></li>
+                                    <input type="checkbox" name="g4" value="1"></li>
                                 <li>Students are Using Technology to Learn
-                                    <input type="checkbox" name="G5" value="5"></li>
+                                    <input type="checkbox" name="g5" value="1"></li>
                             </ul>
                         </div>
                         Comments:<br>
@@ -271,13 +271,13 @@ and open the template in the editor.
                         <div>
                             <ul>
                                 <li>Recall/Reproduction (Remembering and Understanding
-                                    <input type="checkbox" name="I1" value="1"></li>
+                                    <input type="checkbox" name="i1" value="1"></li>
                                 <li>Basic Application (Applying)
-                                    <input type="checkbox" name="I2" value="2"></li>
+                                    <input type="checkbox" name="i2" value="1"></li>
                                 <li>Strategic Thinking (Analyzing and Evaluating
-                                    <input type="checkbox" name="I3" value="3"></li>
+                                    <input type="checkbox" name="i3" value="1"></li>
                                 <li>Extended Thinking (Creating)
-                                    <input type="checkbox" name="I4" value="4"></li>
+                                    <input type="checkbox" name="i4" value="1"></li>
                             </ul>
                         </div>
                         Comments:<br>
@@ -290,15 +290,15 @@ and open the template in the editor.
                         <div>
                             <ul>
                                 <li>Vocabulary Development
-                                    <input type="checkbox" name="J1" value="1"></li>
+                                    <input type="checkbox" name="j1" value="1"></li>
                                 <li>Reading Comprehension
-                                    <input type="checkbox" name="J2" value="2"></li>
+                                    <input type="checkbox" name="j2" value="1"></li>
                                 <li>Academic Dialogue
-                                    <input type="checkbox" name="J3" value="3"></li>
+                                    <input type="checkbox" name="j3" value="1"></li>
                                 <li>Writing to Learn
-                                    <input type="checkbox" name="J4" value="4"></li>
+                                    <input type="checkbox" name="j4" value="1"></li>
                                 <li>Writing to Demonstrate Learning
-                                    <input type="checkbox" name="J5" value="5"></li>
+                                    <input type="checkbox" name="j5" value="1"></li>
                             </ul>
                         </div>
                         Comments:<br>
@@ -311,17 +311,17 @@ and open the template in the editor.
                         <div>
                             <ul>
                                 <li>Teacher Creates/Supports a Positive Climate
-                                    <input type="checkbox" name="K1" value="1"></li>
+                                    <input type="checkbox" name="k1" value="1"></li>
                                 <li>Uses Time Appropriately
-                                    <input type="checkbox" name="K2" value="2"></li>
+                                    <input type="checkbox" name="k2" value="1"></li>
                                 <li>Makes Smooth Transitions
-                                    <input type="checkbox" name="K3" value="3"></li>
+                                    <input type="checkbox" name="k3" value="1"></li>
                                 <li>Enforces Procedures/Rules
-                                    <input type="checkbox" name="K4" value="4"></li>
+                                    <input type="checkbox" name="k4" value="1"></li>
                                 <li>Responds to Inappropriate Student Behavior
-                                    <input type="checkbox" name="K5" value="5"></li>
+                                    <input type="checkbox" name="k5" value="1"></li>
                                 <li>Has Resources Available and Ready to be Used
-                                    <input type="checkbox" name="K6" value="6"></li>
+                                    <input type="checkbox" name="k6" value="1"></li>
                             </ul> 
                         </div>
                         Comments:<br>
@@ -334,17 +334,17 @@ and open the template in the editor.
                         <div>
                             <ul>
                                 <li>Productively Communicating
-                                    <input type="checkbox" name="L1" value="1"></li>
+                                    <input type="checkbox" name="l1" value="1"></li>
                                 <li>Collaborating with Peers
-                                    <input type="checkbox" name="L2" value="2"></li>
+                                    <input type="checkbox" name="l2" value="1"></li>
                                 <li>Creating
-                                    <input type="checkbox" name="L3" value="3"></li>
+                                    <input type="checkbox" name="l3" value="1"></li>
                                 <li>Thinking Critically
-                                    <input type="checkbox" name="L4" value="4"></li>
+                                    <input type="checkbox" name="l4" value="1"></li>
                                 <li>Using Information Literacy or Demonstrating Media Fluency
-                                    <input type="checkbox" name="L5" value="5"></li>
+                                    <input type="checkbox" name="l5" value="1"></li>
                                 <li>Not Evident
-                                    <input type="checkbox" name="L6" value="6"></li>
+                                    <input type="checkbox" name="l6" value="1"></li>
                             </ul>
                         </div>
                         Comments:<br>

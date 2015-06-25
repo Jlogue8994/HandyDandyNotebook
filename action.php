@@ -1,3 +1,4 @@
+<?php
 /* 
  * Copyright (C) 2015 Joe
  *
@@ -15,18 +16,21 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-<?php
 require_once("CRUD.php");
 require_once("checkboxes.php");
 
-$crud = new crud();
+$crud = new crud($checkboxes);
+
+foreach($_POST as $key => $value) {
+    echo "Key $key is value $value <br>";
+}
 
 foreach($checkboxes as $group => $numbers) {
     foreach($numbers as $number) {
         $temp = $group . $number;
-        echo $temp;
-        if($_POST[$temp]) {
-            echo $_POST[$temp];
+        echo "$temp <br>";
+        if(array_key_exists($temp, $_POST)) {
+            echo $_POST[$temp]."<br>";
             $crud->$temp = 1;
         }
     }
@@ -39,9 +43,9 @@ $crud->teacher = $_POST['teacher'];
 $crud->date = $_POST['date'];
 $crud->level = $_POST['level'];
 $crud->subject = $_POST['subject'];
-$crud->period = $_POST['period'];
-$crud->grouping = $_POST['grouping'];
-$crud->differentiation = $_POST['differentiation'];
+ if(array_key_exists('period', $_POST)) $crud->period = $_POST['period'];
+ if(array_key_exists('grouping', $_POST)) $crud->grouping = $_POST['grouping'];
+ if(array_key_exists('differentiation', $_POST)) $crud->differentiation = $_POST['differentiation'];
 $crud->bcomments = $_POST['bcomments'];
 $crud->ccomments = $_POST['ccomments'];
 $crud->ecomments = $_POST['ecomments'];

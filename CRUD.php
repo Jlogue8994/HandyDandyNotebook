@@ -1,3 +1,4 @@
+<?php
 /* 
  * Copyright (C) 2015 Joe
  *
@@ -15,23 +16,24 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-<?php
-
 require_once("dbconnect.php");
 require_once("checkboxes.php");
 
 Class crud
 {   
-    public $name, $school, $category, $teacher, $date, $level, $subject, $period = 0, $grouping = 0, $differentiation = 0,
-           $bcomments, $ccoments, $ecomments, $fcomments, $gcomments, $icomments, $jcomments, $kcomments, $lcomments;
+    public $name, $school, $category, $teacher, $date, $level, $subject, $period, $grouping, $differentiation,
+           $bcomments, $ccomments, $ecomments, $fcomments, $gcomments, $icomments, $jcomments, $kcomments, $lcomments;
     
-    public function _construct($checkboxes){
+    public function __construct($checkboxes){
         foreach($checkboxes as $group => $numbers) {
             foreach($numbers as $number) {
             $temp = $group . $number;
-            $this->{$temp} = 0;
+            $this->$temp = 0;
             }
         }
+        $this->period = 0;
+        $this->grouping = 0;
+        $this->differentiation = 0;
     }
     
     public function createForm() {
@@ -67,6 +69,10 @@ Class crud
         if($results) echo "Form Created!";
         else echo "Form Creation Failed.";
         
+        foreach($_POST as $key => $value){
+            echo"Key $key is value $value <br>";
+        }
+        
         $sql  = "INSERT INTO formcheckbox (";
         foreach($checkboxes as $group => $numbers) {
             foreach($numbers as $number) {
@@ -80,8 +86,8 @@ Class crud
         foreach($checkboxes as $group => $numbers) {
             foreach($numbers as $number) {
                 $temp = $group . $number;
-                $checkbox = $temp;
-        $sql .= "$checkbox,";
+                $check = $this->$temp;
+        $sql .= "$check,";
             }
         }
         $sql = substr($sql, 0, -1);

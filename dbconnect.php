@@ -1,3 +1,4 @@
+<?php
 /* 
  * Copyright (C) 2015 Joe Logue
  *
@@ -14,8 +15,6 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-
-<?php
 
 $database = mysql_connect("localhost", "root", "");
 if(!$database) echo "Sad panda!";

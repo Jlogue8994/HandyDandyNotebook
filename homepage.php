@@ -1,3 +1,4 @@
+<?php
 /* 
  * Copyright (C) 2015 Joe
  *
@@ -14,6 +15,12 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
+
+require_once("CRUD.php");
+        
+$crud = new crud();
+?>
+
 <!DOCTYPE HTML>
      
 <html>
@@ -21,12 +28,6 @@
         
     </head>
     <body>
-        <?php
-        require_once("CRUD.php");
-        
-        $crud = new crud();
-        ?>
-        
         <div>
             <a href ="index.php">Create New Form</a>
         </div>
