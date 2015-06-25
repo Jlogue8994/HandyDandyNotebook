@@ -69,10 +69,6 @@ Class crud
         if($results) echo "Form Created!";
         else echo "Form Creation Failed.";
         
-        foreach($_POST as $key => $value){
-            echo"Key $key is value $value <br>";
-        }
-        
         $sql  = "INSERT INTO formcheckbox (";
         foreach($checkboxes as $group => $numbers) {
             foreach($numbers as $number) {

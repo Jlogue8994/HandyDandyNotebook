@@ -21,16 +21,11 @@ require_once("checkboxes.php");
 
 $crud = new crud($checkboxes);
 
-foreach($_POST as $key => $value) {
-    echo "Key $key is value $value <br>";
-}
 
 foreach($checkboxes as $group => $numbers) {
     foreach($numbers as $number) {
         $temp = $group . $number;
-        echo "$temp <br>";
         if(array_key_exists($temp, $_POST)) {
-            echo $_POST[$temp]."<br>";
             $crud->$temp = 1;
         }
     }
