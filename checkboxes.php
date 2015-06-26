@@ -28,4 +28,22 @@ $checkboxes = array(
     "l" => array(1,2,3,4,5,6)
 );
 
+$gradenames = array(
+    1 => "Pre-K/Early Childhood",
+    2 => "Kindergarten",
+    3 => "First",
+    4 => "Second",
+    5 => "Third",
+    6 => "Fourth",
+    7 => "Fifth",
+    8 => "Sixth",
+    9 => "Seventh",
+    10 => "Eighth",
+    11 => "Ninth",
+    12 => "Tenth",
+    13 => "Eleventh",
+    14 => "Twelfth",
+    15 => "Mixed",
+    16 => "Other");
+
 ?>

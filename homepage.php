@@ -16,20 +16,65 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
+require_once("dbconnect.php");
 require_once("CRUD.php");
+require_once("checkboxes.php");
         
 $crud = new crud();
+
+$sql  = "SELECT FormID, Name, School, Category, Teacher, Date, GradeLevel, Subject ";
+$sql .= "FROM formmain ";
+$results = mysql_query($sql);
+?>
+        
+    <table>
+        <tr>
+            <td>Name</td>
+            <td>School</td>
+            <td>Category</td>
+            <td>Teacher</td>
+            <td>Date</td>
+            <td>Grade Level</td>
+            <td>Subject</td>
+        </tr>
+
+<?php
+    
+    if($results) {
+        if($count = mysql_num_rows($results)){
+            for($i=0; $i < $count; $i++){
+                $userid = mysql_result($results, $i, "FormID");
+                $name = mysql_result($results, $i, "Name");
+                $school = mysql_result($results, $i, "School");
+                $category = mysql_result($results, $i, "Category");
+                $teacher = mysql_result($results, $i, "Teacher");
+                $date = mysql_result($results, $i, "Date");
+                $gradelevel = mysql_result($results, $i, "GradeLevel");
+                $subject = mysql_result($results, $i, "Subject");
+                
+                
+                
+                switch($subject) {
+                    case 1:
+                        $subject = "Religion/Theology";
+                        break;
+                    case 2:
+                        $subject = "Mathematics"
+                }
+                if($married) $married = "Yes";
+                else $married = "No";
+            
+                echo "<tr>";
+                echo "<td><a href='edit.php?userid=$userid'>$name</a></td>";
+                echo "<td>$age</td>";
+                echo "<td>$married</td>";
+                echo "</tr>";
+            }
+        }
+    }
+    echo "</table>";
 ?>
 
-<!DOCTYPE HTML>
-     
-<html>
-    <head>
-        
-    </head>
-    <body>
         <div>
             <a href ="index.php">Create New Form</a>
         </div>
-    </body>
-</html>

@@ -99,6 +99,7 @@ Class crud
     public function readForm() {
         global $checkboxes;
         
+        
     }
     
     public function updateForm() {
@@ -122,6 +123,37 @@ Class crud
         $sql .= "WHERE 'FormradioID' = $formradioid";
         $results = mysql_query($sql);
     
+        if($results) echo "Form Updated!";
+        else echo "Update Failed.";
+        
+        $sql  = "UPDATE formcomment SET ";
+        $sql .= "Bcomments = '$bcomments', ";
+        $sql .= "Ccomments = '$ccomments', ";
+        $sql .= "Ecomments = '$ecomments', ";
+        $sql .= "Fcomments = '$fcomments', ";
+        $sql .= "Gcomments = '$gcomments', ";
+        $sql .= "Icomments = '$icomments', ";
+        $sql .= "Jcomments = '$jcomments', ";
+        $sql .= "Kcomments = '$kcomments', ";
+        $sql .= "Lcomments = '$lcomments', ";
+        $sql .= "WHERE 'CommentID' = $commentid";
+        $results = mysql_query($sql);
+        
+        if($results) echo "Form Updated!";
+        else echo "Update Failed.";
+        
+        $sql  = "UPDATE formcheckbox SET ";
+        foreach($checkboxes as $group => $numbers) {
+            foreach($numbers as $number) {
+                $temp = $group . $number;
+                $check = $this->$temp;
+        $sql .= "$temp = '$check', ";
+            }
+        }
+        
+        $sql .= "WHERE 'CheckID' = $checkid";
+        $results = mysql_query($sql);
+        
         if($results) echo "Form Updated!";
         else echo "Update Failed.";
     }
