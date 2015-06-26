@@ -96,8 +96,13 @@ Class crud
         
     }
     
-    public function readForm() {
+    public function readForm($formid) {
         global $checkboxes;
+        
+        $sql  = "SELECT * ";
+        $sql .= "FROM formmain ";
+        $sql .= "WHERE FormID = $formid ";
+        $results = mysql_query($sql);
         
         
     }

@@ -46,4 +46,21 @@ $gradenames = array(
     15 => "Mixed",
     16 => "Other");
 
+$subjects = array(
+    1 => "Religion/Theology",
+    2 => "Mathematics",
+    3 => "Science",
+    4 => "Social Studies",
+    5 => "Foreign Language",
+    6 => "Language Arts/English",
+    7 => "Literature",
+    8 => "Computer/Computer Science",
+    9 => "PE",
+    10 => "Music",
+    11 => "Art",
+    12 => "Library",
+    13 => "Reading",
+    14 => "Other"
+);
+
 ?>
