@@ -1,4 +1,8 @@
-
+<!DOCTYPE html>
+<html>
+    <head>
+        <link type="text/css" rel="stylesheet" href="mystyle.css">
+    </head>
 <?php
 /* 
  * Copyright (C) 2015 Joe
@@ -50,6 +54,7 @@ $results = mysql_query($sql);
             <td>Date</td>
             <td>Grade Level</td>
             <td>Subject</td>
+            <td colspan="2"></td>
         </tr>
 
 <?php
