@@ -29,6 +29,7 @@ $checkboxes = array(
 );
 
 $gradenames = array(
+    0 => "Select One",
     1 => "Pre-K/Early Childhood",
     2 => "Kindergarten",
     3 => "First",
@@ -47,6 +48,7 @@ $gradenames = array(
     16 => "Other");
 
 $subjects = array(
+    0 => "Select One",
     1 => "Religion/Theology",
     2 => "Mathematics",
     3 => "Science",

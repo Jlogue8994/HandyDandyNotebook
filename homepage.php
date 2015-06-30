@@ -37,6 +37,7 @@ function displayForm() {
         window.open(url);
     }
 </script>
+
 <?php
 
 $sql  = "SELECT * ";
@@ -46,15 +47,15 @@ $results = mysql_query($sql);
         
     <table>
         <tr>
-            <td>FormID</td>
-            <td>Name</td>
-            <td>School</td>
-            <td>Category</td>
-            <td>Teacher</td>
-            <td>Date</td>
-            <td>Grade Level</td>
-            <td>Subject</td>
-            <td colspan="2"></td>
+            <td class="homepage">FormID</td>
+            <td class="homepage">Name</td>
+            <td class="homepage">School</td>
+            <td class="homepage">Category</td>
+            <td class="homepage">Teacher</td>
+            <td class="homepage">Date</td>
+            <td class="homepage">Grade Level</td>
+            <td class="homepage">Subject</td>
+            <td colspan="2" class="homepage"></td>
         </tr>
 
 <?php

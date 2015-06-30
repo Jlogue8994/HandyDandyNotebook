@@ -45,14 +45,16 @@ Class crud
         $sql .= "('$this->name', '$this->school', '$this->category', '$this->teacher', '$this->date', $this->level, $this->subject)";
         echo $sql;
         $results = mysql_query($sql);
+        
+        $formid = mysql_insert_id();
     
         if($results) echo "Form Created!";
         else echo "Form Creation Failed.";
         
         $sql  = "INSERT INTO formradio ";
-        $sql .= "(Period, Grouping, Differentiation)";
+        $sql .= "(FormID, Period, Grouping, Differentiation)";
         $sql .= " VALUES ";
-        $sql .= "($this->period, $this->grouping, $this->differentiation)";
+        $sql .= "($formid, $this->period, $this->grouping, $this->differentiation)";
         echo $sql;
         $results = mysql_query($sql);
         
@@ -60,16 +62,16 @@ Class crud
         else echo "Form Creation Failed.";
         
         $sql  = "INSERT INTO formcomment ";
-        $sql .= "(Bcomments, Ccomments, Ecomments, Fcomments, Gcomments, Icomments, Jcomments, Kcomments, Lcomments)";
+        $sql .= "(FormID, Bcomments, Ccomments, Ecomments, Fcomments, Gcomments, Icomments, Jcomments, Kcomments, Lcomments)";
         $sql .= " VALUES ";
-        $sql .= "('$this->bcomments', '$this->ccomments', '$this->ecomments', '$this->fcomments', '$this->gcomments', '$this->icomments', '$this->jcomments', '$this->kcomments', '$this->lcomments')";
+        $sql .= "($formid, '$this->bcomments', '$this->ccomments', '$this->ecomments', '$this->fcomments', '$this->gcomments', '$this->icomments', '$this->jcomments', '$this->kcomments', '$this->lcomments')";
         echo $sql;
         $results = mysql_query($sql);
         
         if($results) echo "Form Created!";
         else echo "Form Creation Failed.";
         
-        $sql  = "INSERT INTO formcheckbox (";
+        $sql  = "INSERT INTO formcheckbox (FormID, ";
         foreach($checkboxes as $group => $numbers) {
             foreach($numbers as $number) {
                 $temp = $group . $number;
@@ -78,7 +80,7 @@ Class crud
         }
         
         $sql  = substr($sql, 0, -1);
-        $sql .= ")VALUES(";
+        $sql .= ")VALUES($formid, ";
         foreach($checkboxes as $group => $numbers) {
             foreach($numbers as $number) {
                 $temp = $group . $number;
