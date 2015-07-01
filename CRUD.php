@@ -178,17 +178,17 @@ Class crud
         else echo "Update Failed.";
     }
     
-    public function deleteForm() {
+    public function deleteForm($formid) {
         global $checkboxes;
         
-        $formid = $_GET['formid'];
-        
-        $sql  = "DELETE FROM formmain ";
+        echo "Delete confirmed.";
+        /*$sql  = "DELETE FROM formmain ";
         $sql .= "WHERE FormID = $formid";
         $results = mysql_query($sql);
         
         if($results) echo "User deleted!";
         else echo "User delete failed";
+/**/
         
         echo "<a href='homepage.php'>Return to home page</a>";
     }

@@ -21,6 +21,12 @@ require_once("checkboxes.php");
 
 $crud = new crud($checkboxes);
 
+$delete = $_GET['delete'];
+
+if($delete) {
+    $crud->deleteForm($_GET['formid']);
+}
+else {
 
 foreach($checkboxes as $group => $numbers) {
     foreach($numbers as $number) {
@@ -62,10 +68,8 @@ else{
     
     $crud->createForm();
 }
-
+}
 echo "<p><a href='homepage.php'>Return to Home Page</a></p>";
 //$name, $school, $category, $teacher, $date, $level, $subject,
             //$period, $grouping, $differentiation
 ?>
-
- 

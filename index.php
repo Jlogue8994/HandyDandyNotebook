@@ -108,6 +108,12 @@ $formid = $_GET["FormID"];
             The Handy Dandy Notebook
         </title>
     <h2>Handy Dandy Notebook</h2>
+    <script>
+        function confirmed() {
+            var r = confirm("Are you sure you want to delete this form?");
+            if(r) location.href="action.php?formid=<?php echo $formid ?>&delete=true";
+        }
+    </script>
     </head>
     <body>
         <?php
@@ -449,8 +455,14 @@ $formid = $_GET["FormID"];
                         echo "<textarea name='lcomments' rows='5' cols='100'>$lcomments</textarea>";
                     echo "</td>";
                 echo "</tr>";
+                echo "<tr>";
+                    echo "<td align='center'>";
+                        echo "<span align='center'><input type='submit' name='submit' value='Submit'></span>";
+                        echo "<span width='50px'></span>";
+                        if($formid) {
+                            echo "<span align='right'><button type='button' onclick='confirmed()'>Delete</span>";
+                        }
             echo "</table>";
-            echo "<p align='center'><input type='submit' value='Submit'></p>";
         echo "</form>";
         echo "<a href='homepage.php'>Return to Home Page</a>";
         ?>
