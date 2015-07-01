@@ -55,7 +55,7 @@ $crud->lcomments = $_POST['lcomments'];
 $formid = $_POST['formid'];
 
 if($formid){
-    
+    $crud->formid = $_POST['formid'];
     $crud->updateForm();
 }
 else{

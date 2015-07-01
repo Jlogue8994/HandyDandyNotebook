@@ -22,7 +22,8 @@ require_once("checkboxes.php");
 Class crud
 {   
     public $name, $school, $category, $teacher, $date, $level, $subject, $period, $grouping, $differentiation,
-           $bcomments, $ccomments, $ecomments, $fcomments, $gcomments, $icomments, $jcomments, $kcomments, $lcomments;
+           $bcomments, $ccomments, $ecomments, $fcomments, $gcomments, $icomments, $jcomments, $kcomments, $lcomments,
+           $formid;
     
     public function __construct($checkboxes){
         foreach($checkboxes as $group => $numbers) {
@@ -113,53 +114,65 @@ Class crud
         global $checkboxes;
         
         $sql  = "UPDATE formmain SET ";
-        $sql .= "Name = '$name', ";
-        $sql .= "School = '$school', ";
-        $sql .= "Category = '$category', ";
-        $sql .= "Teacher = '$teacher', ";
-        $sql .= "Date = '$date', ";
-        $sql .= "Grade Level = $level, ";
-        $sql .= "Subject = $subject, ";
-        $sql .= "WHERE 'FormID' = $formid";
+        $sql .= "Name = '$this->name', ";
+        $sql .= "School = '$this->school', ";
+        $sql .= "Category = '$this->category', ";
+        $sql .= "Teacher = '$this->teacher', ";
+        $sql .= "Date = '$this->date', ";
+        $sql .= "GradeLevel = $this->level, ";
+        $sql .= "Subject = $this->subject ";
+        $sql .= "WHERE FormID = $this->formid";
         $results = mysql_query($sql);
+        
+        echo $sql;
+        
+        if($results) echo "Form Updated!";
+        else echo "Update Failed.";
         
         $sql  = "UPDATE formradio SET ";
         $sql .= "Period = $this->period, ";
         $sql .= "Grouping = $this->grouping, ";
-        $sql .= "Differentiation = $this->differentiation, ";
-        $sql .= "WHERE 'FormradioID' = $formradioid";
+        $sql .= "Differentiation = $this->differentiation ";
+        $sql .= "WHERE FormID = $this->formid";
         $results = mysql_query($sql);
+        
+        echo $sql;
     
         if($results) echo "Form Updated!";
         else echo "Update Failed.";
         
         $sql  = "UPDATE formcomment SET ";
-        $sql .= "Bcomments = '$bcomments', ";
-        $sql .= "Ccomments = '$ccomments', ";
-        $sql .= "Ecomments = '$ecomments', ";
-        $sql .= "Fcomments = '$fcomments', ";
-        $sql .= "Gcomments = '$gcomments', ";
-        $sql .= "Icomments = '$icomments', ";
-        $sql .= "Jcomments = '$jcomments', ";
-        $sql .= "Kcomments = '$kcomments', ";
-        $sql .= "Lcomments = '$lcomments', ";
-        $sql .= "WHERE 'CommentID' = $commentid";
+        $sql .= "Bcomments = '$this->bcomments', ";
+        $sql .= "Ccomments = '$this->ccomments', ";
+        $sql .= "Ecomments = '$this->ecomments', ";
+        $sql .= "Fcomments = '$this->fcomments', ";
+        $sql .= "Gcomments = '$this->gcomments', ";
+        $sql .= "Icomments = '$this->icomments', ";
+        $sql .= "Jcomments = '$this->jcomments', ";
+        $sql .= "Kcomments = '$this->kcomments', ";
+        $sql .= "Lcomments = '$this->lcomments' ";
+        $sql .= "WHERE FormID = $this->formid";
         $results = mysql_query($sql);
+        
+        echo $sql;
         
         if($results) echo "Form Updated!";
         else echo "Update Failed.";
         
-        $sql  = "UPDATE formcheckbox SET ";
+        $sql  = "UPDATE formcheckbox SET";
         foreach($checkboxes as $group => $numbers) {
             foreach($numbers as $number) {
                 $temp = $group . $number;
                 $check = $this->$temp;
-        $sql .= "$temp = '$check', ";
+        $sql .= " $temp = '$check',";
             }
         }
+        $sql = substr($sql, 0, -1);
         
-        $sql .= "WHERE 'CheckID' = $checkid";
+        $sql .= " WHERE FormID = $this->formid";
         $results = mysql_query($sql);
+        
+        echo $sql;
         
         if($results) echo "Form Updated!";
         else echo "Update Failed.";
