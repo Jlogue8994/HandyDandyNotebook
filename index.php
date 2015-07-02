@@ -65,7 +65,7 @@ $print = $_GET["print"];
                     $temp = $key . $number;
                     $$temp = mysql_result($results, 0, "$temp");
                     if($$temp == 1) {
-                        $$temp = "checked";
+                        $$temp = "checked=checked";
                     }
                     else $$temp = "";
                 }
@@ -161,14 +161,14 @@ $print = $_GET["print"];
                     echo "<td><select name='level' required>";
                             foreach($gradenames as $key => $value) {
                                 $select = "";
-                                if($level == $key)$select = "Selected";
+                                if($level == $key)$select = "selected=selected";
                                 echo "<option $select value = '$key'>$value</option>";
                             }
                         echo "</select></td>";
                     echo "<td><select name='subject' required>";
                             foreach($subjects as $key => $value) {
                                 $select = "";
-                                if($subject == $key)$select = "Selected";
+                                if($subject == $key)$select = "selected=selected";
                                 echo "<option $select value = '$key'>$value</option>";
                             }
                         echo "</select></td>";
@@ -181,13 +181,13 @@ $print = $_GET["print"];
                     echo "<td>";
                         echo "<h4>Part of Period Observed</h4>";
                         echo "<div align='right'>";
-                            if($period == 1) $period1 = "Checked";
+                            if($period == 1) $period1 = "checked=checked";
                             else $period1 = "";
                                 echo "<input type='radio' name='period' value='1' $period1>Beginning<br>";
-                            if($period == 2) $period2 = "Checked";
+                            if($period == 2) $period2 = "checked=checked";
                             else $period2 = "";
                                 echo "<input type='radio' name='period' value='2' $period2>Middle<br>";
-                            if($period == 3) $period3 = "Checked";
+                            if($period == 3) $period3 = "checked=checked";
                             else $period3 = "";
                                 echo "<input type='radio' name='period' value='3' $period3>End<br>";
                         echo "</div>";
@@ -199,7 +199,7 @@ $print = $_GET["print"];
                         echo "<div>";
                             echo "<ul>";
                             echo "<li>Arrangement of classroom conducive to learning";
-                                echo "<input type='checkbox' name='b1' value='1'$b1>";
+                                echo "<input type='checkbox' name='b1' value='1' $b1>";
                                 echo "</li>";
                             echo "<li>Daily objectives/Essential questions evident";
                                 echo "<input type='checkbox' name='b2' value='1' $b2>";
@@ -249,16 +249,16 @@ $print = $_GET["print"];
                     echo "<td>";
                         echo "<h4>Grouping Arrangement</h4>";
                         echo "<div align='right'>";
-                            if($grouping == 1) $grouping1 = "Checked";
+                            if($grouping == 1) $grouping1 = "checked=checked";
                             else $grouping1 = "";
                                 echo "<input type='radio' name='grouping' value='1' $grouping1>Whole Group<br>";
-                            if($grouping == 2) $grouping2 = "Checked";
+                            if($grouping == 2) $grouping2 = "checked=checked";
                             else $grouping2 = "";
                                 echo "<input type='radio' name='grouping' value='2' $grouping2>Small Group<br>";
-                            if($grouping == 3) $grouping3 = "Checked";
+                            if($grouping == 3) $grouping3 = "checked=checked";
                             else $grouping3 = "";
                                 echo "<input type='radio' name='grouping' value='3' $grouping3>Individual<br>";
-                            if($grouping == 4) $grouping4 = "Checked";
+                            if($grouping == 4) $grouping4 = "checked=checked";
                             else $grouping4 = "";
                                 echo "<input type='radio' name='grouping' value='4' $grouping4>Multiple Groupings<br>";
                         echo "</div>";
@@ -359,19 +359,19 @@ $print = $_GET["print"];
                     echo "<td>";
                         echo "<h4>Evidence of Differentiation</h4>";
                         echo "<div align='right'>";
-                            if($differentiation == 1) $diff1 = "Checked";
+                            if($differentiation == 1) $diff1 = "checked=checked";
                             else $diff1 = "";
                                 echo "<input type='radio' name='differentiation' value='1' $diff1>Same Task/Same Level<br>";
-                            if($differentiation == 2) $diff2 = "Checked";
+                            if($differentiation == 2) $diff2 = "checked=checked";
                             else $diff2 = "";
                                 echo "<input type='radio' name='differentiation' value='2' $diff2>Same Task/Different Level<br>";
-                            if($differentiation == 3) $diff3 = "Checked";
+                            if($differentiation == 3) $diff3 = "checked=checked";
                             else $diff3 = "";
                                 echo "<input type='radio' name='differentiation' value='3' $diff3>Different Task/Same Level<br>";
-                            if($differentiation == 4) $diff4 = "Checked";
+                            if($differentiation == 4) $diff4 = "checked=checked";
                             else $diff4 = "";
                                 echo "<input type='radio' name='differentiation' value='4' $diff4>Different Task/Different Level<br>";
-                            if($differentiation == 5) $diff5 = "Checked";
+                            if($differentiation == 5) $diff5 = "checked=checked";
                             else $diff5 = "";
                                 echo "<input type='radio' name='differentiation' value='5' $diff5>No Evidence/No Activity<br>";
                         echo "</div>";
@@ -463,13 +463,6 @@ $print = $_GET["print"];
                         echo "<textarea name='lcomments' rows='5' cols='100'>$lcomments</textarea>";
                     echo "</td>";
                 echo "</tr>";
-                echo "<tr>";
-                    echo "<td align='center'>";
-                        echo "<span align='center'><input type='submit' name='submit' value='Submit'></span>";
-                        echo "<span width='50px'></span>";
-                        if($formid) {
-                            echo "<span align='right'><button type='button' onclick='confirmed()'>Delete</span>";
-                        }
             echo "</table>";
         echo "</form>";
         if($print) {
@@ -478,10 +471,15 @@ $print = $_GET["print"];
             ob_end_clean();
             
             $file = $crud->readForm($formpdf);
-            
-            
         }
-        echo "<a href='homepage.php'>Return to Home Page</a>";
+        echo "<span align='center'><input type='submit' name='submit' value='Submit'></span>";
+        echo "<span width='50px'></span>";
+        
+            if($formid) {
+                echo "<span align='right'><button type='button' onclick='confirmed()'>Delete</button></span>";
+            }
+            
+        echo "<p><a href='homepage.php'>Return to Home Page</a></p>";
         ?>
     </body>
 </html>
