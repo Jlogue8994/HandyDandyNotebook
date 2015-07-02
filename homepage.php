@@ -2,6 +2,7 @@
 <html>
     <head>
         <link type="text/css" rel="stylesheet" href="mystyle.css">
+    <h2>Handy Dandy Homepage</h2>
     </head>
 <?php
 /* 
@@ -25,11 +26,9 @@ require_once("dbconnect.php");
 require_once("CRUD.php");
 require_once("checkboxes.php");
 
-function displayForm() {
-    
     Global $gradenames, $subjects;
     
-    ?>
+?>
 
 <script>
     function printForm(formid) {
@@ -45,17 +44,17 @@ $sql .= "FROM formmain ";
 $results = mysql_query($sql);
 ?>
         
-    <table>
+    <table align='center'>
         <tr>
             <td class="homepage">FormID</td>
-            <td class="homepage">Name</td>
+            <td class="homepage">Evaluated By</td>
             <td class="homepage">School</td>
             <td class="homepage">Category</td>
             <td class="homepage">Teacher</td>
             <td class="homepage">Date</td>
             <td class="homepage">Grade Level</td>
             <td class="homepage">Subject</td>
-            <td colspan="2" class="homepage"></td>
+            <td colspan="2" class="homepage">Options</td>
         </tr>
 
 <?php
@@ -84,8 +83,9 @@ $results = mysql_query($sql);
                 echo "<td>$date</td>";
                 echo "<td>$glevel</td>";
                 echo "<td>$sub</td>";
-                echo "<td><a href='index.php?FormID=$formid'>EDIT</a></td>";
-                echo "<td><button type='button' onclick='printForm($formid)'>Print</button></td>";
+                echo "<td><a href='index.php?FormID=$formid'>EDIT/PRINT</a></td>";
+                //echo "<td><a href='index.php?FormID=$formid&print=true' target=_blank>PDF</a></td>";
+                echo "<td><button type='button' onclick=\"window.open('index.php?FormID=$formid&print=true')\">PDF</button></td>";
                 echo "</tr>";
             }
         }
@@ -97,18 +97,3 @@ $results = mysql_query($sql);
         <div>
             <a href ="index.php">Create New Form</a>
         </div>
-<?php
-}
-function printForm($formid) {
-    $crud = new crud();
-    
-    $crud->readForm($formid);
-}
-$task = $_GET["task"];
-
-    if($task == "")        displayForm();
-    else if($task == "print") {
-        $formid = $_GET["formid"];
-        printForm($formid);
-    }
-?>

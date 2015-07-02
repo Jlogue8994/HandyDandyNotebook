@@ -7,8 +7,12 @@ and open the template in the editor.
 <?php
 require_once("checkboxes.php");
 require_once("dbconnect.php");
+require_once("CRUD.php");
+
+$crud = new crud($checkboxes);
 
 $formid = $_GET["FormID"];
+$print = $_GET["print"];
 
     if($formid) {
         $sql  = "SELECT * ";
@@ -94,7 +98,11 @@ $formid = $_GET["FormID"];
                 $$temp = 0;
             }
         }
-    }
+    }        
+    
+    if($print) {
+            ob_start();
+        }
 ?>
 
 <html>
@@ -168,7 +176,7 @@ $formid = $_GET["FormID"];
             echo "</table>";
             echo "<br>";
             echo "<table align='center'>";
-                echo "<th>Page 1</th>";
+                echo "<th>Information</th>";
                 echo "<tr>";
                     echo "<td>";
                         echo "<h4>Part of Period Observed</h4>";
@@ -464,6 +472,15 @@ $formid = $_GET["FormID"];
                         }
             echo "</table>";
         echo "</form>";
+        if($print) {
+            $formpdf = ob_get_contents();
+            
+            ob_end_clean();
+            
+            $file = $crud->readForm($formpdf);
+            
+            
+        }
         echo "<a href='homepage.php'>Return to Home Page</a>";
         ?>
     </body>

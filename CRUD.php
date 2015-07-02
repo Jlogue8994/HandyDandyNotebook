@@ -18,6 +18,7 @@
 
 require_once("dbconnect.php");
 require_once("checkboxes.php");
+include('mpdf/mpdf.php');
 
 Class crud
 {   
@@ -32,6 +33,13 @@ Class crud
             $this->$temp = 0;
             }
         }
+        $this->name = "";
+        $this->school = "";
+        $this->category = "";
+        $this->teacher = "";
+        $this->date = "";
+        $this->level = 0;
+        $this->subject = 0;
         $this->period = 0;
         $this->grouping = 0;
         $this->differentiation = 0;
@@ -99,13 +107,17 @@ Class crud
         
     }
     
-    public function readForm($formid) {
-        global $checkboxes;
+    public function readForm($formpdf) {
         
-        $sql  = "SELECT * ";
-        $sql .= "FROM formmain ";
-        $sql .= "WHERE FormID = $formid ";
-        $results = mysql_query($sql);
+        $mpdf = new mPDF();
+        
+        $mpdf->WriteHTML($formpdf);
+        
+        $file = "HandyDandyPDF.pdf";
+        
+        $mpdf->Output($file, 'I');
+        
+        return $file;
         
         
     }
@@ -182,12 +194,33 @@ Class crud
         global $checkboxes;
         
         echo "Delete confirmed.";
-        /*$sql  = "DELETE FROM formmain ";
+        $sql  = "DELETE FROM formmain ";
         $sql .= "WHERE FormID = $formid";
         $results = mysql_query($sql);
         
-        if($results) echo "User deleted!";
-        else echo "User delete failed";
+        if($results) echo "Form deleted!";
+        else echo "Form delete failed";
+        
+        $sql  = "DELETE FROM formradio ";
+        $sql .= "WHERE FormID = $formid";
+        $results = mysql_query($sql);
+        
+        if($results) echo "Form deleted!";
+        else echo "Form delete failed";
+        
+        $sql  = "DELETE FROM formcomment ";
+        $sql .= "WHERE FormID = $formid";
+        $results = mysql_query($sql);
+        
+        if($results) echo "Form deleted!";
+        else echo "Form delete failed";
+        
+        $sql  = "DELETE FROM formcheckbox ";
+        $sql .= "WHERE FormID = $formid";
+        $results = mysql_query($sql);
+        
+        if($results) echo "Form deleted!";
+        else echo "Form delete failed";
 /**/
         
         echo "<a href='homepage.php'>Return to home page</a>";
