@@ -48,6 +48,10 @@ th {
     font-family: Comic Sans MS;
 }
 
+.checkbox {
+    align: center;
+}
+
 .head {
     font-weight: bold;
 }
