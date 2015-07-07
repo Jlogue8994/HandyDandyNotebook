@@ -16,7 +16,7 @@ $crud = new crud($checkboxes);
 $formid = $_GET["FormID"];
 $print = $_GET["print"];
 
-echo "<p>FIX THE USERNAME DEAL</p>";
+echo "<p>FIX THE USERID THING IN CRUD. USERID DOES NOT GET PASSED INTO DATABASE TABLES WHEN CREATING A FORM.</p>";
 
     if($formid) {
         $sql  = "SELECT * ";
