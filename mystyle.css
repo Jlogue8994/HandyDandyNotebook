@@ -20,7 +20,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
 body {
-    background-image: url('');
+    background-image: url("notebook.png");
+    background-color: #DDDDBB;
     background-repeat: no-repeat;
     background-size: 100%;
 }
