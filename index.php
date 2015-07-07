@@ -5,14 +5,18 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
 <?php
+session_start();
 require_once("checkboxes.php");
 require_once("dbconnect.php");
 require_once("CRUD.php");
+$userid = $_SESSION['UserID'];
 
 $crud = new crud($checkboxes);
 
 $formid = $_GET["FormID"];
 $print = $_GET["print"];
+
+echo "<p>FIX THE USERNAME DEAL</p>";
 
     if($formid) {
         $sql  = "SELECT * ";
@@ -134,16 +138,16 @@ $print = $_GET["print"];
                     echo "<td class='head'>School:</td>";
                 echo "</tr>";
                 echo "<tr>";
-                    echo "<td><input class='headdata' type='text' name='name' value='$name' required></td>";
-                    echo "<td><input class='headdata' type='text' name='school' value='$school' required></td>";
+                    echo "<td><input class='headdata' type='text' name='name' value='$name' placeholder='Type your name here...' required></td>";
+                    echo "<td><input class='headdata' type='text' name='school' value='$school' placeholder='Type your school here...' required></td>";
                 echo "</tr>";
                 echo "<tr>";
                     echo "<td class='head'>Category:</td>";
                     echo "<td class='head'>Teacher:</td>";
                 echo "</tr>";
                 echo "<tr>";
-                    echo "<td><input class='headdata' type='text' name='category' value='$category' required></td>";
-                    echo "<td><input class='headdata' type='text' name='teacher' value='$teacher' required></td>";
+                    echo "<td><input class='headdata' type='text' name='category' value='$category' placeholder='Type your category here...' required></td>";
+                    echo "<td><input class='headdata' type='text' name='teacher' value='$teacher' placeholder='Type your teacher here...' required></td>";
                 echo "</tr>";
                 echo "<tr>";
                     echo "<td></td>";
@@ -151,7 +155,7 @@ $print = $_GET["print"];
                 echo "</tr>";
                 echo "<tr>";
                     echo "<td></td>";
-                    echo "<td><input class='headdata' type='text' name='date' value='$date' required></td>";
+                    echo "<td><input class='headdata' type='text' name='date' value='$date' placeholder='Type your date here...' required></td>";
                 echo "</tr>";
                 echo "<tr>";
                     echo "<td class='head'>Grade Level:</td>";
@@ -213,7 +217,7 @@ $print = $_GET["print"];
                             echo "</ul>";
                         echo "</div>";
                         echo "Comments:<br>";
-                        echo "<textarea name='bcomments' rows='5' cols='100'>$bcomments</textarea>";
+                        echo "<textarea name='bcomments' rows='5' cols='100' placeholder='Type comments here...'>$bcomments</textarea>";
                     echo "</td>";
                 echo "</tr>";
                 echo "<tr>";
@@ -242,7 +246,7 @@ $print = $_GET["print"];
                             echo "</ul>";
                         echo "</div>";
                         echo "Comments:<br>";
-                        echo "<textarea name='ccomments' rows='5' cols='100'>$ccomments</textarea>";
+                        echo "<textarea name='ccomments' rows='5' cols='100' placeholder='Type comments here...'>$ccomments</textarea>";
                     echo "</td>";
                 echo "</tr>";
                 echo "<tr>";
@@ -298,7 +302,7 @@ $print = $_GET["print"];
                             echo "</ul>";
                         echo "</div>";
                         echo "Comments:<br>";
-                        echo "<textarea name='ecomments' rows='5' cols='100'>$ecomments</textarea>";
+                        echo "<textarea name='ecomments' rows='5' cols='100' placeholder='Type comments here...'>$ecomments</textarea>";
                     echo "</td>";
                 echo "</tr>";
                 echo "<tr>";
@@ -331,7 +335,7 @@ $print = $_GET["print"];
                             echo "</ul>";
                         echo "</div>";
                         echo "Comments:<br>";
-                        echo "<textarea name='fcomments' rows='5' cols='100'>$fcomments</textarea>";
+                        echo "<textarea name='fcomments' rows='5' cols='100' placeholder='Type comments here...'>$fcomments</textarea>";
                     echo "</td>";
                 echo "</tr>";
                 echo "<tr>";
@@ -352,7 +356,7 @@ $print = $_GET["print"];
                             echo "</ul>";
                         echo "</div>";
                         echo "Comments:<br>";
-                        echo "<textarea name='gcomments' rows='5' cols='100'>$gcomments</textarea>";
+                        echo "<textarea name='gcomments' rows='5' cols='100' placeholder='Type comments here...'>$gcomments</textarea>";
                     echo "</td>";
                 echo "</tr>";
                 echo "<tr>";
@@ -393,7 +397,7 @@ $print = $_GET["print"];
                             echo "</ul>";
                         echo "</div>";
                         echo "Comments:<br>";
-                        echo "<textarea name='icomments' rows='5' cols='100'>$icomments</textarea>";
+                        echo "<textarea name='icomments' rows='5' cols='100' placeholder='Type comments here...'>$icomments</textarea>";
                     echo "</td>";
                 echo "</tr>";
                 echo "<tr>";
@@ -437,7 +441,7 @@ $print = $_GET["print"];
                             echo "</ul> ";
                         echo "</div>";
                         echo "Comments:<br>";
-                        echo "<textarea name='kcomments' rows='5' cols='100'>$kcomments</textarea>";
+                        echo "<textarea name='kcomments' rows='5' cols='100' placeholder='Type comments here...'>$kcomments</textarea>";
                     echo "</td>";
                 echo "</tr>";
                 echo "<tr>";
@@ -460,11 +464,13 @@ $print = $_GET["print"];
                             echo "</ul>";
                         echo "</div>";
                         echo "Comments:<br>";
-                        echo "<textarea name='lcomments' rows='5' cols='100'>$lcomments</textarea>";
+                        echo "<textarea name='lcomments' rows='5' cols='100' placeholder='Type comments here...'>$lcomments</textarea>";
                     echo "</td>";
                 echo "</tr>";
             echo "</table>";
+            if(!$print){
             echo "<span align='center'><input type='submit' name='submit' value='Submit'></span>";
+            }
         echo "</form>";
         if($print) {
             $formpdf = ob_get_contents();

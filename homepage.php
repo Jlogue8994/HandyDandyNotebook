@@ -22,11 +22,35 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
+session_start();
 require_once("dbconnect.php");
 require_once("CRUD.php");
 require_once("checkboxes.php");
 
     Global $gradenames, $subjects;
+    
+    $username=$_POST['username'];
+    $password=$_POST['password'];
+    
+    if($username && $password) {
+        $sql  = "SELECT UserID ";
+        $sql .= "FROM users WHERE ";
+        $sql .= "Username = '$username' AND ";
+        $sql .= "Password = '$password'";
+        $results = mysql_query($sql);
+        
+        echo $sql;
+        echo $results;
+        
+        if($results) {
+            $userid = mysql_result($results, 0, "UserID");
+            $_SESSION['UserID'] = $userid;
+        }
+        else echo "Did not connect to database"; 
+    }
+    else {
+        
+    }
     
 ?>
 
@@ -38,10 +62,13 @@ require_once("checkboxes.php");
 </script>
 
 <?php
-
+if($userid) {
 $sql  = "SELECT * ";
 $sql .= "FROM formmain ";
+$sql .= "WHERE UserID = $userid";
 $results = mysql_query($sql);
+}
+
 ?>
         
     <table align='center'>
@@ -96,4 +123,5 @@ $results = mysql_query($sql);
 
         <div>
             <a href ="index.php">Create New Form</a>
+            <a href ="Login.php">Login</a>
         </div>

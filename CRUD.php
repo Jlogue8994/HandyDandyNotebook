@@ -16,6 +16,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
+session_start();
 require_once("dbconnect.php");
 require_once("checkboxes.php");
 include('mpdf/mpdf.php');
@@ -24,7 +25,7 @@ Class crud
 {   
     public $name, $school, $category, $teacher, $date, $level, $subject, $period, $grouping, $differentiation,
            $bcomments, $ccomments, $ecomments, $fcomments, $gcomments, $icomments, $jcomments, $kcomments, $lcomments,
-           $formid;
+           $formid, $userid;
     
     public function __construct($checkboxes){
         foreach($checkboxes as $group => $numbers) {
@@ -43,15 +44,16 @@ Class crud
         $this->period = 0;
         $this->grouping = 0;
         $this->differentiation = 0;
+        $userid = $_SESSION['UserID'];
     }
     
     public function createForm() {
         global $checkboxes;
         
         $sql  = "INSERT INTO formmain ";
-        $sql .= "(Name, School, Category, Teacher, Date, GradeLevel, Subject)";
+        $sql .= "(UserID, Name, School, Category, Teacher, Date, GradeLevel, Subject)";
         $sql .= " VALUES ";
-        $sql .= "('$this->name', '$this->school', '$this->category', '$this->teacher', '$this->date', $this->level, $this->subject)";
+        $sql .= "($username, '$this->name', '$this->school', '$this->category', '$this->teacher', '$this->date', $this->level, $this->subject)";
         echo $sql;
         $results = mysql_query($sql);
         
@@ -61,9 +63,9 @@ Class crud
         else echo "Form Creation Failed.";
         
         $sql  = "INSERT INTO formradio ";
-        $sql .= "(FormID, Period, Grouping, Differentiation)";
+        $sql .= "(FormID, UserID, Period, Grouping, Differentiation)";
         $sql .= " VALUES ";
-        $sql .= "($formid, $this->period, $this->grouping, $this->differentiation)";
+        $sql .= "($formid, $userid, $this->period, $this->grouping, $this->differentiation)";
         echo $sql;
         $results = mysql_query($sql);
         
@@ -71,16 +73,16 @@ Class crud
         else echo "Form Creation Failed.";
         
         $sql  = "INSERT INTO formcomment ";
-        $sql .= "(FormID, Bcomments, Ccomments, Ecomments, Fcomments, Gcomments, Icomments, Jcomments, Kcomments, Lcomments)";
+        $sql .= "(FormID, UserID, Bcomments, Ccomments, Ecomments, Fcomments, Gcomments, Icomments, Jcomments, Kcomments, Lcomments)";
         $sql .= " VALUES ";
-        $sql .= "($formid, '$this->bcomments', '$this->ccomments', '$this->ecomments', '$this->fcomments', '$this->gcomments', '$this->icomments', '$this->jcomments', '$this->kcomments', '$this->lcomments')";
+        $sql .= "($formid, $userid, '$this->bcomments', '$this->ccomments', '$this->ecomments', '$this->fcomments', '$this->gcomments', '$this->icomments', '$this->jcomments', '$this->kcomments', '$this->lcomments')";
         echo $sql;
         $results = mysql_query($sql);
         
         if($results) echo "Form Created!";
         else echo "Form Creation Failed.";
         
-        $sql  = "INSERT INTO formcheckbox (FormID, ";
+        $sql  = "INSERT INTO formcheckbox (FormID, UserID, ";
         foreach($checkboxes as $group => $numbers) {
             foreach($numbers as $number) {
                 $temp = $group . $number;
@@ -89,7 +91,7 @@ Class crud
         }
         
         $sql  = substr($sql, 0, -1);
-        $sql .= ")VALUES($formid, ";
+        $sql .= ")VALUES($formid, $userid, ";
         foreach($checkboxes as $group => $numbers) {
             foreach($numbers as $number) {
                 $temp = $group . $number;
