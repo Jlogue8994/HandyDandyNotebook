@@ -29,6 +29,7 @@
 
     Global $gradenames, $subjects;
     
+    $userid = $_SESSION['UserID'];
 ?>
 
 <script>

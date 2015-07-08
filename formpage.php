@@ -416,7 +416,7 @@ $print = $_GET["print"];
                             echo "</ul>";
                         echo "</div>";
                         echo "Comments:<br>";
-                        echo "<textarea name='jcomments' rows='5' cols='100'>$jcomments</textarea>";
+                        echo "<textarea name='jcomments' rows='5' cols='100' placeholder='Type comments here...'>$jcomments</textarea>";
                     echo "</td>";
                 echo "</tr>";
                 echo "<tr>";
