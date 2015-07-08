@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <?php
 
 /* 
@@ -19,10 +18,11 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-echo "<body>";
-echo "<p><a href='userLogin.php'>Click here to log in</a></p>";
-echo "</body>";
-
+echo "<form name='userlog' action=homepage.php method='POST' >";
+echo "<p>Username:<input type='text' name='username' placeholder='Type your username here...'></p>";
+echo "<p>Password:<input type='text' name='password' placeholder='Type your password here...'></p>";
+echo "<p><input type='submit' name='login' value='Submit'></p>";
+echo "</form>";
 
 
 ?>

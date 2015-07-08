@@ -16,9 +16,9 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-session_start();
 require_once("CRUD.php");
 require_once("checkboxes.php");
+require_once("session.php");
 $userid = $_SESSION['UserID'];
 
 $crud = new crud($checkboxes);
@@ -71,7 +71,6 @@ else{
     $crud->createForm();
 }
 }
-echo "<p><a href='homepage.php'>Return to Home Page</a></p>";
 //$name, $school, $category, $teacher, $date, $level, $subject,
             //$period, $grouping, $differentiation
 ?>

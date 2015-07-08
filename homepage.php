@@ -21,36 +21,13 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-
-session_start();
-require_once("dbconnect.php");
-require_once("CRUD.php");
-require_once("checkboxes.php");
+    
+    require_once("dbconnect.php");
+    require_once("CRUD.php");
+    require_once("checkboxes.php");
+    require_once("session.php");
 
     Global $gradenames, $subjects;
-    
-    $username=$_POST['username'];
-    $password=$_POST['password'];
-    
-    if($username && $password) {
-        $sql  = "SELECT UserID ";
-        $sql .= "FROM users WHERE ";
-        $sql .= "Username = '$username' AND ";
-        $sql .= "Password = '$password'";
-        $results = mysql_query($sql);
-        
-        echo $sql;
-        echo $results;
-        
-        if($results) {
-            $userid = mysql_result($results, 0, "UserID");
-            $_SESSION['UserID'] = $userid;
-        }
-        else echo "Did not connect to database"; 
-    }
-    else {
-        
-    }
     
 ?>
 
@@ -68,6 +45,8 @@ $sql .= "FROM formmain ";
 $sql .= "WHERE UserID = $userid";
 $results = mysql_query($sql);
 }
+
+echo $userid;
 
 ?>
         
@@ -110,9 +89,9 @@ $results = mysql_query($sql);
                 echo "<td>$date</td>";
                 echo "<td>$glevel</td>";
                 echo "<td>$sub</td>";
-                echo "<td><a href='index.php?FormID=$formid'>EDIT/PRINT</a></td>";
+                echo "<td><a href='formpage.php?FormID=$formid'>EDIT/PRINT</a></td>";
                 //echo "<td><a href='index.php?FormID=$formid&print=true' target=_blank>PDF</a></td>";
-                echo "<td><button type='button' onclick=\"window.open('index.php?FormID=$formid&print=true')\">PDF</button></td>";
+                echo "<td><button type='button' onclick=\"window.open('formpage.php?FormID=$formid&print=true')\">PDF</button></td>";
                 echo "</tr>";
             }
         }
@@ -122,6 +101,6 @@ $results = mysql_query($sql);
 ?>
 
         <div>
-            <a href ="index.php">Create New Form</a>
-            <a href ="Login.php">Login</a>
+            <a href ="formpage.php">Create New Form</a>
+            <a href ="userLogin.php">Login</a>
         </div>

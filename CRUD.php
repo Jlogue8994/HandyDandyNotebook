@@ -19,6 +19,7 @@
 session_start();
 require_once("dbconnect.php");
 require_once("checkboxes.php");
+require_once("session.php");
 include('mpdf/mpdf.php');
 
 Class crud
@@ -44,16 +45,17 @@ Class crud
         $this->period = 0;
         $this->grouping = 0;
         $this->differentiation = 0;
-        $userid = $_SESSION['UserID'];
+        $this->userid = $_SESSION['UserID'];
     }
     
     public function createForm() {
         global $checkboxes;
+        echo $userid;
         
         $sql  = "INSERT INTO formmain ";
         $sql .= "(UserID, Name, School, Category, Teacher, Date, GradeLevel, Subject)";
         $sql .= " VALUES ";
-        $sql .= "($username, '$this->name', '$this->school', '$this->category', '$this->teacher', '$this->date', $this->level, $this->subject)";
+        $sql .= "($this->userid, '$this->name', '$this->school', '$this->category', '$this->teacher', '$this->date', $this->level, $this->subject)";
         echo $sql;
         $results = mysql_query($sql);
         
@@ -65,7 +67,7 @@ Class crud
         $sql  = "INSERT INTO formradio ";
         $sql .= "(FormID, UserID, Period, Grouping, Differentiation)";
         $sql .= " VALUES ";
-        $sql .= "($formid, $userid, $this->period, $this->grouping, $this->differentiation)";
+        $sql .= "($formid, $this->userid, $this->period, $this->grouping, $this->differentiation)";
         echo $sql;
         $results = mysql_query($sql);
         
@@ -75,7 +77,7 @@ Class crud
         $sql  = "INSERT INTO formcomment ";
         $sql .= "(FormID, UserID, Bcomments, Ccomments, Ecomments, Fcomments, Gcomments, Icomments, Jcomments, Kcomments, Lcomments)";
         $sql .= " VALUES ";
-        $sql .= "($formid, $userid, '$this->bcomments', '$this->ccomments', '$this->ecomments', '$this->fcomments', '$this->gcomments', '$this->icomments', '$this->jcomments', '$this->kcomments', '$this->lcomments')";
+        $sql .= "($formid, $this->userid, '$this->bcomments', '$this->ccomments', '$this->ecomments', '$this->fcomments', '$this->gcomments', '$this->icomments', '$this->jcomments', '$this->kcomments', '$this->lcomments')";
         echo $sql;
         $results = mysql_query($sql);
         
@@ -91,7 +93,7 @@ Class crud
         }
         
         $sql  = substr($sql, 0, -1);
-        $sql .= ")VALUES($formid, $userid, ";
+        $sql .= ")VALUES($formid, $this->userid, ";
         foreach($checkboxes as $group => $numbers) {
             foreach($numbers as $number) {
                 $temp = $group . $number;
@@ -106,6 +108,8 @@ Class crud
         
         if($results) echo "Form Created!";
         else echo "Form Creation Failed.";
+        
+        echo "<a href='homepage.php'>Return to home page</a>";
         
     }
     
