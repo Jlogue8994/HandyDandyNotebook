@@ -21,15 +21,14 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-    
+
     require_once("dbconnect.php");
+    require_once("session.php");
     require_once("CRUD.php");
     require_once("checkboxes.php");
-    require_once("session.php");
 
     Global $gradenames, $subjects;
-    
-    $userid = $_SESSION['UserID'];
+
 ?>
 
 <script>

@@ -8,7 +8,7 @@ and open the template in the editor.
 require_once("checkboxes.php");
 require_once("dbconnect.php");
 require_once("CRUD.php");
-require("session.php");
+require_once("session.php");
 $userid = $_SESSION['UserID'];
 
 $crud = new crud($checkboxes);
@@ -121,7 +121,7 @@ $print = $_GET["print"];
     <script>
         function confirmed() {
             var r = confirm("Are you sure you want to delete this form?");
-            if(r) location.href="action.php?formid=<?php echo $formid ?>&delete=true";
+            if(r) location.href="action.php?formid=<?php=$formid ?>&delete=true";
         }
     </script>
     </head>
