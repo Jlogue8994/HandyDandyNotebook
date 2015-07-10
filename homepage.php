@@ -102,5 +102,5 @@ echo $userid;
 
         <div>
             <a href ="formpage.php">Create New Form</a>
-            <a href ="userLogin.php">Login</a>
+            <a href ="logOut.php">Log Out</a>
         </div>
