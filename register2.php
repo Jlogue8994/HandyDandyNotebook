@@ -1,8 +1,7 @@
-<!DOCTYPE html>
 <?php
 
 /* 
- * Copyright (C) 2015 Joe Logue
+ * Copyright (C) 2015 Joe
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -18,16 +17,6 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-if(isset($_COOKIE["PHPSESSID"])) {
-header("Location: logOut.php");
-}
 
-echo "<form name='userlog' action='homepage.php' method='POST' >";
-echo "<p>Username:<input type='text' name='username' placeholder='Type your username here...' onclick='this.focus();this.select()'></p>";
-echo "<p>Password:<input type='password' name='password' placeholder='Type your password here...' onclick='this.focus();this.select()'></p>";
-echo "<p><input type='submit' name='login' value='Submit'></p>";
-echo "</form>";
-
-echo session_status();
 
 ?>

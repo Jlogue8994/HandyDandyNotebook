@@ -121,7 +121,7 @@ $print = $_GET["print"];
     <script>
         function confirmed() {
             var r = confirm("Are you sure you want to delete this form?");
-            if(r) location.href="action.php?formid=<?php=$formid ?>&delete=true";
+            if(r) location.href="action.php?formid=<?php echo $formid ?>&delete=true";
         }
     </script>
     </head>

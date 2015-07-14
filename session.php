@@ -1,7 +1,7 @@
 <?php
 
 /* 
- * Copyright (C) 2015 Joe
+ * Copyright (C) 2015 Joe Logue
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,9 +16,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-echo "Session status = ";
-echo session_status();
-echo "<br>";
+
 echo "SessionID: ";
 echo session_id();
 echo "<br>";
