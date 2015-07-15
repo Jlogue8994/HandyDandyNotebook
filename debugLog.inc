@@ -1,9 +1,7 @@
-<!DOCTYPE html>
-
 <?php
 
 /* 
- * Copyright (C) 2015 Joe Logue
+ * Copyright (C) 2015 Joe
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -19,9 +17,8 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-echo "<body>";
-echo "<p><a href='userLogin.php'>Log In</a></p>";
-echo "<p><a href='register1.php'>Register</a></p>";
-echo "</body>";
-
-?>
+function debugLog($data) {
+    $path = "debugLog.txt";
+    $data .= "\r\n";
+    file_put_contents($path, $data, FILE_APPEND);
+}
