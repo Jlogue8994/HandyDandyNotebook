@@ -16,14 +16,21 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
+require_once("debugLog.inc");
 
 echo "SessionID: ";
 echo session_id();
 echo "<br>";
 
+debugLog("You're getting into session.php");
+
 $username = $_POST['username'];
 $password = $_POST['password'];
-$userid=$_SESSION['UserID'];
+$userid = $_SESSION['UserID'];
+$usernamereg = $_POST['usernamereg'];
+$password1 = $_POST['password1'];
+
+debugLog($usernamereg, $password1);
 
 if(!isset($_COOKIE['PHPSESSID'])) {
     
@@ -55,8 +62,17 @@ if(!isset($_COOKIE['PHPSESSID'])) {
             header("Location: userLogin.php");
         }
     }
-    else {
-    header("Location: userLogin.php");
+    elseif($usernamereg && $password1) {
+        
+        debugLog("CONGRATULATIONS! Something worked!");
+        
+        session_start();
+        echo"Session ID: ";
+        echo session_id();
+        echo "<br>";
+    }
+    else {        
+        header("Location: userLogin.php");
     }
     
 }

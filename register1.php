@@ -24,6 +24,7 @@
  */
 
 require_once("dbconnect.php");
+require_once("debugLog.inc");
 ?>
 <script>
 function validate() {
@@ -39,7 +40,7 @@ function validate() {
 }
     /**/
 function checkName() {
-    var input = document.userCreate.username.value;
+    var input = document.userCreate.usernamereg.value;
     //$("#nameMsg").load('register1.ajax.php', {input: input});
     $.ajax({url: 'register1.ajax.php', data: {input: input}}).done(function(data){
         console.log(data);
@@ -60,7 +61,7 @@ function checkName() {
 if(!$_POST['username'] && !$_POST['password1']) {
 echo "Create an Account:";
 echo "<form name='userCreate' action='register2.php' method='POST'>";
-echo "<p>Username:<input type='text' name='username' placeholder='Type your username here...' onkeyup='checkName()'>"
+echo "<p>Username:<input type='text' name='usernamereg' placeholder='Type your username here...' onkeyup='checkName()'>"
 . "<span id='nameMsg'></span></p>";
 echo "<p>Password:<input type='password' name='password1' placeholder='Type password here...'></p>";
 echo "<p>Re-enter:<input type='password' name='password2' placeholder='Re-enter password...'></p>";

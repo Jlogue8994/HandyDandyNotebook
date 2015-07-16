@@ -16,40 +16,20 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
+
 require_once("debugLog.inc");
 require_once("dbconnect.php");
 require_once("session.php");
 
-$_SESSION["usernamereg"] = $_POST['usernamereg'];
-$_SESSION["password1"] = $_POST['password1'];
-$_SESSION["testvar"] = "Hello world";
+$usernamereg = $_SESSION['usernamereg'];
+$password1 = $_SESSION['password1'];
 
-debugLog("Post includes: " . $_POST['usernamereg']);
-debugLog("Session includes: " . $_SESSION['usernamereg']);
+debugLog(session_id());
 
-debugLog("Usernamereg includes: " . $usernamereg);
-    
-debugLog("You're posting the POST variables properly. You should only get this log once.");
+debugLog("authDance page: Usernamereg includes: " . $usernamereg);
+debugLog("testvar" . $_SESSION['testvar']);
 
-$sql  = "SELECT * FROM users";
-$sql .= " WHERE Username = '$usernamereg'";
-$results = mysql_query($sql);
-
-
-debugLog($usernamereg);
-debugLog($results);
-
-    if($results && mysql_num_rows($results)) {
-        
-        debugLog("If you're getting here then you're being redirected back to register1 page.");
-
-        header("Location: register1.php");
-    }
-    else {
-        
-        debugLog("You're getting to the sycamore stuff.");
-        
-            //require the SycamorePHP library
+//require the SycamorePHP library
             require('SycamorePHP/Sycamore.php');
             //add your applications ID and secret here
             define("CLIENT_ID", "55a66a8d46400");
@@ -77,8 +57,6 @@ debugLog($results);
                     $response = $client->getAccessToken(TOKEN_ENDPOINT, 'authorization_code', $params);
                     //returns json_decoded array with top level "result" array
                     $token = $response["result"]["access_token"];
-
-                    debugLog($token);
                     //store access token in cookie for use later
                     setcookie("auth_token", $token);
                     /*
@@ -89,19 +67,22 @@ debugLog($results);
             }
         
         debugLog("If you're reading this you're getting into user creation in the database.");
+        debugLog($token);
         
         $sql  = "INSERT INTO users ";
         $sql .= "(accessToken, Username, Password)";
         $sql .= " VALUES ";
-        $sql .= "('$token, '$usernamereg', '$password1')";
+        $sql .= "('$token', '$usernamereg', '$password1')";
         echo $sql;
         $results = mysql_query($sql);
+        
+        debugLog($sql);
         
         if($results) "User Created!";
         else echo "User Creation Failed.";
         
+        
+        
         //throw the user back to the index page
-       header("Location: index.php");
-    }
-
+       header("Location: logOut.php");
 ?>

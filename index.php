@@ -19,6 +19,10 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
+require_once("debugLog.inc");
+
+debugLog("");
+
 echo "<body>";
 echo "<p><a href='userLogin.php'>Log In</a></p>";
 echo "<p><a href='register1.php'>Register</a></p>";

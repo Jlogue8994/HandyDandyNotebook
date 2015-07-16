@@ -18,11 +18,12 @@
  */
 
 require_once("dbconnect.php");
+require_once("debugLog.inc");
 
-$username = mysql_real_escape_string($_GET['input']);
+$usernamereg = mysql_real_escape_string($_GET['input']);
 
 $sql  = "SELECT * FROM users";
-$sql .= " WHERE Username = '$username'";
+$sql .= " WHERE Username = '$usernamereg'";
 $results = mysql_query($sql);
 
 if($results) {
