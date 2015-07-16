@@ -27,6 +27,7 @@ require_once("dbconnect.php");
 require_once("debugLog.inc");
 ?>
 <script>
+    //function to validate that the two passwords match
 function validate() {
     var pass1 = document.userCreate.password1.value;
     var pass2 = document.userCreate.password2.value;
@@ -38,10 +39,12 @@ function validate() {
         alert("Passwords do not match.");
     }
 }
-    /**/
+    /*checkName function to check if the username input is already taken in the database.
+     *if username is taken, program will hide the next button and not allow the user 
+     *to submit their data.
+     */
 function checkName() {
     var input = document.userCreate.usernamereg.value;
-    //$("#nameMsg").load('register1.ajax.php', {input: input});
     $.ajax({url: 'register1.ajax.php', data: {input: input}}).done(function(data){
         console.log(data);
        if(data == "true") {
@@ -57,7 +60,12 @@ function checkName() {
 </script>
     
 <?php
-
+/*
+ * if there is no existing username and password saved then the user will be
+ * able to create an account. They need a unique username and a password.
+ * There is a password verification field as well. Form sends info to
+ * register2.php when submitted.
+ */
 if(!$_POST['username'] && !$_POST['password1']) {
 echo "Create an Account:";
 echo "<form name='userCreate' action='register2.php' method='POST'>";

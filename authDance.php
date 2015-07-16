@@ -21,6 +21,7 @@ require_once("debugLog.inc");
 require_once("dbconnect.php");
 require_once("session.php");
 
+//store session variables into local variables to access username and password
 $usernamereg = $_SESSION['usernamereg'];
 $password1 = $_SESSION['password1'];
 
@@ -69,6 +70,11 @@ debugLog("testvar" . $_SESSION['testvar']);
         debugLog("If you're reading this you're getting into user creation in the database.");
         debugLog($token);
         
+        /*
+         * After user confirms Handy Dandy Notebook to use their information,
+         * they will receive an auth token which will attach to their user entry
+         * in the database and allow HDN to receive information from Sycamore.
+         */
         $sql  = "INSERT INTO users ";
         $sql .= "(accessToken, Username, Password)";
         $sql .= " VALUES ";

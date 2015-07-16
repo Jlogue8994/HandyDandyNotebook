@@ -20,9 +20,9 @@ require_once("debugLog.inc");
 require_once("dbconnect.php");
 require_once("session.php");
 
+//setting the session variables used for user creation.
 $_SESSION["usernamereg"] = $_POST['usernamereg'];
 $_SESSION["password1"] = $_POST['password1'];
-$_SESSION["testvar"] = "Hello world";
 
 debugLog("Post includes: " . $_POST['usernamereg']);
 debugLog("Session includes: " . $_SESSION['usernamereg']);
@@ -39,6 +39,10 @@ $results = mysql_query($sql);
 debugLog($usernamereg);
 debugLog($results);
 
+    /*
+     * double checking to make sure the user created username doesn't
+     * exist in the database. Otherwise user will be directed back to register page.
+     */
     if($results && mysql_num_rows($results)) {
         
         debugLog("If you're getting here then you're being redirected back to register1 page.");
@@ -87,21 +91,6 @@ debugLog($results);
                      */
 
             }
-        
-        debugLog("If you're reading this you're getting into user creation in the database.");
-        
-        $sql  = "INSERT INTO users ";
-        $sql .= "(accessToken, Username, Password)";
-        $sql .= " VALUES ";
-        $sql .= "('$token, '$usernamereg', '$password1')";
-        echo $sql;
-        $results = mysql_query($sql);
-        
-        if($results) "User Created!";
-        else echo "User Creation Failed.";
-        
-        //throw the user back to the index page
-       header("Location: index.php");
     }
 
 ?>

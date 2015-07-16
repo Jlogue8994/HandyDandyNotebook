@@ -27,6 +27,7 @@
     require_once("CRUD.php");
     require_once("checkboxes.php");
 
+    //create global variables for gradenames and 
     Global $gradenames, $subjects;
 
 ?>

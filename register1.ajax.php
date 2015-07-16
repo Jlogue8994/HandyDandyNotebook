@@ -20,6 +20,10 @@
 require_once("dbconnect.php");
 require_once("debugLog.inc");
 
+/*
+ * Whole page includes code used by ajax request for checking username availability.
+ */
+
 $usernamereg = mysql_real_escape_string($_GET['input']);
 
 $sql  = "SELECT * FROM users";
