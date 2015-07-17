@@ -529,3 +529,312 @@ You're getting into session.php
 
 You're getting into session.php
 
+
+You're getting into session.php
+jlogue123
+CONGRATULATIONS! Something worked!
+Post includes: jlogue123
+Session includes: jlogue123
+Usernamereg includes: jlogue123
+You're posting the POST variables properly. You should only get this log once.
+jlogue123
+Resource id #15
+You're getting to the sycamore stuff.
+You're getting to the sycamore login page.
+You're getting into session.php
+
+4mt4s29a6o8b739sdr4aulfh01
+authDance page: Usernamereg includes: jlogue123
+testvar
+If you're reading this you're getting into user creation in the database.
+36996bbec818ad5e960ca57dc09ca0cc138597cf
+INSERT INTO users (accessToken, Username, Password) VALUES ('36996bbec818ad5e960ca57dc09ca0cc138597cf', 'jlogue123', 'drpepper1')
+You're getting into session.php
+
+You're getting into session.php
+
+You're getting into session.php
+
+You're getting into session.php
+
+
+
+
+You're getting into session.php
+loguejd
+CONGRATULATIONS! Something worked!
+Post includes: loguejd
+Session includes: loguejd
+Usernamereg includes: loguejd
+You're posting the POST variables properly. You should only get this log once.
+loguejd
+Resource id #15
+You're getting to the sycamore stuff.
+You're getting to the sycamore login page.
+You're getting into session.php
+
+e88jqf659ogo2rr25hjmfeu4j5
+authDance page: Usernamereg includes: loguejd
+testvar
+If you're reading this you're getting into user creation in the database.
+247fc5708d6648cfabfec92569d645cce9bdec9c
+INSERT INTO users (accessToken, Username, Password) VALUES ('247fc5708d6648cfabfec92569d645cce9bdec9c', 'loguejd', 'drpepper1')
+You're getting into session.php
+
+You're getting into session.php
+
+You're getting into session.php
+
+
+You're getting into session.php
+
+You're getting into session.php
+
+You're getting into session.php
+
+
+You're getting into session.php
+
+You're getting into session.php
+
+You're getting into session.php
+
+You're getting into session.php
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+You're getting into session.php
+
+
+You're getting into session.php
+
+
+You're getting into session.php
+
+
+You're getting into session.php
+
+You're getting into session.php
+
+
+You're getting into session.php
+
+
+You're getting into session.php
+
+You're getting into session.php
+
+You're getting into session.php
+
+
+You're getting into session.php
+
+You're getting into session.php
+
+You're getting into session.php
+
+
+You're getting into session.php
+
+You're getting into session.php
+
+You're getting into session.php
+
+
+You're getting into session.php
+
+You're getting into session.php
+
+You're getting into session.php
+
+
+
+You're getting into session.php
+
+You're getting into session.php
+
+You're getting into session.php
+
+You're getting into session.php
+
+
+You're getting into session.php
+
+You're getting into session.php
+
+You're getting into session.php
+
+You're getting into session.php
+
+
+You're getting into session.php
+
+You're getting into session.php
+
+You're getting into session.php
+
+You're getting into session.php
+
+
+You're getting into session.php
+
+You're getting into session.php
+
+You're getting into session.php
+
+You're getting into session.php
+
+
+You're getting into session.php
+
+You're getting into session.php
+
+You're getting into session.php
+
+You're getting into session.php
+
+
+You're getting into session.php
+
+You're getting into session.php
+
+You're getting into session.php
+
+You're getting into session.php
+
+
+You're getting into session.php
+
+You're getting into session.php
+
+You're getting into session.php
+
+You're getting into session.php
+
+You're getting into session.php
+
+You're getting into session.php
+
+You're getting into session.php
+
+
+You're getting into session.php
+
+You're getting into session.php
+
+You're getting into session.php
+
+You're getting into session.php
+
+You're getting into session.php
+
+
+You're getting into session.php
+
+You're getting into session.php
+
+You're getting into session.php
+
+You're getting into session.php
+
+You're getting into session.php
+
+
+You're getting into session.php
+
+You're getting into session.php
+
+You're getting into session.php
+
+You're getting into session.php
+
+You're getting into session.php
+
+You're getting into session.php
+
+You're getting into session.php
+
+You're getting into session.php
+
+You're getting into session.php
+
+You're getting into session.php
+
+
+You're getting into session.php
+
+You're getting into session.php
+
+
+You're getting into session.php
+
+You're getting into session.php
+
+You're getting into session.php
+
+
+You're getting into session.php
+
+You're getting into session.php
+
+You're getting into session.php
+
+You're getting into session.php
+
+
+You're getting into session.php
+
+You're getting into session.php
+
+You're getting into session.php
+
+
+You're getting into session.php
+
+You're getting into session.php
+
+You're getting into session.php
+
+You're getting into session.php
+
+
+

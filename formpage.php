@@ -109,11 +109,14 @@ $print = $_GET["print"];
 
 <html>
     <head>
+        <meta http-equiv="refresh" content="30">
         <meta charset="UTF-8">
         <meta name="description" content="Handy Dandy Notebook">
         <meta name="keywords" content="Sycamore, Education, Evaluation, Teacher">
         <meta name="author" content="Joe Logue">
-        <link type="text/css" rel="stylesheet" href="mystyle.css">
+        <meta name="viewport" content=""width="device-width, initial-scale=1">
+        <link type="text/css" rel="stylesheet" href="bootstrap.css">
+        <!--<link type="text/css" rel="stylesheet" href="mystyle.css">-->
         <title>
             The Handy Dandy Notebook
         </title>
@@ -129,7 +132,7 @@ $print = $_GET["print"];
         <?php
         echo "<form name='Handy Dandy Notebook' action='action.php' method='POST'>";
         echo "<input type='hidden' name='formid' value='$formid'>";
-            echo "<table align='center'>";
+            echo "<table align='center' class='table table-striped table-bordered table-hover'>";
                 echo "<th colspan='2'>Teacher Evaluation</th>";
                 echo "<tr>";
                     echo "<td class='head'>Evaluated By:</td>";
@@ -177,7 +180,7 @@ $print = $_GET["print"];
                 echo "</tr>";
             echo "</table>";
             echo "<br>";
-            echo "<table align='center'>";
+            echo "<table align='center' class='table table-striped table-bordered table-hover'>";
                 echo "<th>Information</th>";
                 echo "<tr>";
                     echo "<td>";

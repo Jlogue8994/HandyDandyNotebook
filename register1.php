@@ -1,9 +1,12 @@
 <!DOCTYPE html>
-
-<head>
-    <script src="jquery-2.1.4.min.js"></script>
-</head>
-    
+<html>
+    <head>
+        <meta http-equiv="refresh" content="30">
+        <meta name="viewport" content=""width="device-width, initial-scale=1">
+        <link type="text/css" rel="stylesheet" href="bootstrap.css">
+        <script src="jquery-2.1.4.min.js"></script>
+    </head>
+</html>    
 <?php
 
 /* 
@@ -32,11 +35,17 @@ function validate() {
     var pass1 = document.userCreate.password1.value;
     var pass2 = document.userCreate.password2.value;
     
-    if(pass1 == pass2) {
-        document.userCreate.submit();
+    if(pass1.length >= 8)
+    {
+        if(pass1 == pass2) {
+            document.userCreate.submit();
+        }
+        else {
+            alert("Passwords do not match.");
+        }
     }
     else {
-        alert("Passwords do not match.");
+        alert("Password must be at least 8 characters in length.")
     }
 }
     /*checkName function to check if the username input is already taken in the database.

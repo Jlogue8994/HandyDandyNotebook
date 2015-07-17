@@ -1,4 +1,11 @@
 <!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="refresh" content="30">
+         <meta name="viewport" content=""width="device-width, initial-scale=1">
+        <link type="text/css" rel="stylesheet" href="bootstrap.css">
+    </head>
+</html>
 <?php
 
 /* 
@@ -17,7 +24,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-
+echo "<body>";
 //end any saved session that may have existed prior to user login.
 if(isset($_COOKIE["PHPSESSID"])) {
 header("Location: logOut.php");
@@ -33,4 +40,5 @@ echo "</form>";
 //debugging info.
 echo session_status();
 
+echo "</body>";
 ?>

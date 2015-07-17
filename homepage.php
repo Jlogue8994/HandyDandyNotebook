@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta http-equiv="refresh" content="30">
+        <meta name="viewport" content=""width="device-width, initial-scale=1">
         <link type="text/css" rel="stylesheet" href="mystyle.css">
+        <link type="text/css" rel="stylesheet" href="bootstrap.css">
     <h2>Handy Dandy Homepage</h2>
     </head>
 <?php
@@ -51,7 +54,7 @@ echo $userid;
 
 ?>
         
-    <table align='center'>
+    <table align='center' class="table table-bordered table-hover table-striped table-condensed">
         <tr>
             <td class="homepage">FormID</td>
             <td class="homepage">Evaluated By</td>
