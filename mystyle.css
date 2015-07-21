@@ -83,9 +83,27 @@ td {
     margin: auto;
 }
 
-#login {
-    margin: auto;
+.outer {
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+    //background-color: white;
+}
+
+.inner {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1%;
+    padding-bottom: 5%;
     width: 50%;
-    height: 20%;
-    background-color: white;
+    background: linear-gradient(#00cc00, #80e680, whitesmoke, white);
+    border: 3px #b2f0b2 solid;
+    box-shadow: 2px 2px silver;
+    border-radius: 30px
 }

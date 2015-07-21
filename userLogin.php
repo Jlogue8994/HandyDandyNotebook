@@ -31,12 +31,17 @@ header("Location: logOut.php");
 }
 
 //send login information to homepage
-echo "<div id='login'>";
-echo "<form id='center' name='userlog' action='homepage.php' method='POST' >";
-echo "<p>Username:<input type='text' name='username' placeholder='Type your username here...' onclick='this.focus();this.select()'></p>";
-echo "<p>Password: <input type='password' name='password' placeholder='Type your password here...' onclick='this.focus();this.select()'></p>";
-echo "<p><input type='submit' name='login' value='Submit'></p>";
-echo "</form>";
+echo "<div class='outer'>";
+    echo "<div class='middle'>";
+        echo "<div class='inner form-group'>";
+        echo "<h2 align:'center'>Handy Dandy Notebook</h2>";
+            echo "<form id='center' name='userlog' action='homepage.php' method='POST' >";
+            echo "<p align='center'><h4>Username:</h4><input class='form-control' id='inputdefault' type='text' name='username' placeholder='Type your username here...' onclick='this.focus();this.select()'></p>";
+            echo "<p align='center'><h4>Password: </h4><input class='form-control id='inputdefault' type='password' name='password' placeholder='Type your password here...' onclick='this.focus();this.select()'></p>";
+            echo "<p align='center'><input class='btn btn-primary' type='submit' name='login' value='Submit'></p>";
+            echo "</form>";
+        echo "</div>";
+    echo "</div>";
 echo "</div>";
 
 //debugging info.

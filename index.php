@@ -3,6 +3,7 @@
     <head>
         <meta http-equiv="refresh" content="30">
         <meta name="viewport" content=""width="device-width, initial-scale=1">
+        <link type="text/css" rel="stylesheet" href="mystyle.css">
         <link type="text/css" rel="stylesheet" href="bootstrap.css">
     </head>
 </html>
@@ -32,8 +33,20 @@ debugLog("");
 
 //user can either log in with an existing account, or create one by redirecting to register1.php
 echo "<body>";
-echo "<p><a href='userLogin.php'>Log In</a></p>";
-echo "<p><a href='register1.php'>Register</a></p>";
+echo "<nav class='navbar navbar-default'>";
+    echo "<div class='container-fluid'>";
+        echo "<div class='navbar-header'>";
+            echo "<a class='navbar-brand' href=''>";
+            echo "<img alt='Brand' src=''>";
+        echo "</div>";
+        echo "<div class='navbar-form navbar-right'>";
+            echo "<div align='right'>";
+            echo "<a type='button' class='btn btn-lg btn-primary navbar btn' href='userLogin.php'>Log In</a></span>";
+            echo "<a type='button' class='btn btn-lg btn-default navbar btn' href='register1.php'>Register</a></span>";
+            echo "</div>";
+        echo "</div>";
+    echo "</div>";
+echo "</nav>";
 echo "</body>";
 
 ?>
