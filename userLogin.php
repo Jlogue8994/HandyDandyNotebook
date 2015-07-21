@@ -2,10 +2,10 @@
 <html>
     <head>
         <meta http-equiv="refresh" content="30">
-         <meta name="viewport" content=""width="device-width, initial-scale=1">
+        <meta name="viewport" content=""width="device-width, initial-scale=1">
+        <link type='text/css' rel='stylesheet' href='mystyle.css'>
         <link type="text/css" rel="stylesheet" href="bootstrap.css">
     </head>
-</html>
 <?php
 
 /* 
@@ -31,14 +31,17 @@ header("Location: logOut.php");
 }
 
 //send login information to homepage
-echo "<form name='userlog' action='homepage.php' method='POST' >";
+echo "<div id='login'>";
+echo "<form id='center' name='userlog' action='homepage.php' method='POST' >";
 echo "<p>Username:<input type='text' name='username' placeholder='Type your username here...' onclick='this.focus();this.select()'></p>";
-echo "<p>Password:<input type='password' name='password' placeholder='Type your password here...' onclick='this.focus();this.select()'></p>";
+echo "<p>Password: <input type='password' name='password' placeholder='Type your password here...' onclick='this.focus();this.select()'></p>";
 echo "<p><input type='submit' name='login' value='Submit'></p>";
 echo "</form>";
+echo "</div>";
 
 //debugging info.
 echo session_status();
 
 echo "</body>";
 ?>
+</html>

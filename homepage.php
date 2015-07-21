@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta http-equiv="refresh" content="30">
-        <meta name="viewport" content=""width="device-width, initial-scale=1">
+        <!--<meta name="viewport" content=""width="device-width, initial-scale=1">-->
         <link type="text/css" rel="stylesheet" href="mystyle.css">
         <link type="text/css" rel="stylesheet" href="bootstrap.css">
     <h2>Handy Dandy Homepage</h2>
@@ -54,7 +54,7 @@ echo $userid;
 
 ?>
         
-    <table align='center' class="table table-bordered table-hover table-striped table-condensed">
+    <table align='center' id='centertable' class="table table-bordered table-hover table-striped table-condensed">
         <tr>
             <td class="homepage">FormID</td>
             <td class="homepage">Evaluated By</td>
@@ -93,9 +93,9 @@ echo $userid;
                 echo "<td>$date</td>";
                 echo "<td>$glevel</td>";
                 echo "<td>$sub</td>";
-                echo "<td><a href='formpage.php?FormID=$formid'>EDIT/PRINT</a></td>";
+                echo "<td><a class='btn btn-primary' href='formpage.php?FormID=$formid' role='button'>EDIT/PRINT</a></td>";
                 //echo "<td><a href='index.php?FormID=$formid&print=true' target=_blank>PDF</a></td>";
-                echo "<td><button type='button' onclick=\"window.open('formpage.php?FormID=$formid&print=true')\">PDF</button></td>";
+                echo "<td><button type='button' class='btn' onclick=\"window.open('formpage.php?FormID=$formid&print=true')\">PDF</button></td>";
                 echo "</tr>";
             }
         }
@@ -105,6 +105,6 @@ echo $userid;
 ?>
 
         <div>
-            <a href ="formpage.php">Create New Form</a>
-            <a href ="logOut.php">Log Out</a>
+            <a class='btn btn-primary' href ="formpage.php" role='button'>New Form</a>
+            <a class='btn btn-info' href="logOut.php" role='button'>Log Out</a>
         </div>

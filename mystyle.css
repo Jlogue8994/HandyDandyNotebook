@@ -31,12 +31,14 @@ h2 {
     text-align: center;
     font-family: Helvetica;
 }
-table {
+
+#centertable {
     background-color: beige;
     min-height: 60%;
-    width: 60%;
+    width: 75%;
     border-collapse: collapse;
     bottom: 0px;
+    margin: auto;
 }
 
 table, th, td {
@@ -60,18 +62,30 @@ th {
 
 .headdata {
     width: 462px;
-    height: 16px;
+    height: 30px;
 }
 
 td {
     font-family: Trebuchet MS;
 }
 
-#submitbutton {
-
-}
-
 .homepage {
     background-color: lightgray;
     text-align: center;
+}
+
+.login {
+    
+}
+
+#center {
+    width: 90%;
+    margin: auto;
+}
+
+#login {
+    margin: auto;
+    width: 50%;
+    height: 20%;
+    background-color: white;
 }

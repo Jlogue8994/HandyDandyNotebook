@@ -116,7 +116,7 @@ $print = $_GET["print"];
         <meta name="author" content="Joe Logue">
         <meta name="viewport" content=""width="device-width, initial-scale=1">
         <link type="text/css" rel="stylesheet" href="bootstrap.css">
-        <!--<link type="text/css" rel="stylesheet" href="mystyle.css">-->
+        <link type="text/css" rel="stylesheet" href="mystyle.css"
         <title>
             The Handy Dandy Notebook
         </title>
@@ -132,7 +132,7 @@ $print = $_GET["print"];
         <?php
         echo "<form name='Handy Dandy Notebook' action='action.php' method='POST'>";
         echo "<input type='hidden' name='formid' value='$formid'>";
-            echo "<table align='center' class='table table-striped table-bordered table-hover'>";
+            echo "<table align='center' id='centertable' class='table table-striped table-bordered table-hover'>";
                 echo "<th colspan='2'>Teacher Evaluation</th>";
                 echo "<tr>";
                     echo "<td class='head'>Evaluated By:</td>";
@@ -180,7 +180,7 @@ $print = $_GET["print"];
                 echo "</tr>";
             echo "</table>";
             echo "<br>";
-            echo "<table align='center' class='table table-striped table-bordered table-hover'>";
+            echo "<table align='center' id='centertable' class='table table-bordered'>";
                 echo "<th>Information</th>";
                 echo "<tr>";
                     echo "<td>";
@@ -470,9 +470,9 @@ $print = $_GET["print"];
                 echo "</tr>";
             echo "</table>";
             if(!$print){
-            echo "<span align='center'><input type='submit' name='submit' value='Submit'></span>";
+            echo "<input type='submit' class='btn btn-primary btn-lg'name='submit' value='Submit'>";
             }
-        echo "</form>";
+        
         if($print) {
             $formpdf = ob_get_contents();
             
@@ -481,13 +481,12 @@ $print = $_GET["print"];
             $file = $crud->readForm($formpdf);
         }
         
-        echo "<span width='50px'></span>";
-        
             if($formid) {
-                echo "<span align='right'><button type='button' onclick='confirmed()'>Delete</button></span>";
+                echo "<button type='button' class='btn btn-danger' onclick='confirmed()'>Delete</button>";
             }
             
-        echo "<p><a href='homepage.php'>Return to Home Page</a></p>";
+        echo "<a class='btn' href='homepage.php' role='button'>Home Page</a>";
+        echo "</form>";
         ?>
     </body>
 </html>
