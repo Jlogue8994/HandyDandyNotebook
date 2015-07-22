@@ -33,7 +33,7 @@ h2 {
 }
 
 #centertable {
-    background-color: beige;
+    background-color: #cce8fa;
     min-height: 60%;
     width: 75%;
     border-collapse: collapse;
@@ -46,7 +46,7 @@ table, th, td {
 }
 
 th {
-    background-color: darkgreen;
+    background-color: #008ae6;
     color: white;
     font-size: 18px;
     font-family: Comic Sans MS;
@@ -102,8 +102,8 @@ td {
     padding-top: 1%;
     padding-bottom: 5%;
     width: 50%;
-    background: linear-gradient(#00cc00, #80e680, whitesmoke, white);
-    border: 3px #b2f0b2 solid;
+    background: linear-gradient(#008ae6, #80c4f2, whitesmoke, white);
+    border: 3px #cfcfcf solid;
     box-shadow: 2px 2px silver;
     border-radius: 30px
 }

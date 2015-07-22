@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta http-equiv="refresh" content="30">
-        <meta name="viewport" content=""width="device-width, initial-scale=1">
+        <meta name="viewport" content="" width="device-width, initial-scale=1">
         <link type='text/css' rel='stylesheet' href='mystyle.css'>
         <link type="text/css" rel="stylesheet" href="bootstrap.css">
     </head>

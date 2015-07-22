@@ -114,7 +114,7 @@ $print = $_GET["print"];
         <meta name="description" content="Handy Dandy Notebook">
         <meta name="keywords" content="Sycamore, Education, Evaluation, Teacher">
         <meta name="author" content="Joe Logue">
-        <meta name="viewport" content=""width="device-width, initial-scale=1">
+        <meta name="viewport" content="" width="device-width, initial-scale=1">
         <link type="text/css" rel="stylesheet" href="bootstrap.css">
         <link type="text/css" rel="stylesheet" href="mystyle.css"
         <title>
