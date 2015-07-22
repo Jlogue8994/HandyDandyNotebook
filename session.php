@@ -18,9 +18,8 @@
  */
 require_once("debugLog.inc");
 
-echo "SessionID: ";
-echo session_id();
-echo "<br>";
+debugLog("SessionID: ");
+debugLog(session_id());
 
 debugLog("You're getting into session.php");
 
@@ -41,24 +40,19 @@ if(!isset($_COOKIE['PHPSESSID'])) {
         $sql .= "Password = '$password'";
         $results = mysql_query($sql);
         
-        echo "<br>";
-        echo $sql;
+        debugLog($sql);
 
         if($results && mysql_num_rows($results)) {
             session_start();
-            echo "<br>";
-            echo "Session started!";
-            echo "<br>";
-            echo "Session ID: ";
-            echo session_id();
-            echo "<br>";
+            debugLog("Session started!");
+            debugLog("Session ID: ");
+            debugLog(session_id());
             $userid = mysql_result($results, 0, "UserID");
             $_SESSION['UserID'] = $userid;
-            echo "<br>";
             /**/
         }
         else {
-            echo "Not a valid Username and Password combination.";
+            debugLog("Not a valid Username and Password combination.");
             header("Location: userLogin.php");
         }
     }
@@ -67,9 +61,8 @@ if(!isset($_COOKIE['PHPSESSID'])) {
         debugLog("CONGRATULATIONS! Something worked!");
         
         session_start();
-        echo"Session ID: ";
-        echo session_id();
-        echo "<br>";
+        debugLog("Session ID: ");
+        debugLog(session_id());
     }
     else {        
         header("Location: userLogin.php");
@@ -78,12 +71,11 @@ if(!isset($_COOKIE['PHPSESSID'])) {
 }
 else {
 session_start();
-echo "Resuming session: ";
+debugLog("Resuming session: ");
 $userid = $_SESSION['UserID'];
 
-echo session_id();
-echo "<br>";
-echo session_status();
+debugLog(session_id());
+debugLog(session_status());
 }
 
 ?>

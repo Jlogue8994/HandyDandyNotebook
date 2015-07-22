@@ -113,14 +113,11 @@ $print = $_GET["print"];
         <meta charset="UTF-8">
         <meta name="description" content="Handy Dandy Notebook">
         <meta name="keywords" content="Sycamore, Education, Evaluation, Teacher">
-        <meta name="author" content="Joe Logue">
+        <meta name="author" content="Joseph D Logue">
         <meta name="viewport" content="" width="device-width, initial-scale=1">
         <link type="text/css" rel="stylesheet" href="bootstrap.css">
-        <link type="text/css" rel="stylesheet" href="mystyle.css"
-        <title>
-            The Handy Dandy Notebook
-        </title>
-    <h2>Handy Dandy Notebook</h2>
+        <link type="text/css" rel="stylesheet" href="mystyle.css">
+        <title>Handy Dandy Notebook</title>
     <script>
         function confirmed() {
             var r = confirm("Are you sure you want to delete this form?");
@@ -128,12 +125,33 @@ $print = $_GET["print"];
         }
     </script>
     </head>
-    <body>
+    <body id='navScroll'>
         <?php
+        echo "<nav class='navbar navbar-default navbar-fixed-top' position='static'>";
+            echo "<div class='container-fluid'>";
+                echo "<div class='navbar-header'>";
+                    echo "<a class='navbar-brand' href=''>";
+                    echo "<img alt='Brand' src=''>";
+                echo "</div>";
+                echo "<div class='navbar-form navbar-right'>";
+                    echo "<div align='right'>";
+                    echo "<a type='button' class='btn btn-lg btn-primary navbar btn' href='homepage.php'>Home</a></span>";
+                    echo "<a type='button' class='btn btn-lg btn-danger navbar btn' href='logOut.php'>Log Out</a></span>";
+                    echo "</div>";
+                echo "</div>";
+            echo "</div>";
+        echo "</nav>";
+        echo "<h2>Handy Dandy Notebook</h2>";
         echo "<form name='Handy Dandy Notebook' action='action.php' method='POST'>";
         echo "<input type='hidden' name='formid' value='$formid'>";
-            echo "<table align='center' id='centertable' class='table table-striped table-bordered table-hover'>";
-                echo "<th colspan='2'>Teacher Evaluation</th>";
+            echo "<table align='center' id='centertable' class='table table-striped table-bordered'>";
+                echo "<th colspan='2'>Teacher Evaluation";
+                    if($formid) {
+                            echo "<div float='right'>";
+                            echo "<button type='button' class='btn btn-danger' onclick='confirmed()'>Delete</button>";
+                            echo "</div>";
+                        }
+                echo "</th>";
                 echo "<tr>";
                     echo "<td class='head'>Evaluated By:</td>";
                     echo "<td class='head'>School:</td>";
@@ -468,10 +486,20 @@ $print = $_GET["print"];
                         echo "<textarea name='lcomments' rows='5' cols='100' placeholder='Type comments here...'>$lcomments</textarea>";
                     echo "</td>";
                 echo "</tr>";
+                echo "<tr>";
+                    echo "<td>";
+                        if($formid) {
+                            echo "<div align='right'>";
+                            echo "<button type='button' class='btn btn-danger' onclick='confirmed()'>Delete</button>";
+                            echo "</div>";
+                        }
+                    echo "</td>";
+                echo "</tr>";
             echo "</table>";
-            if(!$print){
-            echo "<input type='submit' class='btn btn-primary btn-lg'name='submit' value='Submit'>";
-            }
+            
+        if(!$print){
+        echo "<input type='submit' class='btn btn-primary btn-lg'name='submit' value='Submit'>";
+        }
         
         if($print) {
             $formpdf = ob_get_contents();
@@ -481,11 +509,11 @@ $print = $_GET["print"];
             $file = $crud->readForm($formpdf);
         }
         
-            if($formid) {
-                echo "<button type='button' class='btn btn-danger' onclick='confirmed()'>Delete</button>";
-            }
+        if($formid) {
+            echo "<button type='button' class='btn btn-danger' onclick='confirmed()'>Delete</button>";
+        }
             
-        echo "<a class='btn' href='homepage.php' role='button'>Home Page</a>";
+        echo "<a class='btn btn-info' href='homepage.php' role='button'>Home</a>";
         echo "</form>";
         ?>
     </body>

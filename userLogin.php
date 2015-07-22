@@ -31,6 +31,20 @@ header("Location: logOut.php");
 }
 
 //send login information to homepage
+echo "<nav class='navbar navbar-default' position='static'>";
+        echo "<div class='container-fluid'>";
+            echo "<div class='navbar-header'>";
+                echo "<a class='navbar-brand' href='index.php'>";
+                echo "<img alt='Brand' src=''>";
+            echo "</div>";
+            echo "<div class='navbar-form navbar-right'>";
+                echo "<div align='right'>";
+                //echo "<a type='button' class='btn btn-lg btn-primary navbar btn' href='userLogin.php'>Log In</a></span>";
+                echo "<a type='button' class='btn btn-lg btn-default navbar btn' href='register1.php'>Register</a></span>";
+                echo "</div>";
+            echo "</div>";
+        echo "</div>";
+    echo "</nav>";
 echo "<div class='outer'>";
     echo "<div class='middle'>";
         echo "<div class='inner form-group'>";

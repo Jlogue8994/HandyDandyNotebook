@@ -26,6 +26,14 @@ body {
     background-size: 20%;
 }
 
+nav {
+    background: linear-gradient(left, #008ae6, #80c4f2, whitesmoke, white, white);
+}
+
+#navScroll {
+    padding-top: 70px;
+}
+
 h2 {
     color: violet;
     text-align: center;
@@ -41,23 +49,20 @@ h2 {
     margin: auto;
 }
 
-table, th, td {
-    border: 2px solid black;
-}
-
 th {
     background-color: #008ae6;
     color: white;
-    font-size: 18px;
+    font-size: 20px;
     font-family: Comic Sans MS;
 }
 
-.checkbox {
-    align: center;
+.comments {
+    background-color: #cce8fa;
 }
 
 .head {
     font-weight: bold;
+    font-size: 16px;
 }
 
 .headdata {
@@ -107,3 +112,4 @@ td {
     box-shadow: 2px 2px silver;
     border-radius: 30px
 }
+
