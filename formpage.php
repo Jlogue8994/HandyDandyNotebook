@@ -130,7 +130,7 @@ $print = $_GET["print"];
         echo "<nav class='navbar navbar-default navbar-fixed-top' position='static'>";
             echo "<div class='container-fluid'>";
                 echo "<div class='navbar-header'>";
-                    echo "<a class='navbar-brand' href=''>";
+                    echo "<a class='navbar-brand' href='index.php'>";
                     echo "<img alt='Brand' src=''>";
                 echo "</div>";
                 echo "<div class='navbar-form navbar-right'>";
@@ -141,13 +141,14 @@ $print = $_GET["print"];
                 echo "</div>";
             echo "</div>";
         echo "</nav>";
+        
         echo "<h2>Handy Dandy Notebook</h2>";
         echo "<form name='Handy Dandy Notebook' action='action.php' method='POST'>";
         echo "<input type='hidden' name='formid' value='$formid'>";
             echo "<table align='center' id='centertable' class='table table-striped table-bordered'>";
                 echo "<th colspan='2'>Teacher Evaluation";
                     if($formid) {
-                            echo "<div float='right'>";
+                            echo "<div align='right'>";
                             echo "<button type='button' class='btn btn-danger' onclick='confirmed()'>Delete</button>";
                             echo "</div>";
                         }
@@ -198,10 +199,12 @@ $print = $_GET["print"];
                 echo "</tr>";
             echo "</table>";
             echo "<br>";
+            
+            
             echo "<table align='center' id='centertable' class='table table-bordered'>";
                 echo "<th>Information</th>";
                 echo "<tr>";
-                    echo "<td>";
+                    echo "<td class='formtd'>";
                         echo "<h4>Part of Period Observed</h4>";
                         echo "<div align='right'>";
                             if($period == 1) $period1 = "checked=checked";
@@ -216,8 +219,9 @@ $print = $_GET["print"];
                         echo "</div>";
                     echo "</td>";
                 echo "</tr>";
+                
                 echo "<tr>";
-                    echo "<td>";
+                    echo "<td class='formtd'>";
                         echo "<h4>Classroom Environment</h4>";
                         echo "<div>";
                             echo "<ul>";
@@ -239,8 +243,9 @@ $print = $_GET["print"];
                         echo "<textarea name='bcomments' rows='5' cols='100' placeholder='Type comments here...'>$bcomments</textarea>";
                     echo "</td>";
                 echo "</tr>";
+                
                 echo "<tr>";
-                    echo "<td>";
+                    echo "<td class='formtd'>";
                         echo "<h4>Teacher's Activity on Entry</h4>";
                         echo "<div>";
                             echo "<ul>";
@@ -268,8 +273,9 @@ $print = $_GET["print"];
                         echo "<textarea name='ccomments' rows='5' cols='100' placeholder='Type comments here...'>$ccomments</textarea>";
                     echo "</td>";
                 echo "</tr>";
+                
                 echo "<tr>";
-                    echo "<td>";
+                    echo "<td class='formtd'>";
                         echo "<h4>Grouping Arrangement</h4>";
                         echo "<div align='right'>";
                             if($grouping == 1) $grouping1 = "checked=checked";
@@ -287,8 +293,9 @@ $print = $_GET["print"];
                         echo "</div>";
                     echo "</td>";
                 echo "</tr>";
+                
                 echo "<tr>";
-                    echo "<td>";
+                    echo "<td class='formtd'>";
                         echo "<h4>Student Activities</h4>";
                         echo "<div>";
                             echo "<ul>";
@@ -324,8 +331,9 @@ $print = $_GET["print"];
                         echo "<textarea name='ecomments' rows='5' cols='100' placeholder='Type comments here...'>$ecomments</textarea>";
                     echo "</td>";
                 echo "</tr>";
+                
                 echo "<tr>";
-                    echo "<td>";
+                    echo "<td class='formtd'>";
                         echo "<h4>Instruction</h4>";
                         echo "<div>";
                             echo "<ul>";
@@ -357,8 +365,9 @@ $print = $_GET["print"];
                         echo "<textarea name='fcomments' rows='5' cols='100' placeholder='Type comments here...'>$fcomments</textarea>";
                     echo "</td>";
                 echo "</tr>";
+                
                 echo "<tr>";
-                    echo "<td>";
+                    echo "<td class='formtd'>";
                     echo "<h4>Technology Use</h4>";
                         echo "<div>";
                             echo "<ul>";
@@ -378,8 +387,9 @@ $print = $_GET["print"];
                         echo "<textarea name='gcomments' rows='5' cols='100' placeholder='Type comments here...'>$gcomments</textarea>";
                     echo "</td>";
                 echo "</tr>";
+                
                 echo "<tr>";
-                    echo "<td>";
+                    echo "<td class='formtd'>";
                         echo "<h4>Evidence of Differentiation</h4>";
                         echo "<div align='right'>";
                             if($differentiation == 1) $diff1 = "checked=checked";
@@ -400,8 +410,9 @@ $print = $_GET["print"];
                         echo "</div>";
                     echo "</td>";
                 echo "</tr>";
+                
                 echo "<tr>";
-                    echo "<td>";
+                    echo "<td class='formtd'>";
                         echo "<h4>Depth of Knowledge</h4>";
                         echo "<div>";
                             echo "<ul>";
@@ -419,8 +430,9 @@ $print = $_GET["print"];
                         echo "<textarea name='icomments' rows='5' cols='100' placeholder='Type comments here...'>$icomments</textarea>";
                     echo "</td>";
                 echo "</tr>";
+                
                 echo "<tr>";
-                    echo "<td>";
+                    echo "<td class='formtd'>";
                         echo "<h4>Content Literacy</h4>";
                         echo "<div>";
                             echo "<ul>";
@@ -440,8 +452,9 @@ $print = $_GET["print"];
                         echo "<textarea name='jcomments' rows='5' cols='100' placeholder='Type comments here...'>$jcomments</textarea>";
                     echo "</td>";
                 echo "</tr>";
+                
                 echo "<tr>";
-                    echo "<td>";
+                    echo "<td class='formtd'>";
                         echo "<h4>Classroom Management</h4>";
                         echo "<div>";
                             echo "<ul>";
@@ -463,8 +476,9 @@ $print = $_GET["print"];
                         echo "<textarea name='kcomments' rows='5' cols='100' placeholder='Type comments here...'>$kcomments</textarea>";
                     echo "</td>";
                 echo "</tr>";
+                
                 echo "<tr>";
-                    echo "<td>";
+                    echo "<td class='formtd'>";
                         echo "<h4>21st Century Skills (Student Behaviors)</h4>";
                         echo "<div>";
                             echo "<ul>";
@@ -486,6 +500,7 @@ $print = $_GET["print"];
                         echo "<textarea name='lcomments' rows='5' cols='100' placeholder='Type comments here...'>$lcomments</textarea>";
                     echo "</td>";
                 echo "</tr>";
+                
                 echo "<tr>";
                     echo "<td>";
                         if($formid) {
@@ -497,8 +512,12 @@ $print = $_GET["print"];
                 echo "</tr>";
             echo "</table>";
             
+            
         if(!$print){
+        echo "<div align='center'>";
         echo "<input type='submit' class='btn btn-primary btn-lg'name='submit' value='Submit'>";
+        echo "<a class='btn btn-info' href='homepage.php' role='button'>Home</a>";
+        echo "</div>";
         }
         
         if($print) {
@@ -509,11 +528,6 @@ $print = $_GET["print"];
             $file = $crud->readForm($formpdf);
         }
         
-        if($formid) {
-            echo "<button type='button' class='btn btn-danger' onclick='confirmed()'>Delete</button>";
-        }
-            
-        echo "<a class='btn btn-info' href='homepage.php' role='button'>Home</a>";
         echo "</form>";
         ?>
     </body>

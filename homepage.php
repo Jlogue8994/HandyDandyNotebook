@@ -31,8 +31,9 @@
 
     //create global variables for gradenames and 
     Global $gradenames, $subjects;
-    
-echo "<nav class='navbar navbar-default' position='static'>";
+
+echo "<body id='navScroll'>";
+echo "<nav class='navbar navbar-default navbar-fixed-top' position='static'>";
     echo "<div class='container-fluid'>";
         echo "<div class='navbar-header'>";
             echo "<a class='navbar-brand' href='index.php'>";
@@ -64,7 +65,7 @@ $sql .= "WHERE UserID = $userid";
 $results = mysql_query($sql);
 }
 
-echo $userid;
+debugLog($userid);
 
 ?>
         
@@ -99,14 +100,14 @@ echo $userid;
                 $sub = $subjects[$subject];
             
                 echo "<tr>";
-                echo "<td>$formid</td>";
-                echo "<td>$name</td>";
-                echo "<td>$school</td>";
-                echo "<td>$category</td>";
-                echo "<td>$teacher</td>";
-                echo "<td>$date</td>";
-                echo "<td>$glevel</td>";
-                echo "<td>$sub</td>";
+                echo "<td class='hometd'>$formid</td>";
+                echo "<td class='hometd'>$name</td>";
+                echo "<td class='hometd'>$school</td>";
+                echo "<td class='hometd'>$category</td>";
+                echo "<td class='hometd'>$teacher</td>";
+                echo "<td class='hometd'>$date</td>";
+                echo "<td class='hometd'>$glevel</td>";
+                echo "<td class='hometd'>$sub</td>";
                 echo "<td><a class='btn btn-primary' href='formpage.php?FormID=$formid' role='button'>EDIT/PRINT</a></td>";
                 //echo "<td><a href='index.php?FormID=$formid&print=true' target=_blank>PDF</a></td>";
                 echo "<td><button type='button' class='btn btn-info' onclick=\"window.open('formpage.php?FormID=$formid&print=true')\">PDF</button></td>";
@@ -122,3 +123,4 @@ echo $userid;
             <a class='btn btn-primary' href ="formpage.php" role='button'>New Form</a>
             <a class='btn btn-danger' href="logOut.php" role='button'>Log Out</a>
         </div>
+    </body>

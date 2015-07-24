@@ -32,8 +32,8 @@ require_once("debugLog.inc");
 debugLog("");
 
 //user can either log in with an existing account, or create one by redirecting to register1.php
-echo "<body>";
-    echo "<nav class='navbar navbar-default' position='static'>";
+echo "<body id='navScroll'>";
+    echo "<nav class='navbar navbar-default navbar-fixed-top' position='static'>";
         echo "<div class='container-fluid'>";
             echo "<div class='navbar-header'>";
                 echo "<a class='navbar-brand' href=''>";
@@ -47,7 +47,15 @@ echo "<body>";
             echo "</div>";
         echo "</div>";
     echo "</nav>";
-    echo "";
+    echo"<div align='center'>";
+        echo "<h2>HANDY DANDY NOTEBOOK!!!</h2>";
+        echo "<h3>TRUST ME, YOU NEED THIS APPLICATION</h3>";
+        echo "<h4>THERE'S NOTHING ELSE LIKE IT</h4>";
+        echo "<h5>SAVE AND RECORD YOUR EVALUATIONS TO ACCESS LATER</h5>";
+        echo "<h6>WHAT ELSE COULD YOU ASK IN AN APP?</h6>";
+        echo "<p>and it took me like two, almost three months to make."
+        . "so please, give it a shot.";
+    echo "</div>";
 echo "</body>";
 
 ?>

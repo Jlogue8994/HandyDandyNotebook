@@ -25,13 +25,15 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 echo "<body>";
+
+require_once("debugLog.inc");
 //end any saved session that may have existed prior to user login.
 if(isset($_COOKIE["PHPSESSID"])) {
 header("Location: logOut.php");
 }
 
 //send login information to homepage
-echo "<nav class='navbar navbar-default' position='static'>";
+echo "<nav class='navbar navbar-default navbar-fixed-top' position='static'>";
         echo "<div class='container-fluid'>";
             echo "<div class='navbar-header'>";
                 echo "<a class='navbar-brand' href='index.php'>";
@@ -48,10 +50,11 @@ echo "<nav class='navbar navbar-default' position='static'>";
 echo "<div class='outer'>";
     echo "<div class='middle'>";
         echo "<div class='inner form-group'>";
-        echo "<h2 align:'center'>Handy Dandy Notebook</h2>";
-            echo "<form id='center' name='userlog' action='homepage.php' method='POST' >";
+        echo "<h2 align='center'>Handy Dandy Notebook</h2>";
+        echo "<h3 align='center'>Log In:</h3>";
+            echo "<form id='center' name='userlog' action='homepage.php' method='POST'>";
             echo "<p align='center'><h4>Username:</h4><input class='form-control' id='inputdefault' type='text' name='username' placeholder='Type your username here...' onclick='this.focus();this.select()'></p>";
-            echo "<p align='center'><h4>Password: </h4><input class='form-control id='inputdefault' type='password' name='password' placeholder='Type your password here...' onclick='this.focus();this.select()'></p>";
+            echo "<p align='center'><h4>Password: </h4><input class='form-control' id='inputdefault' type='password' name='password' placeholder='Type your password here...' onclick='this.focus();this.select()'></p>";
             echo "<p align='center'><input class='btn btn-primary' type='submit' name='login' value='Submit'></p>";
             echo "</form>";
         echo "</div>";
@@ -59,7 +62,7 @@ echo "<div class='outer'>";
 echo "</div>";
 
 //debugging info.
-echo session_status();
+debugLog(session_status());
 
 echo "</body>";
 ?>

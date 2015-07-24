@@ -70,8 +70,14 @@ th {
     height: 30px;
 }
 
-td {
+.hometd {
     font-family: Trebuchet MS;
+    font-size: 16px;
+}
+
+.formtd {
+    font-family: Trebuchet MS;
+    font-size: 17px;
 }
 
 .homepage {
