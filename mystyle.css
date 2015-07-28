@@ -83,6 +83,7 @@ th {
 .homepage {
     background-color: lightgray;
     text-align: center;
+    font-size: 16px;
 }
 
 .login {
@@ -116,6 +117,6 @@ th {
     background: linear-gradient(#008ae6, #80c4f2, whitesmoke, white);
     border: 3px #cfcfcf solid;
     box-shadow: 2px 2px silver;
-    border-radius: 30px
+    border-radius: 30px;
 }
 

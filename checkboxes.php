@@ -16,7 +16,83 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
+require_once("debugLog.inc");
+require_once("session.php");
 
+debugLog("User ID = " . $userid);
+
+$sql  = "SELECT accessToken FROM users WHERE UserID = $userid";
+$results = mysql_query($sql);
+
+debugLog($sql);
+
+if($results && mysql_num_rows($results)) {
+            $token = mysql_result($results, 0, "accessToken");
+} else {
+    debugLog("No results");
+}
+
+$curl = curl_init();
+
+$url = "app.sycamoreeducation.com/api/v1/Me";
+
+curl_setopt_array($curl, array(
+    CURLOPT_RETURNTRANSFER => 1,
+    CURLOPT_URL => "$url",
+    CURLOPT_HTTPHEADER => array("Authorization: Bearer $token")
+));
+
+if($token) {
+    debugLog($token);
+} else {
+    debugLog("No token found.");
+}
+
+$response = curl_exec($curl);
+
+$response = json_decode($response, true);
+
+curl_close($curl);
+
+$schoolID = $response["SchoolID"];
+
+if($schoolID) {
+    debugLog($schoolID);
+} else {
+    debugLog("No School ID.");
+}
+
+$curl = curl_init();
+
+$url = "app.sycamoreeducation.com/api/v1/School/$schoolID/Classes";
+
+curl_setopt_array($curl, array(
+    CURLOPT_RETURNTRANSFER => 1,
+    CURLOPT_URL => "$url",
+    CURLOPT_HTTPHEADER => array("Authorization: Bearer $token")
+));
+
+$response = curl_exec($curl);
+
+curl_close($curl);
+
+$response = json_decode($response, true);
+
+$rscount = count($response);
+
+for($i=0; $i < $rscount; $i++) {
+    $class_type = $response[$i];
+    foreach($class_type as $class) {
+        $classID = $class['ID'];
+        $class_name = $class['Name'];
+        
+    }
+}
+
+/*$schoolClasses = array(
+    "dayLong"
+)
+/**/
 $checkboxes = array(
     "b" => array(1,2,3,4),
     "c" => array(1,2,3,4,5,6,7,8,9),

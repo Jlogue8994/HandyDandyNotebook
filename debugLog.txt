@@ -1,3775 +1,748 @@
-test.Hello this is an errorHello this is an error
-Hello this is an error
-Hello this is an error
-You're getting to the sycamore stuff.
-You're getting to the sycamore stuff.
-You're getting to the sycamore login page.
-You're getting to the sycamore stuff.
-You're getting to the sycamore login page.
-If you're getting here then you're being redirected back to register1 page.
-You're posting the POST variables properly. You should only get this log once.
-You're getting to the sycamore stuff.
-You're getting to the sycamore login page.
-You're posting the POST variables properly. You should only get this log once.
-If you're getting here then you're being redirected back to register1 page.
+1
+SessionID: 
 
-You're posting the POST variables properly. You should only get this log once.
-You're getting to the sycamore stuff.
-You're getting to the sycamore login page.
-You're posting the POST variables properly. You should only get this log once.
-If you're getting here then you're being redirected back to register1 page.
+You're getting into session.php
 
-You're posting the POST variables properly. You should only get this log once.
-Resource id #8
-You're getting to the sycamore stuff.
-You're getting to the sycamore login page.
-You're posting the POST variables properly. You should only get this log once.
-Resource id #8
-If you're getting here then you're being redirected back to register1 page.
+SELECT UserID FROM users WHERE Username = 'HonorTheSoldier' AND Password = 'LovemyLove22'
+Session started!
+Session ID: 
+s8elhtg60qvp7nklqrehdklt30
+1
+SessionID: 
 
-You're posting the POST variables properly. You should only get this log once.
-jlogued
-Resource id #8
-You're getting to the sycamore stuff.
-You're getting to the sycamore login page.
-You're posting the POST variables properly. You should only get this log once.
+You're getting into session.php
 
-Resource id #8
-If you're getting here then you're being redirected back to register1 page.
+Resuming session: 
+s8elhtg60qvp7nklqrehdklt30
+2
 
+SessionID: 
 
+You're getting into session.php
 
-You're posting the POST variables properly. You should only get this log once.
+Resuming session: 
+s8elhtg60qvp7nklqrehdklt30
+2
 
-Resource id #9
-If you're getting here then you're being redirected back to register1 page.
+SessionID: 
 
 You're getting into session.php
-You're posting the POST variables properly. You should only get this log once.
 
-Resource id #10
-If you're getting here then you're being redirected back to register1 page.
+Resuming session: 
+s8elhtg60qvp7nklqrehdklt30
+2
 
+SessionID: 
+
 You're getting into session.php
-You're posting the POST variables properly. You should only get this log once.
 
-Resource id #10
-If you're getting here then you're being redirected back to register1 page.
+Resuming session: 
+s8elhtg60qvp7nklqrehdklt30
+2
 
+SessionID: 
 
+You're getting into session.php
 
-fd
-fd
-f
+Resuming session: 
+s8elhtg60qvp7nklqrehdklt30
+2
 
-jl
-jl
-jlo
-jlogu
-jlogu
-jlogue
-jlogued
+SessionID: 
 
 You're getting into session.php
-You're posting the POST variables properly. You should only get this log once.
+
+Resuming session: 
+s8elhtg60qvp7nklqrehdklt30
+2
 
-Resource id #10
-If you're getting here then you're being redirected back to register1 page.
+SessionID: 
 
 You're getting into session.php
 
-You're posting the POST variables properly. You should only get this log once.
+Resuming session: 
+s8elhtg60qvp7nklqrehdklt30
+2
 
-Resource id #11
-If you're getting here then you're being redirected back to register1 page.
+SessionID: 
 
 You're getting into session.php
-jlogued
-CONGRATULATIONS! Something worked!
-You're posting the POST variables properly. You should only get this log once.
-jlogued
-Resource id #12
-You're getting to the sycamore stuff.
-You're getting to the sycamore login page.
-You're getting into session.php
 
-You're posting the POST variables properly. You should only get this log once.
+Resuming session: 
+s8elhtg60qvp7nklqrehdklt30
+2
 
-Resource id #11
-If you're getting here then you're being redirected back to register1 page.
+SessionID: 
 
-
-You're getting into session.php
-jlogued
-You're posting the POST variables properly. You should only get this log once.
-jlogued
-Resource id #11
-You're getting to the sycamore stuff.
-You're getting to the sycamore login page.
 You're getting into session.php
 
-You're posting the POST variables properly. You should only get this log once.
+Resuming session: 
+s8elhtg60qvp7nklqrehdklt30
+2
 
-Resource id #11
-If you're getting here then you're being redirected back to register1 page.
+SessionID: 
 
 You're getting into session.php
-jlogued
-You're posting the POST variables properly. You should only get this log once.
-jlogued
-Resource id #11
-You're getting to the sycamore stuff.
-You're getting to the sycamore login page.
+
+Resuming session: 
+s8elhtg60qvp7nklqrehdklt30
+2
+
+SessionID: 
+
 You're getting into session.php
 
-You're posting the POST variables properly. You should only get this log once.
+Resuming session: 
+s8elhtg60qvp7nklqrehdklt30
+2
 
-Resource id #11
-If you're getting here then you're being redirected back to register1 page.
+SessionID: 
 
 You're getting into session.php
-jlogued
-You're posting the POST variables properly. You should only get this log once.
-jlogued
-Resource id #11
-You're getting to the sycamore stuff.
-You're getting to the sycamore login page.
 
+Resuming session: 
+s8elhtg60qvp7nklqrehdklt30
+2
+
+SessionID: 
+
 You're getting into session.php
-jlogued
-You're posting the POST variables properly. You should only get this log once.
-jlogued
-Resource id #11
-You're getting to the sycamore stuff.
-You're getting to the sycamore login page.
+
+Resuming session: 
+s8elhtg60qvp7nklqrehdklt30
+2
 
+SessionID: 
+
 You're getting into session.php
-jlogued
-You're posting the POST variables properly. You should only get this log once.
-jlogued
-Resource id #11
-You're getting to the sycamore stuff.
-You're getting to the sycamore login page.
+
+Resuming session: 
+s8elhtg60qvp7nklqrehdklt30
+2
+
+SessionID: 
 
 You're getting into session.php
-jlogued
-You're posting the POST variables properly. You should only get this log once.
-jlogued
-Resource id #11
-You're getting to the sycamore stuff.
-You're getting to the sycamore login page.
 
+Resuming session: 
+s8elhtg60qvp7nklqrehdklt30
+2
+
+SessionID: 
+
 You're getting into session.php
-jlogued
-You're posting the POST variables properly. You should only get this log once.
-jlogued
-Resource id #11
-You're getting to the sycamore stuff.
-You're getting to the sycamore login page.
+
+Resuming session: 
+s8elhtg60qvp7nklqrehdklt30
+2
+
+SessionID: 
+
 You're getting into session.php
 
-1981213b350d1f6308ba9f848f1f862bb97b09a7
-If you're reading this you're getting into user creation in the database.
+Resuming session: 
+s8elhtg60qvp7nklqrehdklt30
+2
 
+SessionID: 
 
 You're getting into session.php
-loguejd
-You're posting the POST variables properly. You should only get this log once.
-loguejd
-Resource id #11
-You're getting to the sycamore stuff.
-You're getting to the sycamore login page.
+
+Resuming session: 
+s8elhtg60qvp7nklqrehdklt30
+2
+
+SessionID: 
+
 You're getting into session.php
 
-If you're reading this you're getting into user creation in the database.
-4d8d1f7e51b477e3d9ed59267ce001390141e47e
+Resuming session: 
+s8elhtg60qvp7nklqrehdklt30
+2
 
+SessionID: 
 
 You're getting into session.php
-jlogud
-You're posting the POST variables properly. You should only get this log once.
-jlogud
-Resource id #11
-You're getting to the sycamore stuff.
-You're getting to the sycamore login page.
+
+Resuming session: 
+s8elhtg60qvp7nklqrehdklt30
+2
+
+SessionID: 
+
 You're getting into session.php
 
-If you're reading this you're getting into user creation in the database.
-f0d7851f10aa52ac23636dfc481e8fed86ff78ca
-INSERT INTO users (accessToken, Username, Password) VALUES ('f0d7851f10aa52ac23636dfc481e8fed86ff78ca, '', '')
+Resuming session: 
+s8elhtg60qvp7nklqrehdklt30
+2
 
+SessionID: 
 
 You're getting into session.php
-jlogued
-You're posting the POST variables properly. You should only get this log once.
-jlogued
-Resource id #11
-You're getting to the sycamore stuff.
-You're getting to the sycamore login page.
+
+Resuming session: 
+s8elhtg60qvp7nklqrehdklt30
+2
+
+SessionID: 
+
 You're getting into session.php
 
-If you're reading this you're getting into user creation in the database.
-518001b0f11cbca0344663ca9342ea69c15713e1
-INSERT INTO users (accessToken, Username, Password) VALUES ('518001b0f11cbca0344663ca9342ea69c15713e1, ', '')
+Resuming session: 
+s8elhtg60qvp7nklqrehdklt30
+2
 
+SessionID: 
 
 You're getting into session.php
-jlogue
-You're posting the POST variables properly. You should only get this log once.
-jlogue
-Resource id #11
-You're getting to the sycamore stuff.
-You're getting to the sycamore login page.
+
+Resuming session: 
+s8elhtg60qvp7nklqrehdklt30
+2
+
+SessionID: 
+
 You're getting into session.php
 
-9okcvf0ip4h83e8sv0seeiess5
-If you're reading this you're getting into user creation in the database.
-705e3cff4d43a7994cc3b8c86bfb463bb4200ca2
-INSERT INTO users (accessToken, Username, Password) VALUES ('705e3cff4d43a7994cc3b8c86bfb463bb4200ca2, '', '')
+Resuming session: 
+s8elhtg60qvp7nklqrehdklt30
+2
 
+SessionID: 
 
 You're getting into session.php
-jlogue
-CONGRATULATIONS! Something worked!
-You're posting the POST variables properly. You should only get this log once.
-jlogue
-Resource id #12
-You're getting to the sycamore stuff.
-You're getting to the sycamore login page.
+
+Resuming session: 
+s8elhtg60qvp7nklqrehdklt30
+2
+
+SessionID: 
+
 You're getting into session.php
 
-ig9nqgtioasoptl96ag67j0qp3
-If you're reading this you're getting into user creation in the database.
-dcf7abe0c1110e5188425239021cc7644fb3410c
-INSERT INTO users (accessToken, Username, Password) VALUES ('dcf7abe0c1110e5188425239021cc7644fb3410c, '', '')
+Resuming session: 
+s8elhtg60qvp7nklqrehdklt30
+2
 
+SessionID: 
 
 You're getting into session.php
-jlogue
-You're posting the POST variables properly. You should only get this log once.
-jlogue
-Resource id #11
-You're getting to the sycamore stuff.
-You're getting to the sycamore login page.
+
+Resuming session: 
+s8elhtg60qvp7nklqrehdklt30
+2
+
+SessionID: 
+
 You're getting into session.php
 
-ig9nqgtioasoptl96ag67j0qp3
-If you're reading this you're getting into user creation in the database.
-c77e22a37c764d20c8d540f7a0e9d3043464124f
-INSERT INTO users (accessToken, Username, Password) VALUES ('c77e22a37c764d20c8d540f7a0e9d3043464124f, '', '')
+Resuming session: 
+s8elhtg60qvp7nklqrehdklt30
+2
 
+SessionID: 
 
 You're getting into session.php
-jlogue
-You're posting the POST variables properly. You should only get this log once.
-jlogue
-Resource id #11
-You're getting to the sycamore stuff.
-You're getting to the sycamore login page.
+
+Resuming session: 
+s8elhtg60qvp7nklqrehdklt30
+2
+No token found.
+No School ID.
+SessionID: 
+
 You're getting into session.php
 
-ig9nqgtioasoptl96ag67j0qp3
+Resuming session: 
+s8elhtg60qvp7nklqrehdklt30
+2
+No token found.
+No School ID.
+SessionID: 
 
-If you're reading this you're getting into user creation in the database.
-814ee429e97a82e2ab85026d31702b285cefad7c
-INSERT INTO users (accessToken, Username, Password) VALUES ('814ee429e97a82e2ab85026d31702b285cefad7c, '', '')
+You're getting into session.php
 
+Resuming session: 
+s8elhtg60qvp7nklqrehdklt30
+2
+No token found.
+No School ID.
+SessionID: 
 
 You're getting into session.php
 
-You're posting the POST variables properly. You should only get this log once.
+Resuming session: 
+s8elhtg60qvp7nklqrehdklt30
+2
+No token found.
+No School ID.
+SessionID: 
 
-Resource id #11
-You're getting to the sycamore stuff.
-You're getting to the sycamore login page.
 You're getting into session.php
 
-ig9nqgtioasoptl96ag67j0qp3
-jlogue
-If you're reading this you're getting into user creation in the database.
-7ba48c215d7b1ad97386053b0047e77604259737
-INSERT INTO users (accessToken, Username, Password) VALUES ('7ba48c215d7b1ad97386053b0047e77604259737, 'jlogue', 'dr')
+Resuming session: 
+s8elhtg60qvp7nklqrehdklt30
+2
+No token found.
+No School ID.
+SessionID: 
 
+You're getting into session.php
 
+Resuming session: 
+s8elhtg60qvp7nklqrehdklt30
+2
+No token found.
+Array
+No School ID.
+SessionID: 
+
 You're getting into session.php
+
+Resuming session: 
+s8elhtg60qvp7nklqrehdklt30
+2
+No token found.
 
-You're posting the POST variables properly. You should only get this log once.
+No School ID.
+SessionID: 
 
-Resource id #11
-You're getting to the sycamore stuff.
-You're getting to the sycamore login page.
 You're getting into session.php
 
-ig9nqgtioasoptl96ag67j0qp3
+Resuming session: 
+s8elhtg60qvp7nklqrehdklt30
+2
+No token found.
 
-If you're reading this you're getting into user creation in the database.
-dd826371269b85740e79774296a11bdb76bee907
-INSERT INTO users (accessToken, Username, Password) VALUES ('dd826371269b85740e79774296a11bdb76bee907, '', '')
+No School ID.
+SessionID: 
 
 You're getting into session.php
 
-You're posting the POST variables properly. You should only get this log once.
+Resuming session: 
+s8elhtg60qvp7nklqrehdklt30
+2
+No token found.
 
-Resource id #11
-You're getting to the sycamore stuff.
-You're getting to the sycamore login page.
+No School ID.
+SessionID: 
+
 You're getting into session.php
 
+Resuming session: 
+s8elhtg60qvp7nklqrehdklt30
+2
+No token found.
 
+No School ID.
+SessionID: 
 
-If you're reading this you're getting into user creation in the database.
-2bb6c4e7f6345d82ca1ef472800a33331cd769a5
-INSERT INTO users (accessToken, Username, Password) VALUES ('2bb6c4e7f6345d82ca1ef472800a33331cd769a5, '', '')
+You're getting into session.php
 
+Resuming session: 
+s8elhtg60qvp7nklqrehdklt30
+2
+No token found.
+No response from API
+No School ID.
+SessionID: 
 
 You're getting into session.php
 
-You're posting the POST variables properly. You should only get this log once.
+Resuming session: 
+s8elhtg60qvp7nklqrehdklt30
+2
+No token found.
+No response from API
+No School ID.
+SessionID: 
 
-Resource id #11
-You're getting to the sycamore stuff.
-You're getting to the sycamore login page.
 You're getting into session.php
 
+Resuming session: 
+s8elhtg60qvp7nklqrehdklt30
+2
+No token found.
+No response from API
+No School ID.
+SessionID: 
+
+You're getting into session.php
 
+Resuming session: 
+s8elhtg60qvp7nklqrehdklt30
+2
+No token found.
+No response from API
+No School ID.
+SessionID: 
 
-If you're reading this you're getting into user creation in the database.
-0db7235411d5924054125649a49d7f5e5185fc61
-INSERT INTO users (accessToken, Username, Password) VALUES ('0db7235411d5924054125649a49d7f5e5185fc61, '', '')
+You're getting into session.php
 
+Resuming session: 
+s8elhtg60qvp7nklqrehdklt30
+2
+No token found.
+No response from API
+No School ID.
+SessionID: 
 
 You're getting into session.php
-jlogue
-CONGRATULATIONS! Something worked!
-You're posting the POST variables properly. You should only get this log once.
-jlogue
-Resource id #12
-You're getting to the sycamore stuff.
-You're getting to the sycamore login page.
+
+Resuming session: 
+s8elhtg60qvp7nklqrehdklt30
+2
+No token found.
+No response from API
+No School ID.
+SessionID: 
+
 You're getting into session.php
 
-s6rcv8ahen4fqulvs0opqmago6
+Resuming session: 
+s8elhtg60qvp7nklqrehdklt30
+2
+No token found.
+No response from API
+No School ID.
+SessionID: 
 
-If you're reading this you're getting into user creation in the database.
-eeb95d2a682ec39bfd1ac83840387c119db1422c
-INSERT INTO users (accessToken, Username, Password) VALUES ('eeb95d2a682ec39bfd1ac83840387c119db1422c, '', '')
+You're getting into session.php
 
+Resuming session: 
+s8elhtg60qvp7nklqrehdklt30
+2
 
+No token found.
 
-Post includes: jlogue
-Session includes: jlogue
-You're getting into session.php
-jlogue
-Usernamereg includes: jlogue
-You're posting the POST variables properly. You should only get this log once.
-jlogue
-Resource id #14
-You're getting to the sycamore stuff.
-You're getting to the sycamore login page.
+No School ID.
+SessionID: 
 
-Post includes: jlouge
-Session includes: jlouge
-You're getting into session.php
-jlouge
-Usernamereg includes: jlouge
-You're posting the POST variables properly. You should only get this log once.
-jlouge
-Resource id #14
-You're getting to the sycamore stuff.
-You're getting to the sycamore login page.
 You're getting into session.php
 
-s6rcv8ahen4fqulvs0opqmago6
-authDance page: Usernamereg includes: 
-If you're reading this you're getting into user creation in the database.
-a2e1ab9e4c34108e7fde32745b0cd81399e3be24
-INSERT INTO users (accessToken, Username, Password) VALUES ('a2e1ab9e4c34108e7fde32745b0cd81399e3be24, '', '')
+Resuming session: 
+s8elhtg60qvp7nklqrehdklt30
+2
 
+No token found.
 
-Post includes: jlogue
-Session includes: jlogue
-You're getting into session.php
-jlogue
-Usernamereg includes: jlogue
-You're posting the POST variables properly. You should only get this log once.
-jlogue
-Resource id #14
-You're getting to the sycamore stuff.
-You're getting to the sycamore login page.
-You're getting into session.php
+No School ID.
+SessionID: 
 
 You're getting into session.php
 
-s6rcv8ahen4fqulvs0opqmago6
-authDance page: Usernamereg includes: 
-testvar
-If you're reading this you're getting into user creation in the database.
-af0352f6f80785f2762a679047d55fe9d035308b
-INSERT INTO users (accessToken, Username, Password) VALUES ('af0352f6f80785f2762a679047d55fe9d035308b, '', '')
-s6rcv8ahen4fqulvs0opqmago6
-authDance page: Usernamereg includes: 
-testvar
-If you're reading this you're getting into user creation in the database.
-a86002e8ef71bd6af16a0db3eb6e13da142cb9f3
-INSERT INTO users (accessToken, Username, Password) VALUES ('a86002e8ef71bd6af16a0db3eb6e13da142cb9f3, '', '')
+Resuming session: 
+s8elhtg60qvp7nklqrehdklt30
+2
 
+No token found.
 
-Post includes: jlogue
-Session includes: jlogue
-You're getting into session.php
-jlogue
-Usernamereg includes: jlogue
-You're posting the POST variables properly. You should only get this log once.
-jlogue
-Resource id #14
-You're getting to the sycamore stuff.
-You're getting to the sycamore login page.
+No School ID.
+SessionID: 
 
 You're getting into session.php
 
-Post includes: jlogue
-Session includes: jlogue
-Usernamereg includes: 
-You're posting the POST variables properly. You should only get this log once.
+Resuming session: 
+s8elhtg60qvp7nklqrehdklt30
+2
+SessionID: 
 
-Resource id #14
-You're getting to the sycamore stuff.
-You're getting to the sycamore login page.
 You're getting into session.php
 
-s6rcv8ahen4fqulvs0opqmago6
-authDance page: Usernamereg includes: 
-testvarHello world
-If you're reading this you're getting into user creation in the database.
-53b9e6343d45c22dcb610a6e80301008e19e16fb
-INSERT INTO users (accessToken, Username, Password) VALUES ('53b9e6343d45c22dcb610a6e80301008e19e16fb, '', '')
+Resuming session: 
+s8elhtg60qvp7nklqrehdklt30
+2
+1
+No token found.
 
+No School ID.
+SessionID: 
 
 You're getting into session.php
-jlogue
-Post includes: jlogue
-Session includes: jlogue
-Usernamereg includes: jlogue
-You're posting the POST variables properly. You should only get this log once.
-jlogue
-Resource id #14
-You're getting to the sycamore stuff.
-You're getting to the sycamore login page.
-You're getting into session.php
 
-s6rcv8ahen4fqulvs0opqmago6
-authDance page: Usernamereg includes: jlogue
-testvarHello world
-If you're reading this you're getting into user creation in the database.
-d79b9534aa78f6ea49e198f90bf8fb4111708ad2
-INSERT INTO users (accessToken, Username, Password) VALUES ('d79b9534aa78f6ea49e198f90bf8fb4111708ad2, 'jlogue', 'dr')
+Resuming session: 
+s8elhtg60qvp7nklqrehdklt30
+2
+1
+No token found.
 
+No School ID.
+SessionID: 
 
 You're getting into session.php
-jlogue
-Post includes: jlogue
-Session includes: jlogue
-Usernamereg includes: jlogue
-You're posting the POST variables properly. You should only get this log once.
-jlogue
-Resource id #14
-You're getting to the sycamore stuff.
-You're getting to the sycamore login page.
-You're getting into session.php
 
-s6rcv8ahen4fqulvs0opqmago6
-authDance page: Usernamereg includes: jlogue
-testvarHello world
-If you're reading this you're getting into user creation in the database.
-7112528a6188b2399867c9fb32c3b0d93209cf97
-INSERT INTO users (accessToken, Username, Password) VALUES ('7112528a6188b2399867c9fb32c3b0d93209cf97', 'jlogue', 'dr')
+Resuming session: 
+s8elhtg60qvp7nklqrehdklt30
+2
+1
+No token found.
 
-You're getting into session.php
+No School ID.
+SessionID: 
 
 You're getting into session.php
 
-You're getting into session.php
+Resuming session: 
+s8elhtg60qvp7nklqrehdklt30
+2
+User ID = 1
+No token found.
 
-You're getting into session.php
+No School ID.
+SessionID: 
 
 You're getting into session.php
 
-You're getting into session.php
+Resuming session: 
+s8elhtg60qvp7nklqrehdklt30
+2
+User ID = 1
+No token found.
 
+No School ID.
+SessionID: 
 
 You're getting into session.php
-jlogue1
-Post includes: jlogue1
-Session includes: jlogue1
-Usernamereg includes: jlogue1
-You're posting the POST variables properly. You should only get this log once.
-jlogue1
-Resource id #14
-You're getting to the sycamore stuff.
-You're getting to the sycamore login page.
+
+Resuming session: 
+s8elhtg60qvp7nklqrehdklt30
+2
+User ID = 1
+No token found.
+
+No School ID.
+SessionID: 
+
 You're getting into session.php
 
-lipacloj61aq56mc1h5vkpto73
-authDance page: Usernamereg includes: jlogue1
-testvarHello world
-If you're reading this you're getting into user creation in the database.
-0681045bd651702b91b03f67f6b82f2073d21c03
-INSERT INTO users (accessToken, Username, Password) VALUES ('0681045bd651702b91b03f67f6b82f2073d21c03', 'jlogue1', 'drpepper')
+Resuming session: 
+s8elhtg60qvp7nklqrehdklt30
+2
+User ID = 1
+No token found.
+
+No School ID.
+SessionID: 
+
 You're getting into session.php
+
+Resuming session: 
+s8elhtg60qvp7nklqrehdklt30
+2
+User ID = 1
+No token found.
 
+No School ID.
+SessionID: 
+
 You're getting into session.php
+
+Resuming session: 
+s8elhtg60qvp7nklqrehdklt30
+2
+User ID = 1
+No token found.
 
+No School ID.
+SessionID: 
+
 You're getting into session.php
+
+Resuming session: 
+s8elhtg60qvp7nklqrehdklt30
+2
+User ID = 1
+No results
+No token found.
 
+No School ID.
+SessionID: 
+
 You're getting into session.php
+
+Resuming session: 
+s8elhtg60qvp7nklqrehdklt30
+2
+User ID = 1
+No results
+No token found.
+
+No School ID.
+SessionID: 
 
 You're getting into session.php
 
+Resuming session: 
+s8elhtg60qvp7nklqrehdklt30
+2
+User ID = 1
+No results
+No token found.
+
+No School ID.
+SessionID: 
+
 You're getting into session.php
+
+Resuming session: 
+s8elhtg60qvp7nklqrehdklt30
+2
+User ID = 1
+No results
+No token found.
 
+No School ID.
+SessionID: 
+
 You're getting into session.php
 
+Resuming session: 
+s8elhtg60qvp7nklqrehdklt30
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+No results
+No token found.
 
+No School ID.
+SessionID: 
+
 You're getting into session.php
-jlogue123
-CONGRATULATIONS! Something worked!
-Post includes: jlogue123
-Session includes: jlogue123
-Usernamereg includes: jlogue123
-You're posting the POST variables properly. You should only get this log once.
-jlogue123
-Resource id #15
-You're getting to the sycamore stuff.
-You're getting to the sycamore login page.
+
+Resuming session: 
+s8elhtg60qvp7nklqrehdklt30
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+No results
+No token found.
+
+No School ID.
+SessionID: 
+
 You're getting into session.php
+
+Resuming session: 
+s8elhtg60qvp7nklqrehdklt30
+2
+User ID = 1
+
+No results
+No token found.
 
-4mt4s29a6o8b739sdr4aulfh01
-authDance page: Usernamereg includes: jlogue123
-testvar
-If you're reading this you're getting into user creation in the database.
-36996bbec818ad5e960ca57dc09ca0cc138597cf
-INSERT INTO users (accessToken, Username, Password) VALUES ('36996bbec818ad5e960ca57dc09ca0cc138597cf', 'jlogue123', 'drpepper1')
+No School ID.
+SessionID: 
+
 You're getting into session.php
+
+Resuming session: 
+s8elhtg60qvp7nklqrehdklt30
+2
+User ID = 1
+Results = 
+No results
+No token found.
+
+No School ID.
+SessionID: 
 
 You're getting into session.php
 
+Resuming session: 
+s8elhtg60qvp7nklqrehdklt30
+2
+User ID = 1
+Results = 
+No results
+No token found.
+
+No School ID.
+SessionID: 
+
 You're getting into session.php
+
+Resuming session: 
+s8elhtg60qvp7nklqrehdklt30
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+Results = 
+No results
+No token found.
 
+No School ID.
+SessionID: 
+
 You're getting into session.php
+
+Resuming session: 
+s8elhtg60qvp7nklqrehdklt30
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+Results = 
+No results
+No token found.
+
+No School ID.
+SessionID: 
 
+You're getting into session.php
 
+Resuming session: 
+s8elhtg60qvp7nklqrehdklt30
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+Results = 
+No results
+No token found.
 
+No School ID.
+SessionID: 
 
 You're getting into session.php
-loguejd
-CONGRATULATIONS! Something worked!
-Post includes: loguejd
-Session includes: loguejd
-Usernamereg includes: loguejd
-You're posting the POST variables properly. You should only get this log once.
-loguejd
-Resource id #15
-You're getting to the sycamore stuff.
-You're getting to the sycamore login page.
+
+Resuming session: 
+s8elhtg60qvp7nklqrehdklt30
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+Results = 
+No results
+No token found.
+
+No School ID.
+1
+SessionID: 
+
 You're getting into session.php
 
-e88jqf659ogo2rr25hjmfeu4j5
-authDance page: Usernamereg includes: loguejd
-testvar
-If you're reading this you're getting into user creation in the database.
+SELECT UserID FROM users WHERE Username = 'loguejd' AND Password = 'drpepper1'
+Session started!
+Session ID: 
+co8jgf3urks975klg974br1591
+User ID = 26
+SELECT accessToken FROM users WHERE UserID = 26
+Results = Resource id #20
 247fc5708d6648cfabfec92569d645cce9bdec9c
-INSERT INTO users (accessToken, Username, Password) VALUES ('247fc5708d6648cfabfec92569d645cce9bdec9c', 'loguejd', 'drpepper1')
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-You're getting into session.php
-
-
-You're getting into session.php
-
-
-You're getting into session.php
-
-
-You're getting into session.php
-
-You're getting into session.php
-
-
-You're getting into session.php
-
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-
-You're getting into session.php
-
-You're getting into session.php
-
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-
-
-
-
-
-
-
-
-
-
-
-You're getting into session.php
-jloguejd
-CONGRATULATIONS! Something worked!
-Post includes: jloguejd
-Session includes: jloguejd
-Usernamereg includes: jloguejd
-You're posting the POST variables properly. You should only get this log once.
-jloguejd
-Resource id #15
-You're getting to the sycamore stuff.
-You're getting to the sycamore login page.
-You're getting into session.php
-
-6u5ogbq348v0egkbmklv5pdpr1
-authDance page: Usernamereg includes: jloguejd
-testvar
-If you're reading this you're getting into user creation in the database.
-4ebca111b049c2f067a337fa993ecad3a3646fff
-INSERT INTO users (accessToken, Username, Password) VALUES ('4ebca111b049c2f067a337fa993ecad3a3646fff', 'jloguejd', 'drpepper1')
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-
-You're getting into session.php
-
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-
-You're getting into session.php
-
-You're getting into session.php
-
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-
-You're getting into session.php
-
-You're getting into session.php
-
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-
-You're getting into session.php
-
-You're getting into session.php
-
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-
-
-
-
-
-You're getting into session.php
-
-You're getting into session.php
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-
-
-
-
-
-
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-You're getting into session.php
-
-Resuming session: 
-m3j0epdf9oopabi8915ips3v54
-2
-You're getting into session.php
-
-Resuming session: 
-m3j0epdf9oopabi8915ips3v54
-2
-You're getting into session.php
-
-Resuming session: 
-m3j0epdf9oopabi8915ips3v54
-2
-You're getting into session.php
-
-Resuming session: 
-m3j0epdf9oopabi8915ips3v54
-2
-You're getting into session.php
-
-Resuming session: 
-m3j0epdf9oopabi8915ips3v54
-2
-You're getting into session.php
-
-Resuming session: 
-m3j0epdf9oopabi8915ips3v54
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-m3j0epdf9oopabi8915ips3v54
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-m3j0epdf9oopabi8915ips3v54
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-m3j0epdf9oopabi8915ips3v54
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-m3j0epdf9oopabi8915ips3v54
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-m3j0epdf9oopabi8915ips3v54
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-m3j0epdf9oopabi8915ips3v54
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-m3j0epdf9oopabi8915ips3v54
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-m3j0epdf9oopabi8915ips3v54
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-m3j0epdf9oopabi8915ips3v54
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-m3j0epdf9oopabi8915ips3v54
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-m3j0epdf9oopabi8915ips3v54
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-m3j0epdf9oopabi8915ips3v54
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-m3j0epdf9oopabi8915ips3v54
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-m3j0epdf9oopabi8915ips3v54
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-m3j0epdf9oopabi8915ips3v54
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-m3j0epdf9oopabi8915ips3v54
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-m3j0epdf9oopabi8915ips3v54
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-m3j0epdf9oopabi8915ips3v54
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-m3j0epdf9oopabi8915ips3v54
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-m3j0epdf9oopabi8915ips3v54
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-m3j0epdf9oopabi8915ips3v54
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-m3j0epdf9oopabi8915ips3v54
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-m3j0epdf9oopabi8915ips3v54
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-m3j0epdf9oopabi8915ips3v54
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-m3j0epdf9oopabi8915ips3v54
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-m3j0epdf9oopabi8915ips3v54
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-m3j0epdf9oopabi8915ips3v54
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-m3j0epdf9oopabi8915ips3v54
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-m3j0epdf9oopabi8915ips3v54
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-m3j0epdf9oopabi8915ips3v54
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-m3j0epdf9oopabi8915ips3v54
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-m3j0epdf9oopabi8915ips3v54
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-m3j0epdf9oopabi8915ips3v54
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-m3j0epdf9oopabi8915ips3v54
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-m3j0epdf9oopabi8915ips3v54
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-m3j0epdf9oopabi8915ips3v54
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-m3j0epdf9oopabi8915ips3v54
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-m3j0epdf9oopabi8915ips3v54
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-m3j0epdf9oopabi8915ips3v54
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-m3j0epdf9oopabi8915ips3v54
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-m3j0epdf9oopabi8915ips3v54
-2
-SessionID: 
-
-You're getting into session.php
-
-SELECT UserID FROM users WHERE Username = 'HonorTheSoldier' AND Password = 'LovemyLove22'
-Session started!
-Session ID: 
-t4jj8mmpbfo56go1l23gmbfj61
-
-
-
-
-
-
-
-
-
-
-
-
-SessionID: 
-
-You're getting into session.php
-
-SELECT UserID FROM users WHERE Username = 'HonorTheSoldier' AND Password = 'LovemyLove22'
-Session started!
-Session ID: 
-c162lrfdb1ff2d5ca1js73ddv5
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-c162lrfdb1ff2d5ca1js73ddv5
-2
-SessionID: 
-
-You're getting into session.php
-
-
-SessionID: 
-
-You're getting into session.php
-
-SELECT UserID FROM users WHERE Username = 'HonorTheSoldier' AND Password = 'LovemyLove22'
-Session started!
-Session ID: 
-grph0eas7o778sta4mn8la55q1
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-grph0eas7o778sta4mn8la55q1
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-grph0eas7o778sta4mn8la55q1
-2
+1002
+No School ID.
+26
 SessionID: 
 
 You're getting into session.php
 
 Resuming session: 
-grph0eas7o778sta4mn8la55q1
+co8jgf3urks975klg974br1591
 2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-grph0eas7o778sta4mn8la55q1
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-grph0eas7o778sta4mn8la55q1
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-grph0eas7o778sta4mn8la55q1
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-grph0eas7o778sta4mn8la55q1
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-grph0eas7o778sta4mn8la55q1
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-grph0eas7o778sta4mn8la55q1
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-grph0eas7o778sta4mn8la55q1
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-grph0eas7o778sta4mn8la55q1
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-grph0eas7o778sta4mn8la55q1
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-grph0eas7o778sta4mn8la55q1
-2
-
-SessionID: 
-
-You're getting into session.php
-
-SELECT UserID FROM users WHERE Username = 'HonorTheSoldier' AND Password = 'LovemyLove22'
-Session started!
-Session ID: 
-ka0ubshp8ma2ad65jv5d0215n7
+User ID = 26
+SELECT accessToken FROM users WHERE UserID = 26
+Results = Resource id #18
+247fc5708d6648cfabfec92569d645cce9bdec9c
+1002
+No School ID.
+26
 1
 SessionID: 
 
@@ -3778,1735 +751,548 @@ You're getting into session.php
 SELECT UserID FROM users WHERE Username = 'HonorTheSoldier' AND Password = 'LovemyLove22'
 Session started!
 Session ID: 
-ernu26265lr7580cp2lsiu5lu3
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-ernu26265lr7580cp2lsiu5lu3
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-ernu26265lr7580cp2lsiu5lu3
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-ernu26265lr7580cp2lsiu5lu3
-2
-1
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-ernu26265lr7580cp2lsiu5lu3
-2
-1
-1
-SessionID: 
-
-You're getting into session.php
-
-SELECT UserID FROM users WHERE Username = 'HonorTheSoldier' AND Password = 'LovemyLove22'
-Session started!
-Session ID: 
-fjmsual2ptn8ukb07tqe7287d3
-1
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-fjmsual2ptn8ukb07tqe7287d3
-2
-1
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-fjmsual2ptn8ukb07tqe7287d3
-2
-1
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-fjmsual2ptn8ukb07tqe7287d3
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-fjmsual2ptn8ukb07tqe7287d3
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-fjmsual2ptn8ukb07tqe7287d3
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-fjmsual2ptn8ukb07tqe7287d3
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-fjmsual2ptn8ukb07tqe7287d3
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-fjmsual2ptn8ukb07tqe7287d3
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-fjmsual2ptn8ukb07tqe7287d3
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-fjmsual2ptn8ukb07tqe7287d3
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-fjmsual2ptn8ukb07tqe7287d3
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-fjmsual2ptn8ukb07tqe7287d3
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-fjmsual2ptn8ukb07tqe7287d3
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-fjmsual2ptn8ukb07tqe7287d3
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-fjmsual2ptn8ukb07tqe7287d3
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-fjmsual2ptn8ukb07tqe7287d3
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-fjmsual2ptn8ukb07tqe7287d3
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-fjmsual2ptn8ukb07tqe7287d3
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-fjmsual2ptn8ukb07tqe7287d3
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-fjmsual2ptn8ukb07tqe7287d3
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-fjmsual2ptn8ukb07tqe7287d3
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-fjmsual2ptn8ukb07tqe7287d3
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-fjmsual2ptn8ukb07tqe7287d3
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-fjmsual2ptn8ukb07tqe7287d3
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-fjmsual2ptn8ukb07tqe7287d3
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-fjmsual2ptn8ukb07tqe7287d3
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-fjmsual2ptn8ukb07tqe7287d3
-2
-1
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-fjmsual2ptn8ukb07tqe7287d3
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-fjmsual2ptn8ukb07tqe7287d3
-2
-1
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-fjmsual2ptn8ukb07tqe7287d3
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-fjmsual2ptn8ukb07tqe7287d3
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-fjmsual2ptn8ukb07tqe7287d3
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-fjmsual2ptn8ukb07tqe7287d3
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-fjmsual2ptn8ukb07tqe7287d3
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-fjmsual2ptn8ukb07tqe7287d3
-2
-1
-1
-SessionID: 
-
-You're getting into session.php
-
-SELECT UserID FROM users WHERE Username = 'HonorTheSoldier' AND Password = 'LovemyLove22'
-Session started!
-Session ID: 
-kj2o4a0vclentc1en9qfqiq7q2
-1
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-kj2o4a0vclentc1en9qfqiq7q2
-2
-1
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-kj2o4a0vclentc1en9qfqiq7q2
-2
-1
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-kj2o4a0vclentc1en9qfqiq7q2
-2
-1
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-kj2o4a0vclentc1en9qfqiq7q2
-2
-1
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-kj2o4a0vclentc1en9qfqiq7q2
-2
-
-1
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-SessionID: 
-
-You're getting into session.php
-
-SELECT UserID FROM users WHERE Username = 'HonorTheSoldier' AND Password = 'LovemyLove22'
-Session started!
-Session ID: 
-0omh0r6272hqsjfg8bo1isp9n2
-1
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-0omh0r6272hqsjfg8bo1isp9n2
-2
-1
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-0omh0r6272hqsjfg8bo1isp9n2
-2
-1
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-0omh0r6272hqsjfg8bo1isp9n2
-2
-1
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-0omh0r6272hqsjfg8bo1isp9n2
-2
-1
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-0omh0r6272hqsjfg8bo1isp9n2
-2
-1
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-0omh0r6272hqsjfg8bo1isp9n2
-2
-1
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-0omh0r6272hqsjfg8bo1isp9n2
-2
-1
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-0omh0r6272hqsjfg8bo1isp9n2
-2
-1
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-0omh0r6272hqsjfg8bo1isp9n2
-2
-1
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-0omh0r6272hqsjfg8bo1isp9n2
-2
-1
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-0omh0r6272hqsjfg8bo1isp9n2
-2
-1
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-0omh0r6272hqsjfg8bo1isp9n2
-2
-1
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-0omh0r6272hqsjfg8bo1isp9n2
-2
-1
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-0omh0r6272hqsjfg8bo1isp9n2
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-0omh0r6272hqsjfg8bo1isp9n2
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-0omh0r6272hqsjfg8bo1isp9n2
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-0omh0r6272hqsjfg8bo1isp9n2
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-0omh0r6272hqsjfg8bo1isp9n2
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-0omh0r6272hqsjfg8bo1isp9n2
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-0omh0r6272hqsjfg8bo1isp9n2
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-0omh0r6272hqsjfg8bo1isp9n2
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-0omh0r6272hqsjfg8bo1isp9n2
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-0omh0r6272hqsjfg8bo1isp9n2
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-0omh0r6272hqsjfg8bo1isp9n2
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-0omh0r6272hqsjfg8bo1isp9n2
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-0omh0r6272hqsjfg8bo1isp9n2
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-0omh0r6272hqsjfg8bo1isp9n2
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-0omh0r6272hqsjfg8bo1isp9n2
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-0omh0r6272hqsjfg8bo1isp9n2
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-0omh0r6272hqsjfg8bo1isp9n2
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-0omh0r6272hqsjfg8bo1isp9n2
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-0omh0r6272hqsjfg8bo1isp9n2
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-0omh0r6272hqsjfg8bo1isp9n2
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-0omh0r6272hqsjfg8bo1isp9n2
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-0omh0r6272hqsjfg8bo1isp9n2
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-0omh0r6272hqsjfg8bo1isp9n2
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-0omh0r6272hqsjfg8bo1isp9n2
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-0omh0r6272hqsjfg8bo1isp9n2
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-0omh0r6272hqsjfg8bo1isp9n2
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-0omh0r6272hqsjfg8bo1isp9n2
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-0omh0r6272hqsjfg8bo1isp9n2
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-0omh0r6272hqsjfg8bo1isp9n2
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-0omh0r6272hqsjfg8bo1isp9n2
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-0omh0r6272hqsjfg8bo1isp9n2
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-0omh0r6272hqsjfg8bo1isp9n2
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-0omh0r6272hqsjfg8bo1isp9n2
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-0omh0r6272hqsjfg8bo1isp9n2
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-0omh0r6272hqsjfg8bo1isp9n2
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-0omh0r6272hqsjfg8bo1isp9n2
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-0omh0r6272hqsjfg8bo1isp9n2
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-0omh0r6272hqsjfg8bo1isp9n2
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-0omh0r6272hqsjfg8bo1isp9n2
-2
-1
-1
-
-1
-
-1
-1
-1
-
-1
-1
-
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-SessionID: 
-
-You're getting into session.php
-
-SELECT UserID FROM users WHERE Username = 'HonorTheSoldier' AND Password = 'LovemyLove22'
-Session started!
-Session ID: 
-725g5qstk8c8fuv8h496ee3de5
-1
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-725g5qstk8c8fuv8h496ee3de5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-725g5qstk8c8fuv8h496ee3de5
-2
-1
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-725g5qstk8c8fuv8h496ee3de5
-2
-1
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-725g5qstk8c8fuv8h496ee3de5
-2
-1
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-725g5qstk8c8fuv8h496ee3de5
-2
-1
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-725g5qstk8c8fuv8h496ee3de5
-2
-1
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-725g5qstk8c8fuv8h496ee3de5
-2
-1
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-725g5qstk8c8fuv8h496ee3de5
-2
-1
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-725g5qstk8c8fuv8h496ee3de5
-2
-1
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-725g5qstk8c8fuv8h496ee3de5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-725g5qstk8c8fuv8h496ee3de5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-725g5qstk8c8fuv8h496ee3de5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-725g5qstk8c8fuv8h496ee3de5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-725g5qstk8c8fuv8h496ee3de5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-725g5qstk8c8fuv8h496ee3de5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-725g5qstk8c8fuv8h496ee3de5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-725g5qstk8c8fuv8h496ee3de5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-725g5qstk8c8fuv8h496ee3de5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-725g5qstk8c8fuv8h496ee3de5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-725g5qstk8c8fuv8h496ee3de5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-725g5qstk8c8fuv8h496ee3de5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-725g5qstk8c8fuv8h496ee3de5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-725g5qstk8c8fuv8h496ee3de5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-725g5qstk8c8fuv8h496ee3de5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-725g5qstk8c8fuv8h496ee3de5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-725g5qstk8c8fuv8h496ee3de5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-725g5qstk8c8fuv8h496ee3de5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-725g5qstk8c8fuv8h496ee3de5
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-725g5qstk8c8fuv8h496ee3de5
-2
-
-1
-1
-SessionID: 
-
-You're getting into session.php
-
-
+9ka8add06idcujq7s2lpsi7jo4
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+Results = Resource id #20
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+No School ID.
 1
 SessionID: 
 
 You're getting into session.php
 
-SELECT UserID FROM users WHERE Username = 'HonorTheSoldier' AND Password = 'LovemyLove22'
-Session started!
-Session ID: 
-doanvfe3m0tvoka670brdls257
-1
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-doanvfe3m0tvoka670brdls257
-2
-1
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-doanvfe3m0tvoka670brdls257
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-doanvfe3m0tvoka670brdls257
-2
-1
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-doanvfe3m0tvoka670brdls257
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-doanvfe3m0tvoka670brdls257
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-doanvfe3m0tvoka670brdls257
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-doanvfe3m0tvoka670brdls257
-2
-1
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-doanvfe3m0tvoka670brdls257
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-doanvfe3m0tvoka670brdls257
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-doanvfe3m0tvoka670brdls257
-2
-1
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-doanvfe3m0tvoka670brdls257
-2
-1
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-doanvfe3m0tvoka670brdls257
-2
-1
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-doanvfe3m0tvoka670brdls257
-2
-1
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-doanvfe3m0tvoka670brdls257
-2
-1
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-doanvfe3m0tvoka670brdls257
-2
-1
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-doanvfe3m0tvoka670brdls257
-2
-1
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-doanvfe3m0tvoka670brdls257
-2
-1
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-doanvfe3m0tvoka670brdls257
-2
-1
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-doanvfe3m0tvoka670brdls257
-2
-1
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-doanvfe3m0tvoka670brdls257
-2
-1
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-doanvfe3m0tvoka670brdls257
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-doanvfe3m0tvoka670brdls257
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-doanvfe3m0tvoka670brdls257
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-doanvfe3m0tvoka670brdls257
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-doanvfe3m0tvoka670brdls257
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-doanvfe3m0tvoka670brdls257
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-doanvfe3m0tvoka670brdls257
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-doanvfe3m0tvoka670brdls257
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-doanvfe3m0tvoka670brdls257
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-doanvfe3m0tvoka670brdls257
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-doanvfe3m0tvoka670brdls257
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-doanvfe3m0tvoka670brdls257
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-doanvfe3m0tvoka670brdls257
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-doanvfe3m0tvoka670brdls257
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-doanvfe3m0tvoka670brdls257
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-doanvfe3m0tvoka670brdls257
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-doanvfe3m0tvoka670brdls257
-2
-SessionID: 
-
-You're getting into session.php
-
-Resuming session: 
-doanvfe3m0tvoka670brdls257
-2
-SessionID: 
-
-You're getting into session.php
-
 Resuming session: 
-doanvfe3m0tvoka670brdls257
+9ka8add06idcujq7s2lpsi7jo4
 2
-SessionID: 
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+Results = 
+No results
+No token found.
 
-You're getting into session.php
-
-Resuming session: 
-doanvfe3m0tvoka670brdls257
-2
+No School ID.
 SessionID: 
 
 You're getting into session.php
 
 Resuming session: 
-doanvfe3m0tvoka670brdls257
+9ka8add06idcujq7s2lpsi7jo4
 2
-SessionID: 
-
-You're getting into session.php
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+Results = 
+No results
+No token found.
 
-Resuming session: 
-doanvfe3m0tvoka670brdls257
-2
+No School ID.
 SessionID: 
 
 You're getting into session.php
 
 Resuming session: 
-doanvfe3m0tvoka670brdls257
+9ka8add06idcujq7s2lpsi7jo4
 2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+Results = Resource id #17
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+No School ID.
 SessionID: 
 
 You're getting into session.php
 
 Resuming session: 
-doanvfe3m0tvoka670brdls257
+9ka8add06idcujq7s2lpsi7jo4
 2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+Results = Resource id #17
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+No School ID.
 SessionID: 
 
 You're getting into session.php
 
 Resuming session: 
-doanvfe3m0tvoka670brdls257
+9ka8add06idcujq7s2lpsi7jo4
 2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+Results = Resource id #17
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+No School ID.
 SessionID: 
 
 You're getting into session.php
 
 Resuming session: 
-doanvfe3m0tvoka670brdls257
+9ka8add06idcujq7s2lpsi7jo4
 2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+Results = Resource id #17
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+1002
 SessionID: 
 
 You're getting into session.php
 
 Resuming session: 
-doanvfe3m0tvoka670brdls257
+9ka8add06idcujq7s2lpsi7jo4
 2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+Results = Resource id #17
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+1002
 SessionID: 
 
 You're getting into session.php
 
 Resuming session: 
-doanvfe3m0tvoka670brdls257
+9ka8add06idcujq7s2lpsi7jo4
 2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+Results = Resource id #17
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+1002
 SessionID: 
 
 You're getting into session.php
 
 Resuming session: 
-doanvfe3m0tvoka670brdls257
+9ka8add06idcujq7s2lpsi7jo4
 2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+Results = Resource id #17
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+1002
 SessionID: 
 
 You're getting into session.php
 
 Resuming session: 
-doanvfe3m0tvoka670brdls257
+9ka8add06idcujq7s2lpsi7jo4
 2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
 SessionID: 
 
 You're getting into session.php
 
 Resuming session: 
-doanvfe3m0tvoka670brdls257
+9ka8add06idcujq7s2lpsi7jo4
 2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
 SessionID: 
 
 You're getting into session.php
 
 Resuming session: 
-doanvfe3m0tvoka670brdls257
+9ka8add06idcujq7s2lpsi7jo4
 2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
 SessionID: 
 
 You're getting into session.php
 
 Resuming session: 
-doanvfe3m0tvoka670brdls257
+9ka8add06idcujq7s2lpsi7jo4
 2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
 SessionID: 
 
 You're getting into session.php
 
 Resuming session: 
-doanvfe3m0tvoka670brdls257
+9ka8add06idcujq7s2lpsi7jo4
 2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
 SessionID: 
 
 You're getting into session.php
 
 Resuming session: 
-doanvfe3m0tvoka670brdls257
+9ka8add06idcujq7s2lpsi7jo4
 2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
 SessionID: 
 
 You're getting into session.php
 
 Resuming session: 
-doanvfe3m0tvoka670brdls257
+9ka8add06idcujq7s2lpsi7jo4
 2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
 SessionID: 
 
 You're getting into session.php
 
 Resuming session: 
-doanvfe3m0tvoka670brdls257
+9ka8add06idcujq7s2lpsi7jo4
 2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
 SessionID: 
 
 You're getting into session.php
 
 Resuming session: 
-doanvfe3m0tvoka670brdls257
+9ka8add06idcujq7s2lpsi7jo4
 2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
 SessionID: 
 
 You're getting into session.php
 
 Resuming session: 
-doanvfe3m0tvoka670brdls257
+9ka8add06idcujq7s2lpsi7jo4
 2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
 SessionID: 
 
 You're getting into session.php
 
 Resuming session: 
-doanvfe3m0tvoka670brdls257
+9ka8add06idcujq7s2lpsi7jo4
 2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
 SessionID: 
 
 You're getting into session.php
 
 Resuming session: 
-doanvfe3m0tvoka670brdls257
+9ka8add06idcujq7s2lpsi7jo4
 2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
 SessionID: 
 
 You're getting into session.php
 
 Resuming session: 
-doanvfe3m0tvoka670brdls257
+9ka8add06idcujq7s2lpsi7jo4
 2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
 SessionID: 
 
 You're getting into session.php
 
 Resuming session: 
-doanvfe3m0tvoka670brdls257
+9ka8add06idcujq7s2lpsi7jo4
 2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
 SessionID: 
 
 You're getting into session.php
 
 Resuming session: 
-doanvfe3m0tvoka670brdls257
+9ka8add06idcujq7s2lpsi7jo4
 2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
 SessionID: 
 
 You're getting into session.php
 
 Resuming session: 
-doanvfe3m0tvoka670brdls257
+9ka8add06idcujq7s2lpsi7jo4
 2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
 SessionID: 
 
 You're getting into session.php
 
 Resuming session: 
-doanvfe3m0tvoka670brdls257
+9ka8add06idcujq7s2lpsi7jo4
 2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
 SessionID: 
 
 You're getting into session.php
 
 Resuming session: 
-doanvfe3m0tvoka670brdls257
+9ka8add06idcujq7s2lpsi7jo4
 2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
 SessionID: 
 
 You're getting into session.php
 
 Resuming session: 
-doanvfe3m0tvoka670brdls257
+9ka8add06idcujq7s2lpsi7jo4
 2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
 SessionID: 
 
 You're getting into session.php
 
 Resuming session: 
-doanvfe3m0tvoka670brdls257
+9ka8add06idcujq7s2lpsi7jo4
 2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
 SessionID: 
 
 You're getting into session.php
 
 Resuming session: 
-doanvfe3m0tvoka670brdls257
+9ka8add06idcujq7s2lpsi7jo4
 2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
 SessionID: 
 
 You're getting into session.php
 
 Resuming session: 
-doanvfe3m0tvoka670brdls257
+9ka8add06idcujq7s2lpsi7jo4
 2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
 SessionID: 
 
 You're getting into session.php
 
 Resuming session: 
-doanvfe3m0tvoka670brdls257
+9ka8add06idcujq7s2lpsi7jo4
 2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
 SessionID: 
 
 You're getting into session.php
 
 Resuming session: 
-doanvfe3m0tvoka670brdls257
+9ka8add06idcujq7s2lpsi7jo4
 2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
 SessionID: 
 
 You're getting into session.php
 
 Resuming session: 
-doanvfe3m0tvoka670brdls257
+9ka8add06idcujq7s2lpsi7jo4
 2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
 SessionID: 
 
 You're getting into session.php
 
 Resuming session: 
-doanvfe3m0tvoka670brdls257
+9ka8add06idcujq7s2lpsi7jo4
 2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
 SessionID: 
 
 You're getting into session.php
 
 Resuming session: 
-doanvfe3m0tvoka670brdls257
+9ka8add06idcujq7s2lpsi7jo4
 2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
 SessionID: 
 
 You're getting into session.php
 
 Resuming session: 
-doanvfe3m0tvoka670brdls257
+9ka8add06idcujq7s2lpsi7jo4
 2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
 SessionID: 
 
 You're getting into session.php
 
 Resuming session: 
-doanvfe3m0tvoka670brdls257
+9ka8add06idcujq7s2lpsi7jo4
 2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
 SessionID: 
 
 You're getting into session.php
 
 Resuming session: 
-doanvfe3m0tvoka670brdls257
+9ka8add06idcujq7s2lpsi7jo4
 2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
 SessionID: 
 
 You're getting into session.php
 
 Resuming session: 
-doanvfe3m0tvoka670brdls257
+9ka8add06idcujq7s2lpsi7jo4
 2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
 SessionID: 
 
 You're getting into session.php
 
 Resuming session: 
-doanvfe3m0tvoka670brdls257
+9ka8add06idcujq7s2lpsi7jo4
 2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
 SessionID: 
 
 You're getting into session.php
 
 Resuming session: 
-doanvfe3m0tvoka670brdls257
+9ka8add06idcujq7s2lpsi7jo4
 2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
 SessionID: 
 
 You're getting into session.php
 
 Resuming session: 
-doanvfe3m0tvoka670brdls257
+9ka8add06idcujq7s2lpsi7jo4
 2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
 SessionID: 
 
 You're getting into session.php
 
 Resuming session: 
-doanvfe3m0tvoka670brdls257
+9ka8add06idcujq7s2lpsi7jo4
 2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
 SessionID: 
 
 You're getting into session.php
 
 Resuming session: 
-doanvfe3m0tvoka670brdls257
+9ka8add06idcujq7s2lpsi7jo4
 2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
 SessionID: 
 
 You're getting into session.php
 
 Resuming session: 
-doanvfe3m0tvoka670brdls257
+9ka8add06idcujq7s2lpsi7jo4
 2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
 SessionID: 
 
 You're getting into session.php
 
 Resuming session: 
-doanvfe3m0tvoka670brdls257
+9ka8add06idcujq7s2lpsi7jo4
 2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002

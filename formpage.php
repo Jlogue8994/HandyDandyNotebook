@@ -5,8 +5,8 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
 <?php
-require_once("checkboxes.php");
 require_once("dbconnect.php");
+require_once("checkboxes.php");
 require_once("CRUD.php");
 require_once("session.php");
 $userid = $_SESSION['UserID'];
