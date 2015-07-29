@@ -1296,3 +1296,2903 @@ User ID = 1
 SELECT accessToken FROM users WHERE UserID = 1
 0681045bd651702b91b03f67f6b82f2073d21c03
 1002
+
+1
+SessionID: 
+
+You're getting into session.php
+
+SELECT UserID FROM users WHERE Username = 'HonorTheSoldier' AND Password = 'LovemyLove22'
+Session started!
+Session ID: 
+d3ries2n6n6rlfq30jur6jrsh7
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+1
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+d3ries2n6n6rlfq30jur6jrsh7
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+User ID = 
+SELECT accessToken FROM users WHERE UserID = 
+No results
+No token found.
+No School ID.
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+
+1
+SessionID: 
+
+You're getting into session.php
+
+SELECT UserID FROM users WHERE Username = 'HonorTheSoldier' AND Password = 'LovemyLove22'
+Session started!
+Session ID: 
+8otd0nbqb3inq1v0ni477u6i94
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+1
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+1
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+8otd0nbqb3inq1v0ni477u6i94
+2
+User ID = 1
+SELECT accessToken FROM users WHERE UserID = 1
+0681045bd651702b91b03f67f6b82f2073d21c03
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+User ID = 
+SELECT accessToken FROM users WHERE UserID = 
+No results
+No token found.
+No School ID.
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1

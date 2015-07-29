@@ -54,14 +54,20 @@ $response = json_decode($response, true);
 
 curl_close($curl);
 
+$teacherID = $response["UserID"];
 $schoolID = $response["SchoolID"];
+$firstName = $response["FirstName"];
+$lastName = $response["LastName"];
 
 if($schoolID) {
+    debugLog("The ID of the teacher is " . $teacherID);
+    debugLog("The Name of the teacher is " . $firstName . " " . $lastName);
     debugLog($schoolID);
+    
 } else {
     debugLog("No School ID.");
 }
-
+/*
 $curl = curl_init();
 
 $url = "app.sycamoreeducation.com/api/v1/School/$schoolID/Classes";
@@ -78,14 +84,14 @@ curl_close($curl);
 
 $response = json_decode($response, true);
 
-$rscount = count($response);
-
-for($i=0; $i < $rscount; $i++) {
-    $class_type = $response[$i];
+/*$classes = array();
+foreach($response as $key => $class_type) {
     foreach($class_type as $class) {
         $classID = $class['ID'];
-        $class_name = $class['Name'];
-        
+        $classes[$classID] = array (
+        "class_name" => $class['Name'],
+        "class_type" => $key
+        );
     }
 }
 

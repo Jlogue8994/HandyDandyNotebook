@@ -117,6 +117,7 @@ $print = $_GET["print"];
         <meta name="viewport" content="" width="device-width, initial-scale=1">
         <link type="text/css" rel="stylesheet" href="bootstrap.css">
         <link type="text/css" rel="stylesheet" href="mystyle.css">
+        <script src="javascript.js"></script>
         <title>Handy Dandy Notebook</title>
     <script>
         function confirmed() {
@@ -167,7 +168,7 @@ $print = $_GET["print"];
                 echo "</tr>";
                 echo "<tr>";
                     echo "<td><input class='headdata' type='text' name='category' value='$category' placeholder='Type your category here...' required></td>";
-                    echo "<td><input class='headdata' type='text' name='teacher' value='$teacher' placeholder='Type your teacher here...' required></td>";
+                    echo "<td><option data-userid=$teacherID required></td>";
                 echo "</tr>";
                 echo "<tr>";
                     echo "<td></td>";
