@@ -11,6 +11,8 @@ require_once("CRUD.php");
 require_once("session.php");
 $userid = $_SESSION['UserID'];
 
+date_default_timezone_set('UTC');
+
 $crud = new crud($checkboxes);
 
 $formid = $_GET["FormID"];
@@ -75,13 +77,13 @@ $print = $_GET["print"];
         }
     }
     else {
-        $name = "";
-        $school = "";
+        $name = $firstName . " " . $lastName;
+        $school = $schoolName;
         $category = "";
-        $teacher = "";
-        $date = "";
+        $teacher = 0;
+        $date = date('l jS \of F Y h:i:s A');
         $level = 0;
-        $subject = 0;
+        //$subject = 0;
         $period = 0;
         $grouping = 0;
         $differentiation = 0;
@@ -117,6 +119,7 @@ $print = $_GET["print"];
         <meta name="viewport" content="" width="device-width, initial-scale=1">
         <link type="text/css" rel="stylesheet" href="bootstrap.css">
         <link type="text/css" rel="stylesheet" href="mystyle.css">
+        <script src="jquery-2.1.4.min.js"></script>
         <script src="javascript.js"></script>
         <title>Handy Dandy Notebook</title>
     <script>
@@ -167,8 +170,15 @@ $print = $_GET["print"];
                     echo "<td class='head'>Teacher:</td>";
                 echo "</tr>";
                 echo "<tr>";
-                    echo "<td><input class='headdata' type='text' name='category' value='$category' placeholder='Type your category here...' required></td>";
-                    echo "<td><option data-userid=$teacherID required></td>";
+                    echo "<td><select id='class' class='headdata' name='class' required></select</td>";
+                    echo "<td><select id='teacher' class='headdata' name='teacher' required>";
+                    foreach($employees as $employeeID => $value) {
+
+                        //debugLog("Employee name = " . $employeeFirst . $employeeLast);
+                        $name = $value["employeeFirst"] . " " . $value["employeeLast"];
+                        echo "<option value='$employeeID'>$name</option>";
+                    }
+                    echo "</select></td>";
                 echo "</tr>";
                 echo "<tr>";
                     echo "<td></td>";
@@ -183,14 +193,14 @@ $print = $_GET["print"];
                     echo "<td class='head'>Subject:</td>";
                 echo "</tr>";
                 echo "<tr>";
-                    echo "<td><select name='level' required>";
+                    echo "<td><select class='headdata' name='level' required>";
                             foreach($gradenames as $key => $value) {
                                 $select = "";
                                 if($level == $key)$select = "selected=selected";
                                 echo "<option $select value = '$key'>$value</option>";
                             }
                         echo "</select></td>";
-                    echo "<td><select name='subject' required>";
+                    echo "<td><select class='headdata'name='subject' required>";
                             foreach($subjects as $key => $value) {
                                 $select = "";
                                 if($subject == $key)$select = "selected=selected";

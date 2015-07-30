@@ -15,25 +15,36 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-require_once("checkboxes.php");
-
 $(document).ready(function(){
     //listen to changes happening for teacher dropdown
+    $("#teacher").attr("name");
+    
     $("#teacher").change(function(){
-        
         //create variable that will hold our html for classes dropdown
         var html = "";
         
         //get the new teachers userid
         //assuming: <option data-userid=1234 value='Joe Smith'>Joe Smith</option>
         
-        var userid= $(this).attr("data-userid");
+        var userid= $(this).val();
+        
+        alert(userid);
         
         //build URL for the api
         var url = "https://app.sycamoreeducation.com/api/v1/User/" + userid + "/Classes";
         
-        //get JSON data from the api
-        $.getJSON(url, function(data){
+         $.ajax({
+           url: url,
+           type: "GET",
+           datatype: 'json',
+           processData: false,
+           beforeSend: function(xhr){
+                var access_token = "68973ad5c20c17627388278f22b40caa2bd91898";
+                xhr.setRequestHeader('Authorization', 'Bearer '+access_token); 
+           }
+        })
+        .done(function(data, statusText, xhr){
+            alert("here");
             
             //loop through all of the data and grab what we need from it
             $.each(data, function(classtype, classes){
@@ -43,13 +54,37 @@ $(document).ready(function(){
                     var className = classroom.Name;
                     
                     html += "<option value=" + classID + ">" + className + "</option>";
+                    alert(html);
+                }); //end classroom loop
+            }); //end classtype loop
+            
+            $("#class").append(html);
+        })
+        .fail(function(xhr, statusText, errorThrown) {
+            console.log("Failed to connect to API"); 
+        });
+        
+        //get JSON data from the api
+        /*$.getJSON(url, function(data){
+            
+            alert("here");
+            
+            //loop through all of the data and grab what we need from it
+            $.each(data, function(classtype, classes){
+                
+                $.each(classes, function(classroom){
+                    var classID = classroom.ID;
+                    var className = classroom.Name;
+                    
+                    html += "<option value=" + classID + ">" + className + "</option>";
+                    alert(html);
                 }); //end classroom loop
                 
             }); //end classtype loop
             
             $("#class").append(html);
             
-        }); //end getJSON
+        }); //end getJSON/**/
         
     }); //end change
     

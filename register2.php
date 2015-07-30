@@ -59,7 +59,7 @@ debugLog($results);
             define("CLIENT_ID", "55a66a8d46400");
             define("CLIENT_SECRET", "9e33f4872c0f92208c040cd2a8b7a9c0");
             //set the scopes that you want to request
-            define("SCOPE", "general individual");
+            define("SCOPE", "general individual superuser");
             //this is the URL that the OAuth server will post information back to
             define("REDIRECT_URI", "http://localhost/HandyDandyNotebook/authDance.php");
             //These should not need to be changed, so don't do it. =)

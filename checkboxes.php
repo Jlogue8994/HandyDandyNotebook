@@ -32,6 +32,10 @@ if($results && mysql_num_rows($results)) {
     debugLog("No results");
 }
 
+//////////////////////////////////////////////////
+/////School ID, Teacher ID, First Name, Last Name
+//////////////////////////////////////////////////
+
 $curl = curl_init();
 
 $url = "app.sycamoreeducation.com/api/v1/Me";
@@ -67,10 +71,14 @@ if($schoolID) {
 } else {
     debugLog("No School ID.");
 }
-/*
+
+/////////////////////////////////////////
+/////School Name
+/////////////////////////////////////////
+
 $curl = curl_init();
 
-$url = "app.sycamoreeducation.com/api/v1/School/$schoolID/Classes";
+$url = "app.sycamoreeducation.com/api/v1/School/$schoolID";
 
 curl_setopt_array($curl, array(
     CURLOPT_RETURNTRANSFER => 1,
@@ -83,17 +91,44 @@ $response = curl_exec($curl);
 curl_close($curl);
 
 $response = json_decode($response, true);
+  
+$schoolName = $response["Name"];
 
-/*$classes = array();
-foreach($response as $key => $class_type) {
-    foreach($class_type as $class) {
-        $classID = $class['ID'];
-        $classes[$classID] = array (
-        "class_name" => $class['Name'],
-        "class_type" => $key
-        );
-    }
+//////////////////////////////////////////
+/////Employees
+//////////////////////////////////////////
+
+$curl = curl_init();
+
+$url = "app.sycamoreeducation.com/api/v1/School/$schoolID/Employees";
+
+curl_setopt_array($curl, array(
+    CURLOPT_RETURNTRANSFER => 1,
+    CURLOPT_URL => "$url",
+    CURLOPT_HTTPHEADER => array("Authorization: Bearer $token")
+));
+
+$employeeResponse = curl_exec($curl);
+
+curl_close($curl);
+
+$employeeResponse = json_decode($employeeResponse, true);
+
+$rscount = count($employeeResponse);
+
+$employees = array();
+foreach($employeeResponse as $value) {
+    //debugLog($key . " = " . json_encode($value));
+    $employeeID = $value["ID"];
+    $employees[$employeeID] = array(
+        "employeeFirst" => $value["FirstName"],
+        "employeeLast" => $value["LastName"]
+    );    
 }
+
+    /*$employeeID = $response["ID"];
+    $employeeFirst = $response["FirstName"];
+    $employeeLast = $response["LastName"];
 
 /*$schoolClasses = array(
     "dayLong"
