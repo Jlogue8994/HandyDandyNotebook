@@ -166,19 +166,20 @@ $print = $_GET["print"];
                     echo "<td><input class='headdata' type='text' name='school' value='$school' placeholder='Type your school here...' required></td>";
                 echo "</tr>";
                 echo "<tr>";
-                    echo "<td class='head'>Category:</td>";
                     echo "<td class='head'>Teacher:</td>";
+                    echo "<td class='head'>Class:</td>";
                 echo "</tr>";
                 echo "<tr>";
-                    echo "<td><select id='class' class='headdata' name='class' required></select</td>";
                     echo "<td><select id='teacher' class='headdata' name='teacher' required>";
+                    echo "<option value=''>Select One</option>";
                     foreach($employees as $employeeID => $value) {
 
                         //debugLog("Employee name = " . $employeeFirst . $employeeLast);
                         $name = $value["employeeFirst"] . " " . $value["employeeLast"];
-                        echo "<option value='$employeeID'>$name</option>";
+                        echo "<option data-userID='$employeeID' value='$name'>$name</option>";
                     }
                     echo "</select></td>";
+                    echo "<td><select id='class' class='headdata' name='class' value='$category' required></select></td>";
                 echo "</tr>";
                 echo "<tr>";
                     echo "<td></td>";

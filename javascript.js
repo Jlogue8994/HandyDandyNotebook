@@ -26,8 +26,9 @@ $(document).ready(function(){
         //get the new teachers userid
         //assuming: <option data-userid=1234 value='Joe Smith'>Joe Smith</option>
         
-        var userid= $(this).val();
+        var userid= $('option:selected', this).attr('data-userID');
         
+        alert(this);
         alert(userid);
         
         //build URL for the api
@@ -44,21 +45,21 @@ $(document).ready(function(){
            }
         })
         .done(function(data, statusText, xhr){
-            alert("here");
-            
+
             //loop through all of the data and grab what we need from it
             $.each(data, function(classtype, classes){
                 
-                $.each(classes, function(classroom){
+                $.each(classes, function(key, classroom){
+                    
                     var classID = classroom.ID;
                     var className = classroom.Name;
                     
-                    html += "<option value=" + classID + ">" + className + "</option>";
-                    alert(html);
+                    html += "<option value=" + "'" + classID + "'" + ">" + className + "</option>";
+                    
                 }); //end classroom loop
             }); //end classtype loop
             
-            $("#class").append(html);
+            $("#class").html(html);
         })
         .fail(function(xhr, statusText, errorThrown) {
             console.log("Failed to connect to API"); 
