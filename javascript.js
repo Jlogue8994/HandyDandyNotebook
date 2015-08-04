@@ -28,8 +28,6 @@ $(document).ready(function(){
         
         var userid= $('option:selected', this).attr('data-userID');
         
-        alert(this);
-        alert(userid);
         
         //build URL for the api
         var url = "https://app.sycamoreeducation.com/api/v1/User/" + userid + "/Classes";
@@ -41,7 +39,7 @@ $(document).ready(function(){
            processData: false,
            beforeSend: function(xhr){
                 var access_token = "68973ad5c20c17627388278f22b40caa2bd91898";
-                xhr.setRequestHeader('Authorization', 'Bearer '+access_token); 
+                xhr.setRequestHeader('Authorization', 'Bearer '+access_token);
            }
         })
         .done(function(data, statusText, xhr){
@@ -53,8 +51,14 @@ $(document).ready(function(){
                     
                     var classID = classroom.ID;
                     var className = classroom.Name;
+                    var selected = "";
                     
-                    html += "<option value=" + "'" + classID + "'" + ">" + className + "</option>";
+                    if(className === select) selected = "selected=selected";
+                    else selected = "";
+                    
+                    html += "<option data-classID=" + "'" + classID + "' " + "value=" + "'" + className + "'" + ">" + className + "</option>";
+                    
+                    alert(html);
                     
                 }); //end classroom loop
             }); //end classtype loop

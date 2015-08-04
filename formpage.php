@@ -176,10 +176,14 @@ $print = $_GET["print"];
 
                         //debugLog("Employee name = " . $employeeFirst . $employeeLast);
                         $name = $value["employeeFirst"] . " " . $value["employeeLast"];
-                        echo "<option data-userID='$employeeID' value='$name'>$name</option>";
+                        if($name === $teacher)$select = "selected=selected";
+                        else $select = "";
+                        echo "<option $select data-userID='$employeeID' value='$name'>$name</option>";
                     }
+                    
                     echo "</select></td>";
-                    echo "<td><select id='class' class='headdata' name='class' value='$category' required></select></td>";
+                    echo "<td><select id='class' class='headdata' name='category' required>";
+                    echo "</select></td>";
                 echo "</tr>";
                 echo "<tr>";
                     echo "<td></td>";
