@@ -27,7 +27,8 @@ $(document).ready(function(){
         //assuming: <option data-userid=1234 value='Joe Smith'>Joe Smith</option>
         
         var userid= $('option:selected', this).attr('data-userID');
-        
+        var select= '<%= Session["UserID"] %>';
+        alert(select);
         
         //build URL for the api
         var url = "https://app.sycamoreeducation.com/api/v1/User/" + userid + "/Classes";
