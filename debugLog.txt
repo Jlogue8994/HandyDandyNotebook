@@ -7369,3 +7369,1357 @@ SELECT accessToken FROM users WHERE UserID = 28
 The ID of the teacher is 379080
 The Name of the teacher is Joe Logue
 1002
+
+1
+SessionID: 
+
+You're getting into session.php
+
+SELECT UserID FROM users WHERE Username = 'HonorTheSoldier1' AND Password = 'LovemyLove22'
+Session started!
+Session ID: 
+5l520dd98ocjvpmchpnd16if34
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+28
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+5l520dd98ocjvpmchpnd16if34
+2
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+5l520dd98ocjvpmchpnd16if34
+2
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+5l520dd98ocjvpmchpnd16if34
+2
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+5l520dd98ocjvpmchpnd16if34
+2
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+5l520dd98ocjvpmchpnd16if34
+2
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+5l520dd98ocjvpmchpnd16if34
+2
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+5l520dd98ocjvpmchpnd16if34
+2
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+28
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+5l520dd98ocjvpmchpnd16if34
+2
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+5l520dd98ocjvpmchpnd16if34
+2
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+5l520dd98ocjvpmchpnd16if34
+2
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+5l520dd98ocjvpmchpnd16if34
+2
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+5l520dd98ocjvpmchpnd16if34
+2
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+28
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+5l520dd98ocjvpmchpnd16if34
+2
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+5l520dd98ocjvpmchpnd16if34
+2
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+28
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+5l520dd98ocjvpmchpnd16if34
+2
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+5l520dd98ocjvpmchpnd16if34
+2
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+5l520dd98ocjvpmchpnd16if34
+2
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+5l520dd98ocjvpmchpnd16if34
+2
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+5l520dd98ocjvpmchpnd16if34
+2
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+5l520dd98ocjvpmchpnd16if34
+2
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+5l520dd98ocjvpmchpnd16if34
+2
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+5l520dd98ocjvpmchpnd16if34
+2
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+5l520dd98ocjvpmchpnd16if34
+2
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+5l520dd98ocjvpmchpnd16if34
+2
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+5l520dd98ocjvpmchpnd16if34
+2
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+5l520dd98ocjvpmchpnd16if34
+2
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+5l520dd98ocjvpmchpnd16if34
+2
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+5l520dd98ocjvpmchpnd16if34
+2
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+5l520dd98ocjvpmchpnd16if34
+2
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+
+1
+1
+SessionID: 
+
+You're getting into session.php
+
+SELECT UserID FROM users WHERE Username = 'HonorTheSoldier1' AND Password = 'LovemyLove22'
+Session started!
+Session ID: 
+4gukcrqqj220iu644lvebjgfh5
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+28
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+4gukcrqqj220iu644lvebjgfh5
+2
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+4gukcrqqj220iu644lvebjgfh5
+2
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+4gukcrqqj220iu644lvebjgfh5
+2
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+4gukcrqqj220iu644lvebjgfh5
+2
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+4gukcrqqj220iu644lvebjgfh5
+2
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+4gukcrqqj220iu644lvebjgfh5
+2
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+4gukcrqqj220iu644lvebjgfh5
+2
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+4gukcrqqj220iu644lvebjgfh5
+2
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+4gukcrqqj220iu644lvebjgfh5
+2
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+4gukcrqqj220iu644lvebjgfh5
+2
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+4gukcrqqj220iu644lvebjgfh5
+2
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+28
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+4gukcrqqj220iu644lvebjgfh5
+2
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+4gukcrqqj220iu644lvebjgfh5
+2
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+4gukcrqqj220iu644lvebjgfh5
+2
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+4gukcrqqj220iu644lvebjgfh5
+2
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+4gukcrqqj220iu644lvebjgfh5
+2
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+4gukcrqqj220iu644lvebjgfh5
+2
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+4gukcrqqj220iu644lvebjgfh5
+2
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+4gukcrqqj220iu644lvebjgfh5
+2
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+4gukcrqqj220iu644lvebjgfh5
+2
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+4gukcrqqj220iu644lvebjgfh5
+2
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+28
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+4gukcrqqj220iu644lvebjgfh5
+2
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+4gukcrqqj220iu644lvebjgfh5
+2
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+4gukcrqqj220iu644lvebjgfh5
+2
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+4gukcrqqj220iu644lvebjgfh5
+2
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+28
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+4gukcrqqj220iu644lvebjgfh5
+2
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+4gukcrqqj220iu644lvebjgfh5
+2
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+4gukcrqqj220iu644lvebjgfh5
+2
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+4gukcrqqj220iu644lvebjgfh5
+2
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+4gukcrqqj220iu644lvebjgfh5
+2
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+4gukcrqqj220iu644lvebjgfh5
+2
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+4gukcrqqj220iu644lvebjgfh5
+2
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+4gukcrqqj220iu644lvebjgfh5
+2
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+4gukcrqqj220iu644lvebjgfh5
+2
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+4gukcrqqj220iu644lvebjgfh5
+2
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+4gukcrqqj220iu644lvebjgfh5
+2
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+4gukcrqqj220iu644lvebjgfh5
+2
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+4gukcrqqj220iu644lvebjgfh5
+2
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+4gukcrqqj220iu644lvebjgfh5
+2
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+4gukcrqqj220iu644lvebjgfh5
+2
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+4gukcrqqj220iu644lvebjgfh5
+2
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+4gukcrqqj220iu644lvebjgfh5
+2
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+4gukcrqqj220iu644lvebjgfh5
+2
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+4gukcrqqj220iu644lvebjgfh5
+2
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+4gukcrqqj220iu644lvebjgfh5
+2
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+4gukcrqqj220iu644lvebjgfh5
+2
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+4gukcrqqj220iu644lvebjgfh5
+2
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+4gukcrqqj220iu644lvebjgfh5
+2
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+4gukcrqqj220iu644lvebjgfh5
+2
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+4gukcrqqj220iu644lvebjgfh5
+2
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+4gukcrqqj220iu644lvebjgfh5
+2
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+4gukcrqqj220iu644lvebjgfh5
+2
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+4gukcrqqj220iu644lvebjgfh5
+2
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+4gukcrqqj220iu644lvebjgfh5
+2
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+4gukcrqqj220iu644lvebjgfh5
+2
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+4gukcrqqj220iu644lvebjgfh5
+2
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+4gukcrqqj220iu644lvebjgfh5
+2
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+4gukcrqqj220iu644lvebjgfh5
+2
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+4gukcrqqj220iu644lvebjgfh5
+2
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+4gukcrqqj220iu644lvebjgfh5
+2
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+4gukcrqqj220iu644lvebjgfh5
+2
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+4gukcrqqj220iu644lvebjgfh5
+2
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+4gukcrqqj220iu644lvebjgfh5
+2
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+4gukcrqqj220iu644lvebjgfh5
+2
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+4gukcrqqj220iu644lvebjgfh5
+2
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+4gukcrqqj220iu644lvebjgfh5
+2
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+4gukcrqqj220iu644lvebjgfh5
+2
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+4gukcrqqj220iu644lvebjgfh5
+2
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+4gukcrqqj220iu644lvebjgfh5
+2
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+4gukcrqqj220iu644lvebjgfh5
+2
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+4gukcrqqj220iu644lvebjgfh5
+2
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002
+SessionID: 
+
+You're getting into session.php
+
+Resuming session: 
+4gukcrqqj220iu644lvebjgfh5
+2
+User ID = 28
+SELECT accessToken FROM users WHERE UserID = 28
+68973ad5c20c17627388278f22b40caa2bd91898
+The ID of the teacher is 379080
+The Name of the teacher is Joe Logue
+1002

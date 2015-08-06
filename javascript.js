@@ -19,16 +19,18 @@ $(document).ready(function(){
     //listen to changes happening for teacher dropdown
     $("#teacher").attr("name");
     
-    $("#teacher").change(function(){
+    $("#teacher").change(changeClass);
+    function changeClass(){
+        var teacher = $("#teacher");
         //create variable that will hold our html for classes dropdown
         var html = "";
+        var section = "";
         
         //get the new teachers userid
         //assuming: <option data-userid=1234 value='Joe Smith'>Joe Smith</option>
         
-        var userid= $('option:selected', this).attr('data-userID');
-        var select= '<%= Session["UserID"] %>';
-        alert(select);
+        var userid= teacher.find('option:selected').attr('data-userID');
+        var select= $("#select").val();
         
         //build URL for the api
         var url = "https://app.sycamoreeducation.com/api/v1/User/" + userid + "/Classes";
@@ -52,14 +54,13 @@ $(document).ready(function(){
                     
                     var classID = classroom.ID;
                     var className = classroom.Name;
+                    var classSect = classroom.Section;
                     var selected = "";
                     
                     if(className === select) selected = "selected=selected";
                     else selected = "";
                     
-                    html += "<option data-classID=" + "'" + classID + "' " + "value=" + "'" + className + "'" + ">" + className + "</option>";
-                    
-                    alert(html);
+                    html += "<option " + selected + "data-classID=" + "'" + classID + "' " + "value=" + "'" + className + "'" + ">" + className + "</option>";
                     
                 }); //end classroom loop
             }); //end classtype loop
@@ -92,7 +93,7 @@ $(document).ready(function(){
             
         }); //end getJSON/**/
         
-    }); //end change
-    
+    } //end change
+    changeClass();
 }); //end document ready
 
