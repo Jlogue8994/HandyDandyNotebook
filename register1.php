@@ -58,7 +58,7 @@ function checkName() {
     var input = document.userCreate.usernamereg.value;
     $.ajax({url: 'register1.ajax.php', data: {input: input}}).done(function(data){
         console.log(data);
-       if(data == "true") {
+       if(data === "true") {
            $("#nameMsg").text("Username Available");
            $("#create").show();
        } 

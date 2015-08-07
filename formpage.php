@@ -150,6 +150,7 @@ $print = $_GET["print"];
         echo "<form name='Handy Dandy Notebook' action='action.php' method='POST'>";
         echo "<input type='hidden' name='formid' value='$formid'>";
         echo "<input type='hidden' id='select' name='select' value='$category'>";
+        echo "<input type='hidden' id='token' name='token' value='$token'>";
             echo "<table align='center' id='centertable' class='table table-striped table-bordered'>";
                 echo "<th colspan='2'>Teacher Evaluation";
                     if($formid) {
@@ -199,7 +200,7 @@ $print = $_GET["print"];
                     echo "<td class='head'>Subject:</td>";
                 echo "</tr>";
                 echo "<tr>";
-                    echo "<td><input class='headdata' type='text' name='level' value='$level' placeholder='Section Here...'>";
+                    echo "<td><input class='headdata' type='text' name='category' value='$level' placeholder='Section Here...'>";
                             /*<select class='headdata' name='level' required>";
                             foreach($gradenames as $key => $value) {
                                 $select = "";

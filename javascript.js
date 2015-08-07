@@ -18,8 +18,10 @@
 $(document).ready(function(){
     //listen to changes happening for teacher dropdown
     $("#teacher").attr("name");
+    $("#class").attr("name");
     
     $("#teacher").change(changeClass);
+    $("#class").change(changeLevel);
     function changeClass(){
         var teacher = $("#teacher");
         //create variable that will hold our html for classes dropdown
@@ -31,6 +33,7 @@ $(document).ready(function(){
         
         var userid= teacher.find('option:selected').attr('data-userID');
         var select= $("#select").val();
+        var token= $("#token").val();
         
         //build URL for the api
         var url = "https://app.sycamoreeducation.com/api/v1/User/" + userid + "/Classes";
@@ -41,7 +44,7 @@ $(document).ready(function(){
            datatype: 'json',
            processData: false,
            beforeSend: function(xhr){
-                var access_token = "68973ad5c20c17627388278f22b40caa2bd91898";
+                var access_token = token;
                 xhr.setRequestHeader('Authorization', 'Bearer '+access_token);
            }
         })
@@ -54,14 +57,16 @@ $(document).ready(function(){
                     
                     var classID = classroom.ID;
                     var className = classroom.Name;
-                    var classSect = classroom.Section;
+                    var classLevel = classroom.Section;
                     var selected = "";
                     
-                    if(className === select) selected = "selected=selected";
+                    if(className === select) {
+                        selected = "selected=selected";
+                    }
                     else selected = "";
                     
                     html += "<option " + selected + "data-classID=" + "'" + classID + "' " + "value=" + "'" + className + "'" + ">" + className + "</option>";
-                    
+                    section += classLevel;
                 }); //end classroom loop
             }); //end classtype loop
             
@@ -94,6 +99,44 @@ $(document).ready(function(){
         }); //end getJSON/**/
         
     } //end change
+    function changeLevel() {
+        var teacher = $("#teacher");
+        var teacherClass = $("#class");
+        var token= $("#token").val();
+        
+        var userid= teacher.find('option:selected').attr('data-userID');
+        var classFind= teacherClass.find().val();
+        
+        var url = "https://app.sycamoreeducation.com/api/v1/User/" + userid + "/Classes";
+        
+         $.ajax({
+           url: url,
+           type: "GET",
+           datatype: 'json',
+           processData: false,
+           beforeSend: function(xhr){
+                var access_token = token;
+                xhr.setRequestHeader('Authorization', 'Bearer '+access_token);
+           }
+        })
+        .done(function(data, statusText, xhr){
+
+            //loop through all of the data and grab what we need from it
+            $.each(data, function(classtype, classes){
+                
+                $.each(classes, function(key, classroom){
+                    
+                    var className = classroom.Name;
+                    var classLevel = classroom.Section;
+                    
+                    if(className === classFind) {
+                        $("#level").text(classLevel);
+                    }
+                });
+            });
+        });
+    }/**/
     changeClass();
+    changeLevel();
 }); //end document ready
 
